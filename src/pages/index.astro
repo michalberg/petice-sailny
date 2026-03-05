@@ -1,0 +1,211 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PetitionForm from '../components/PetitionForm.astro';
+import config from '../config/petition.json';
+
+const { hero, intro, authors, alternatives, donate, footer } = config;
+---
+
+<Layout>
+
+  <!-- Hero s videem na pozadí -->
+  <header id="header" class="header video-header">
+    <video playsinline autoplay muted loop poster={hero.bg_poster} id="bgvid">
+      <source src={hero.bg_video_webm} type="video/webm">
+      <source src={hero.bg_video_mp4} type="video/mp4">
+    </video>
+    <div class="header-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-container">
+              <h1>{hero.heading_prefix} <span id="js-rotating">{hero.heading_highlight}</span></h1>
+              <p class="p-heading p-large">{hero.subtext}</p>
+              <a class="btn-solid-lg page-scroll" href={hero.cta_href}>{hero.cta_text}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Úvod -->
+  <div id="intro" class="basic-1 main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="text-container">
+            <h2>{intro.heading}</h2>
+            <p set:html={intro.text}></p>
+            <div class="col text-center" style="padding-top:2rem">
+              <a class="btn-solid-lg page-scroll" href={intro.cta_href}>{intro.cta_text}</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="image-container" style="max-width:500px;margin:0 auto;">
+            <img src={intro.image} alt={intro.image_alt} class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Formulář + text petice -->
+  <PetitionForm />
+
+  <!-- Autoři -->
+  <div id="autori" class="basic-2 main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Autoři petice</h2>
+          <p class="p-heading">&nbsp;</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          {authors.map(author => (
+            <div class="team-member">
+              <div class="image-wrapper">
+                <img class="img-fluid" src={author.image} alt={author.name}>
+              </div>
+              <p class="job-title">{author.name}</p>
+              <p class="p-large">{author.role}</p>
+              <span class="social-icons">
+                {author.facebook && (
+                  <span class="fa-stack">
+                    <a href={author.facebook} target="_blank" rel="noopener">
+                      <span class="hexagon"></span>
+                      <i class="fab fa-facebook-f fa-stack-1x"></i>
+                    </a>
+                  </span>
+                )}
+                {author.twitter && (
+                  <span class="fa-stack">
+                    <a href={author.twitter} target="_blank" rel="noopener">
+                      <span class="hexagon"></span>
+                      <i class="fab fa-twitter fa-stack-1x"></i>
+                    </a>
+                  </span>
+                )}
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Alternativy / Accordion -->
+  <div id="alternativy" class="counter main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-xl-6">
+          <div class="image-container">
+            <img class="img-fluid" src={alternatives.image} alt={alternatives.image_alt} style="margin:20px 0 30px 0">
+          </div>
+        </div>
+        <div class="col-lg-7 col-xl-6">
+          <div class="accordion" id="accordionAlternatives">
+            <h2>{alternatives.heading}</h2>
+            {alternatives.items.map((item, i) => (
+              <div class="item">
+                <div id={`heading${i}`}>
+                  <span
+                    class={i === 0 ? '' : 'collapsed'}
+                    data-toggle="collapse"
+                    data-target={`#collapse${i}`}
+                    aria-expanded={i === 0 ? 'true' : 'false'}
+                    aria-controls={`collapse${i}`}
+                    role="button"
+                  >
+                    <span class="circle-numbering">{i + 1}</span>
+                    <span class="accordion-title">{item.title}</span>
+                  </span>
+                </div>
+                <div
+                  id={`collapse${i}`}
+                  class={`collapse${i === 0 ? ' show' : ''}`}
+                  aria-labelledby={`heading${i}`}
+                  data-parent="#accordionAlternatives"
+                >
+                  <div class="accordion-body">
+                    <p set:html={item.text}></p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Donate -->
+  <div id="donate" class="basic-2 main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>{donate.heading}</h2>
+          <p class="p-heading">
+            {donate.text}<br><br>
+            <a class="btn-solid-lg page-scroll" href={donate.url}>{donate.button_text}</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="text-container about">
+            <h4>{footer.about_heading}</h4>
+            <p class="white">{footer.about_text}</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="text-container">
+            <h4>{footer.links_heading}</h4>
+            <ul class="list-unstyled li-space-lg white">
+              {footer.links.map(link => (
+                <li>
+                  <i class="fas fa-square" style="color:#60b44c;font-size:60%"></i>{' '}
+                  <a class="white" href={link.url}>{link.label}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="text-container">
+            <h4>{footer.nav_heading}</h4>
+            <ul class="list-unstyled li-space-lg">
+              {footer.nav_links.map(link => (
+                <li>
+                  <i class="fas fa-square" style="color:#60b44c;font-size:60%"></i>{' '}
+                  <a class="white" href={link.url}>{link.label}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="copyright main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="p-small">{footer.copyright}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</Layout>

@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "Petice Sailny – název petice",
+    "description": "Popis petice pro SEO a sdílení na sociálních sítích.",
+    "og_image": "/images/og_image.png",
+    "og_url": "https://petice.example.cz",
+    "analytics_id": ""
+  },
+
+  "header": {
+    "logo_text": "Z",
+    "logo_url": "https://www.zeleni.cz",
+    "social_links": [
+      { "platform": "facebook", "url": "https://facebook.com/stranazelenych", "icon": "fab fa-facebook-f" },
+      { "platform": "twitter", "url": "https://twitter.com/zeleni_cz", "icon": "fab fa-twitter" }
+    ],
+    "nav_links": [
+      { "label": "Úvod", "href": "#header" },
+      { "label": "Podepsat petici", "href": "#petice" },
+      { "label": "Autoři", "href": "#autori" }
+    ]
+  },
+
+  "hero": {
+    "heading_prefix": "OPRAVDU",
+    "heading_highlight": "KLIDNÉ SVÁTKY",
+    "subtext": "Popis kampaně – co požadujeme a proč je to důležité.",
+    "cta_text": "CHCI OPRAVDU KLIDNÉ SVÁTKY",
+    "cta_href": "#intro",
+    "bg_video_webm": "/images/pozadi.webm",
+    "bg_video_mp4": "/images/pozadi.mp4",
+    "bg_poster": "/images/poster.jpeg"
+  },
+
+  "intro": {
+    "heading": "Konec zbytečnému utrpení!",
+    "text": "Text úvodu – proč je tato petice důležitá a co konkrétně chceme změnit.",
+    "image": "/images/intro.jpg",
+    "image_alt": "Popis obrázku",
+    "cta_text": "PŘEJÍT NA PETICI",
+    "cta_href": "#petice"
+  },
+
+  "petition": {
+    "heading": "Petice dle čl. 18 Listiny základních práv a svobod",
+    "addressee": "Vážená paní ministryně, vážený pane ministře,",
+    "paragraphs": [
+      "vyzýváme vás touto peticí k předložení změn zákonů, které by regulovaly [téma petice].",
+      "Každoročně se stáváme svědky zbytečného utrpení. [Konkrétní důvody.]",
+      "V mnoha zemích je tato problematika regulována přísněji. Prosím, zpřísněme pravidla."
+    ],
+    "demands": [
+      "1. Žádáme [první požadavek petice].",
+      "2. Žádáme [druhý požadavek petice].",
+      "3. Žádáme [třetí požadavek petice]."
+    ],
+    "closing": "V dnešní době jsou dostupné šetrnější alternativy. Zpřísněme prosím pravidla.",
+    "place_date": "V Praze dne 1.1.2026",
+    "committee_label": "Za petiční výbor:",
+    "committee": [
+      { "name": "Jméno Příjmení", "role": "funkce a organizace" },
+      { "name": "Jméno Příjmení", "role": "funkce a organizace" }
+    ]
+  },
+
+  "action_network": {
+    "endpoint_id": "NAHRAD-TOTO-GUID-FORMULARE",
+    "tags": ["sailny"]
+  },
+
+  "form": {
+    "heading": "Podepište petici",
+    "fields": {
+      "given_name": "Jméno",
+      "family_name": "Příjmení",
+      "locality": "Město",
+      "postal_code": "PSČ",
+      "email": "Váš e-mail"
+    },
+    "consent_text": "Je mi více než 15 let a souhlasím se zpracováním osobních údajů pro účely informování o petici a další činnosti Zelených.",
+    "consent_detail": "Souhlas je možné kdykoli odvolat na soukromi@zeleni.cz.",
+    "privacy_url": "https://zeleni.cz/ochrana-soukromi",
+    "submit_text": "PODEPSAT PETICI",
+    "submitting_text": "Ukládám podpis…",
+    "success_text": "Děkujeme za podpis!",
+    "error_text": "Chyba, zkuste znovu."
+  },
+
+  "authors": [
+    {
+      "name": "Jméno Příjmení",
+      "role": "funkce",
+      "image": "/images/autor1.jpg",
+      "facebook": "https://facebook.com/",
+      "twitter": ""
+    }
+  ],
+
+  "alternatives": {
+    "heading": "Jak vypadá situace jinde?",
+    "image": "/images/alternativy.jpg",
+    "image_alt": "Popis obrázku",
+    "items": [
+      {
+        "title": "První téma",
+        "text": "Popis prvního tématu s příklady ze zahraničí."
+      },
+      {
+        "title": "Druhé téma",
+        "text": "Popis druhého tématu."
+      }
+    ]
+  },
+
+  "donate": {
+    "heading": "Podpořte nás",
+    "text": "Popis výzvy k finanční podpoře organizace.",
+    "button_text": "Podpořte nás finančním darem",
+    "url": "https://dary.zeleni.cz/"
+  },
+
+  "footer": {
+    "about_heading": "O organizaci",
+    "about_text": "Popis organizace pro zápatí stránky.",
+    "links_heading": "Další informace",
+    "links": [
+      { "label": "Odkaz na zdroj 1", "url": "https://example.cz/" },
+      { "label": "Odkaz na zdroj 2", "url": "https://example.cz/" }
+    ],
+    "nav_heading": "Odkazy",
+    "nav_links": [
+      { "label": "Hlavní web", "url": "https://www.zeleni.cz" }
+    ],
+    "copyright": "Obsah je možné volně šířit dle licence Creative Commons 2.0."
+  }
+}

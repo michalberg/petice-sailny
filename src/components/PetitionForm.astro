@@ -1,0 +1,180 @@
+---
+import config from '../config/petition.json';
+
+const { petition, action_network, form } = config;
+---
+
+<div id="petice" class="form-1 main">
+  <div class="container">
+    <div class="row">
+
+      <!-- Petition text -->
+      <div class="col-lg-6">
+        <div class="text-container">
+          <h3 class="white">{petition.heading}</h3>
+          <p class="white">{petition.addressee}</p>
+          {petition.paragraphs.map(p => <p class="white">{p}</p>)}
+          {petition.demands.map(d => <p class="white">{d}</p>)}
+          <p class="white">{petition.closing}</p>
+          <p class="white">{petition.place_date}</p>
+          <p class="white">{petition.committee_label}</p>
+          <ul class="list-unstyled li-space-lg white">
+            {petition.committee.map(m => (
+              <li class="media">
+                <i class="fas fa-square"></i>
+                <div class="media-body"><b>{m.name}</b>, {m.role}</div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      <!-- Sign form -->
+      <div class="col-lg-6" id="scrollContainer">
+        <form id="petition-form" class="sticky" novalidate>
+          <!-- Honeypot: skryté pole pro boty -->
+          <div class="hp-field" aria-hidden="true">
+            <input type="text" name="website" id="hp-website" tabindex="-1" autocomplete="off">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control-input" id="given_name" name="given_name" required>
+            <label class="label-control" for="given_name">{form.fields.given_name}</label>
+            <div class="help-block with-errors"></div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control-input" id="family_name" name="family_name" required>
+            <label class="label-control" for="family_name">{form.fields.family_name}</label>
+            <div class="help-block with-errors"></div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control-input" id="locality" name="locality">
+            <label class="label-control" for="locality">{form.fields.locality}</label>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control-input" id="postal_code" name="postal_code">
+            <label class="label-control" for="postal_code">{form.fields.postal_code}</label>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control-input" id="email_address" name="email_address" required>
+            <label class="label-control" for="email_address">{form.fields.email}</label>
+            <div id="email-error" class="help-block"></div>
+          </div>
+          <div class="form-group checkbox white">
+            <input type="checkbox" id="consent" name="consent" required style="vertical-align:0">
+            {form.consent_text}
+            <div class="help-block with-errors" style="color:#800000"></div>
+            <p style="font-size:90%;">
+              {form.consent_detail}
+              Vaše osobní údaje jsou zpracovány podle <a class="white" href={form.privacy_url}>zásad zpracování osobních údajů</a>.
+            </p>
+          </div>
+          <div class="form-group">
+            <button
+              type="submit"
+              class="form-control-submit-button"
+              id="submit-btn"
+              style="font-size:120%;display:none"
+            >
+              {form.submit_text}
+            </button>
+          </div>
+          <div id="form-message" class="h3 text-center hidden"></div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script define:vars={{
+  endpointId: action_network.endpoint_id,
+  tags: action_network.tags,
+  submitText: form.submit_text,
+  submittingText: form.submitting_text,
+  successText: form.success_text,
+  errorText: form.error_text
+}}>
+  const AN_URL = `https://actionnetwork.org/api/v2/forms/${endpointId}/submissions/`;
+
+  function validateEmail(email) {
+    return /^[\w.\-]+@([\w\-]+\.)+[a-zA-Z]{2,}$/.test(email);
+  }
+
+  const form = document.getElementById('petition-form');
+  const submitBtn = document.getElementById('submit-btn');
+  const emailInput = document.getElementById('email_address');
+  const emailError = document.getElementById('email-error');
+  const formMessage = document.getElementById('form-message');
+  const consent = document.getElementById('consent');
+
+  // Show/hide submit button based on consent checkbox
+  consent.addEventListener('change', () => {
+    submitBtn.style.display = consent.checked ? 'block' : 'none';
+  });
+
+  // Real-time email validation
+  emailInput.addEventListener('blur', () => {
+    const val = emailInput.value.trim();
+    if (val && !validateEmail(val)) {
+      emailError.textContent = 'Prosím zadejte platný e-mail';
+      emailError.style.color = '#800000';
+      submitBtn.disabled = true;
+    } else {
+      emailError.textContent = '';
+      submitBtn.disabled = false;
+    }
+  });
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const givenName = document.getElementById('given_name').value.trim();
+    const familyName = document.getElementById('family_name').value.trim();
+    const email = emailInput.value.trim();
+    const locality = document.getElementById('locality').value.trim();
+    const postalCode = document.getElementById('postal_code').value.trim();
+
+    if (document.getElementById('hp-website').value !== '') return; // bot detected
+
+    if (!givenName || !familyName || !email || !validateEmail(email)) return;
+
+    submitBtn.textContent = submittingText;
+    submitBtn.disabled = true;
+
+    const body = {
+      person: {
+        given_name: givenName,
+        family_name: familyName,
+        email_addresses: [{ address: email }],
+        postal_addresses: [{
+          locality,
+          postal_code: postalCode,
+          country: 'CZ'
+        }]
+      },
+      add_tags: tags
+    };
+
+    try {
+      const resp = await fetch(AN_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+      });
+
+      if (resp.ok) {
+        submitBtn.textContent = successText;
+        submitBtn.disabled = true;
+        formMessage.textContent = '';
+      } else {
+        throw new Error(`HTTP ${resp.status}`);
+      }
+    } catch (err) {
+      console.error('Petition submit error:', err);
+      submitBtn.textContent = submitText;
+      submitBtn.disabled = false;
+      formMessage.textContent = errorText;
+      formMessage.style.color = '#800000';
+    }
+  });
+</script>
