@@ -81,7 +81,7 @@ const { intro, form, action_network, authors, alternatives } = config;
             <a id="share-x" href="#" target="_blank" rel="noopener"
               class="rounded-lg bg-black py-2 text-center text-sm font-bold text-white hover:opacity-90">X</a>
             <button id="share-copy"
-              class="rounded-lg bg-primary py-2 text-center text-sm font-bold text-black hover:opacity-90">Kopírovat</button>
+              class="rounded-lg bg-primary py-2 text-center text-sm font-bold text-black hover:opacity-90">Kopírovat odkaz</button>
           </div>
         </div>
 
@@ -347,7 +347,7 @@ const { intro, form, action_network, authors, alternatives } = config;
     navigator.clipboard.writeText(window.location.href);
     const btn = document.getElementById("share-copy");
     btn.textContent = "Zkopírováno!";
-    setTimeout(() => { btn.textContent = "Kopírovat"; }, 2000);
+    setTimeout(() => { btn.textContent = "Kopírovat odkaz"; }, 2000);
   });
 
   // sdílení v popupu
