@@ -335,14 +335,15 @@ const { intro, form, action_network, authors, alternatives } = config;
 
   // ── Sdílení (stránka + popup) ─────────────────────────
   const pageUrl = encodeURIComponent(window.location.href);
-  const shareText = encodeURIComponent("Podepsal/a jsem petici za šaliny v Brně. Připoj se!");
+  const shareTextFbX = encodeURIComponent("Podepište petici proti omezení šalin v centru Brna!");
+  const shareTextWa = encodeURIComponent("Vedení města Brna chce omezovat šaliny v centru. Podepiš proti tomu prosím petici.");
   const shareFbUrl = `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
-  const shareXUrl = `https://x.com/intent/tweet?text=${shareText}&url=${pageUrl}`;
-  const shareWaUrl = `https://wa.me/?text=${shareText}+${pageUrl}`;
+  const shareXUrl = `https://x.com/intent/tweet?text=${shareTextFbX}&url=${pageUrl}`;
+  const shareWaUrl = `https://wa.me/?text=${shareTextWa}+${pageUrl}`;
 
   // sdílení na stránce
   document.getElementById("share-fb").href = shareFbUrl;
-  document.getElementById("share-x").href = `https://twitter.com/intent/tweet?url=${pageUrl}&text=${shareText}`;
+  document.getElementById("share-x").href = `https://twitter.com/intent/tweet?url=${pageUrl}&text=${shareTextFbX}`;
   document.getElementById("share-copy").addEventListener("click", () => {
     navigator.clipboard.writeText(window.location.href);
     const btn = document.getElementById("share-copy");
