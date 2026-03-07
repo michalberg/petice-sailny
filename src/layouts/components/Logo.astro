@@ -1,0 +1,23 @@
+---
+import config from "@/config/config.json";
+const { src } = Astro.props;
+const { logo, logo_width, logo_height, logo_text, title, base_path } = config.site;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const imgSrc = src || (logo ? base + logo : null);
+---
+
+<a href={base_path || "/"} class="navbar-brand block md:w-[150px] lg:w-auto">
+  {
+    imgSrc ? (
+      <img
+        src={imgSrc}
+        alt={title}
+        style={`height:${logo_height};width:${logo_width};object-fit:contain;`}
+      />
+    ) : logo_text ? (
+      logo_text
+    ) : (
+      title
+    )
+  }
+</a>

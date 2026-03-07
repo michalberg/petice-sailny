@@ -1,90 +1,160 @@
 ---
-import config from '../config/petition.json';
+import config from "@/config/petition.json";
 
 const { petition, action_network, form } = config;
 ---
 
-<div id="petice" class="form-1 main">
+<section
+  id="petice"
+  class="section"
+  style="background: linear-gradient(160deg, #2d4321 0%, #3d5a2e 100%);"
+>
   <div class="container">
-    <div class="row">
+    <div class="row gap-y-10">
 
-      <!-- Petition text -->
-      <div class="col-lg-6">
-        <div class="text-container">
-          <h3 class="white">{petition.heading}</h3>
-          <p class="white">{petition.addressee}</p>
-          {petition.paragraphs.map(p => <p class="white">{p}</p>)}
-          {petition.demands.map(d => <p class="white">{d}</p>)}
-          <p class="white">{petition.closing}</p>
-          <p class="white">{petition.place_date}</p>
-          <p class="white">{petition.committee_label}</p>
-          <ul class="list-unstyled li-space-lg white">
-            {petition.committee.map(m => (
-              <li class="media">
-                <i class="fas fa-square"></i>
-                <div class="media-body"><b>{m.name}</b>, {m.role}</div>
+      <!-- Text petice -->
+      <div class="lg:col-6">
+        <div class="pr-0 lg:pr-8">
+          <h3 class="text-white">{petition.heading}</h3>
+          <p class="mt-4 italic text-white/80">{petition.addressee}</p>
+          {petition.paragraphs.map((p) => (
+            <p class="mt-3 text-white/80">{p}</p>
+          ))}
+          {petition.demands.map((d) => (
+            <p class="mt-2 pl-4 text-white/80">{d}</p>
+          ))}
+          <p class="mt-4 text-white/80">{petition.closing}</p>
+          <p class="mt-4 text-sm text-white/60">{petition.place_date}</p>
+          <p class="mt-3 font-semibold text-white/90">{petition.committee_label}</p>
+          <ul class="mt-2 space-y-1">
+            {petition.committee.map((m) => (
+              <li class="text-white/80">
+                <strong class="text-white">{m.name}</strong>, {m.role}
               </li>
             ))}
           </ul>
         </div>
       </div>
 
-      <!-- Sign form -->
-      <div class="col-lg-6" id="scrollContainer">
-        <form id="petition-form" class="sticky" novalidate>
-          <!-- Honeypot: skryté pole pro boty -->
-          <div class="hp-field" aria-hidden="true">
-            <input type="text" name="website" id="hp-website" tabindex="-1" autocomplete="off">
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control-input" id="given_name" name="given_name" required>
-            <label class="label-control" for="given_name">{form.fields.given_name}</label>
-            <div class="help-block with-errors"></div>
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control-input" id="family_name" name="family_name" required>
-            <label class="label-control" for="family_name">{form.fields.family_name}</label>
-            <div class="help-block with-errors"></div>
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control-input" id="locality" name="locality">
-            <label class="label-control" for="locality">{form.fields.locality}</label>
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control-input" id="postal_code" name="postal_code">
-            <label class="label-control" for="postal_code">{form.fields.postal_code}</label>
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control-input" id="email_address" name="email_address" required>
-            <label class="label-control" for="email_address">{form.fields.email}</label>
-            <div id="email-error" class="help-block"></div>
-          </div>
-          <div class="form-group checkbox white">
-            <input type="checkbox" id="consent" name="consent" required style="vertical-align:0">
-            {form.consent_text}
-            <div class="help-block with-errors" style="color:#800000"></div>
-            <p style="font-size:90%;">
-              {form.consent_detail}
-              Vaše osobní údaje jsou zpracovány podle <a class="white" href={form.privacy_url}>zásad zpracování osobních údajů</a>.
-            </p>
-          </div>
-          <div class="form-group">
+      <!-- Formulář -->
+      <div class="lg:col-6">
+        <div class="rounded-xl bg-white p-8 shadow-2xl">
+          <h3 class="mb-6 text-center text-2xl font-bold text-text-dark">
+            {form.heading}
+          </h3>
+          <form id="petition-form" novalidate>
+            <!-- Honeypot -->
+            <div class="hp-field" aria-hidden="true">
+              <input
+                type="text"
+                name="website"
+                id="hp-website"
+                tabindex="-1"
+                autocomplete="off"
+              />
+            </div>
+
+            <div class="mb-4">
+              <label for="given_name" class="mb-1 block text-sm font-semibold text-text-dark">
+                {form.fields.given_name} *
+              </label>
+              <input
+                type="text"
+                id="given_name"
+                name="given_name"
+                required
+                class="w-full rounded-lg border border-border px-4 py-3 focus:border-primary focus:outline-none"
+              />
+            </div>
+
+            <div class="mb-4">
+              <label for="family_name" class="mb-1 block text-sm font-semibold text-text-dark">
+                {form.fields.family_name} *
+              </label>
+              <input
+                type="text"
+                id="family_name"
+                name="family_name"
+                required
+                class="w-full rounded-lg border border-border px-4 py-3 focus:border-primary focus:outline-none"
+              />
+            </div>
+
+            <div class="mb-4 grid grid-cols-2 gap-4">
+              <div>
+                <label for="locality" class="mb-1 block text-sm font-semibold text-text-dark">
+                  {form.fields.locality}
+                </label>
+                <input
+                  type="text"
+                  id="locality"
+                  name="locality"
+                  class="w-full rounded-lg border border-border px-4 py-3 focus:border-primary focus:outline-none"
+                />
+              </div>
+              <div>
+                <label for="postal_code" class="mb-1 block text-sm font-semibold text-text-dark">
+                  {form.fields.postal_code}
+                </label>
+                <input
+                  type="text"
+                  id="postal_code"
+                  name="postal_code"
+                  class="w-full rounded-lg border border-border px-4 py-3 focus:border-primary focus:outline-none"
+                />
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <label for="email_address" class="mb-1 block text-sm font-semibold text-text-dark">
+                {form.fields.email} *
+              </label>
+              <input
+                type="email"
+                id="email_address"
+                name="email_address"
+                required
+                class="w-full rounded-lg border border-border px-4 py-3 focus:border-primary focus:outline-none"
+              />
+              <div id="email-error" class="mt-1 text-sm text-red-700"></div>
+            </div>
+
+            <div class="mb-6">
+              <label class="flex cursor-pointer items-start gap-3">
+                <input
+                  type="checkbox"
+                  id="consent"
+                  name="consent"
+                  required
+                  class="mt-1 h-4 w-4 rounded border-border accent-primary"
+                />
+                <span class="text-sm text-text">{form.consent_text}</span>
+              </label>
+              <p class="mt-2 pl-7 text-xs text-text">
+                {form.consent_detail}
+                Vaše osobní údaje jsou zpracovány podle
+                <a class="text-primary underline" href={form.privacy_url}>
+                  zásad zpracování osobních údajů
+                </a>.
+              </p>
+            </div>
+
             <button
               type="submit"
-              class="form-control-submit-button"
               id="submit-btn"
-              style="font-size:120%;display:none"
+              class="btn btn-primary w-full text-center"
+              style="display:none"
             >
               {form.submit_text}
             </button>
-          </div>
-          <div id="form-message" class="h3 text-center hidden"></div>
-        </form>
+            <div id="form-message" class="mt-4 hidden text-center text-lg font-semibold"></div>
+          </form>
+        </div>
       </div>
 
     </div>
   </div>
-</div>
+</section>
 
 <script define:vars={{
   endpointId: action_network.endpoint_id,
@@ -100,42 +170,38 @@ const { petition, action_network, form } = config;
     return /^[\w.\-]+@([\w\-]+\.)+[a-zA-Z]{2,}$/.test(email);
   }
 
-  const form = document.getElementById('petition-form');
-  const submitBtn = document.getElementById('submit-btn');
-  const emailInput = document.getElementById('email_address');
-  const emailError = document.getElementById('email-error');
-  const formMessage = document.getElementById('form-message');
-  const consent = document.getElementById('consent');
+  const form = document.getElementById("petition-form");
+  const submitBtn = document.getElementById("submit-btn");
+  const emailInput = document.getElementById("email_address");
+  const emailError = document.getElementById("email-error");
+  const formMessage = document.getElementById("form-message");
+  const consent = document.getElementById("consent");
 
-  // Show/hide submit button based on consent checkbox
-  consent.addEventListener('change', () => {
-    submitBtn.style.display = consent.checked ? 'block' : 'none';
+  consent.addEventListener("change", () => {
+    submitBtn.style.display = consent.checked ? "block" : "none";
   });
 
-  // Real-time email validation
-  emailInput.addEventListener('blur', () => {
+  emailInput.addEventListener("blur", () => {
     const val = emailInput.value.trim();
     if (val && !validateEmail(val)) {
-      emailError.textContent = 'Prosím zadejte platný e-mail';
-      emailError.style.color = '#800000';
+      emailError.textContent = "Prosím zadejte platný e-mail";
       submitBtn.disabled = true;
     } else {
-      emailError.textContent = '';
+      emailError.textContent = "";
       submitBtn.disabled = false;
     }
   });
 
-  form.addEventListener('submit', async (e) => {
+  form.addEventListener("submit", async (e) => {
     e.preventDefault();
 
-    const givenName = document.getElementById('given_name').value.trim();
-    const familyName = document.getElementById('family_name').value.trim();
+    const givenName = document.getElementById("given_name").value.trim();
+    const familyName = document.getElementById("family_name").value.trim();
     const email = emailInput.value.trim();
-    const locality = document.getElementById('locality').value.trim();
-    const postalCode = document.getElementById('postal_code').value.trim();
+    const locality = document.getElementById("locality").value.trim();
+    const postalCode = document.getElementById("postal_code").value.trim();
 
-    if (document.getElementById('hp-website').value !== '') return; // bot detected
-
+    if (document.getElementById("hp-website").value !== "") return;
     if (!givenName || !familyName || !email || !validateEmail(email)) return;
 
     submitBtn.textContent = submittingText;
@@ -146,35 +212,32 @@ const { petition, action_network, form } = config;
         given_name: givenName,
         family_name: familyName,
         email_addresses: [{ address: email }],
-        postal_addresses: [{
-          locality,
-          postal_code: postalCode,
-          country: 'CZ'
-        }]
+        postal_addresses: [{ locality, postal_code: postalCode, country: "CZ" }],
       },
-      add_tags: tags
+      add_tags: tags,
     };
 
     try {
       const resp = await fetch(AN_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(body)
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
       });
 
       if (resp.ok) {
         submitBtn.textContent = successText;
         submitBtn.disabled = true;
-        formMessage.textContent = '';
+        formMessage.textContent = "";
       } else {
         throw new Error(`HTTP ${resp.status}`);
       }
     } catch (err) {
-      console.error('Petition submit error:', err);
+      console.error("Petition submit error:", err);
       submitBtn.textContent = submitText;
       submitBtn.disabled = false;
       formMessage.textContent = errorText;
-      formMessage.style.color = '#800000';
+      formMessage.style.color = "#800000";
+      formMessage.classList.remove("hidden");
     }
   });
 </script>

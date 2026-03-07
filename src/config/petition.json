@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Petice Sailny – název petice",
-    "description": "Popis petice pro SEO a sdílení na sociálních sítích.",
+    "title": "Petice: Neomezujte šaliny v centru Brna!",
+    "description": "Vedení města zvažuje omezit provoz tramvají přes centrum Brna. Přidejte svůj podpis k petici!",
     "og_image": "/images/og_image.png",
     "og_url": "https://petice.example.cz",
     "analytics_id": ""
@@ -22,10 +22,10 @@
   },
 
   "hero": {
-    "heading_prefix": "OPRAVDU",
-    "heading_highlight": "KLIDNÉ SVÁTKY",
-    "subtext": "Popis kampaně – co požadujeme a proč je to důležité.",
-    "cta_text": "CHCI OPRAVDU KLIDNÉ SVÁTKY",
+    "heading_prefix": "NEOMEZUJTE",
+    "heading_highlight": "BRNĚNSKÉ ŠALINY",
+    "subtext": "Vedení města zvažuje omezit provoz tramvají přes centrum Brna. Přidejte svůj podpis k petici!",
+    "cta_text": "PŘIDEJTE SVŮJ PODPIS",
     "cta_href": "#intro",
     "bg_video_webm": "/images/pozadi.webm",
     "bg_video_mp4": "/images/pozadi.mp4",
@@ -33,33 +33,38 @@
   },
 
   "intro": {
-    "heading": "Konec zbytečnému utrpení!",
-    "text": "Text úvodu – proč je tato petice důležitá a co konkrétně chceme změnit.",
+    "heading": "Výzva k podpisu",
+    "text": "Vedení města zvažuje omezit provoz tramvají přes centrum Brna — náměstím Svobody, Rašínovou a Masarykovou ulicí. To by ale znamenalo zhoršení kvality dopravy pro tisíce lidí denně.<br><br>Z ulic historického centra mají mizet auta — nikoli hromadná doprava.<br><br>Podepište petici proti tomuto záměru!",
     "image": "/images/intro.jpg",
-    "image_alt": "Popis obrázku",
+    "image_alt": "Tramvaj v centru Brna",
     "cta_text": "PŘEJÍT NA PETICI",
     "cta_href": "#petice"
   },
 
   "petition": {
     "heading": "Petice dle čl. 18 Listiny základních práv a svobod",
-    "addressee": "Vážená paní ministryně, vážený pane ministře,",
+    "addressee": "Vážené vedení města Brna,",
     "paragraphs": [
-      "vyzýváme vás touto peticí k předložení změn zákonů, které by regulovaly [téma petice].",
-      "Každoročně se stáváme svědky zbytečného utrpení. [Konkrétní důvody.]",
-      "V mnoha zemích je tato problematika regulována přísněji. Prosím, zpřísněme pravidla."
+      "my níže podepsaní občané nesouhlasíme se záměrem omezit frekvenci tramvajových spojů procházejících centrem města, konkrétně linek 4 a 9 přes náměstí Svobody a přilehlé ulice.",
+      "Chápeme snahu vedení města zklidnit historické centrum a omezit nelegální či zbytečné vjezdy automobilů. S tímto cílem plně souhlasíme. Nesouhlasíme však s tím, aby jeho důsledkem bylo omezení kvality městské hromadné dopravy. Tím by na tato opatření doplatili paradoxně právě ti, kdo automobil nevlastní nebo jej nepoužívají.",
+      "Tramvajové linky 4 a 9 jsou důležitou páteří brněnské MHD. Klíčem k jejich kvalitě není jen trasa, ale <strong>frekvence spojů — pravidelný a hustý interval a předvídatelná trasa</strong>. Pokud by část spojů jezdila jinudy, tento komfort by byl nahrazen chaosem.",
+      "Zvláštní dopad by tato změna měla na <strong>seniory a osoby se sníženou pohyblivostí</strong>, kteří dnes využívají přímá spojení například pro nákup na Zelném trhu, k lékaři nebo do centra města. Stovky metrů chůze navíc nebo dokonce přestup pro ně představují reálnou zátěž.",
+      "Tramvaj jezdí po pevné trati a její pohyb je pro chodce čitelný a předvídatelný. <strong>Skutečné nebezpečí v centru představují auta</strong> — ta neoprávněně projíždějící i ta parkující tam, kde nemají co dělat. Právě na ně by se měla opatření zaměřit.",
+      "Tramvaj a živé centrum se vzájemně doplňují — ukazují to mnohá evropská města, například Štrasburk, Ghent, Amsterdam, Erfurt či Graz.",
+      "Žádáme vedení města Brna, aby:"
     ],
     "demands": [
-      "1. Žádáme [první požadavek petice].",
-      "2. Žádáme [druhý požadavek petice].",
-      "3. Žádáme [třetí požadavek petice]."
+      "1. <strong>neomezovalo frekvenci tramvajových spojů</strong> přes náměstí Svobody a centrum města (s výjimkou hromadných akcí, jako doposud),",
+      "2. soustředilo opatření ke zklidnění centra zejména na <strong>omezení automobilového provozu</strong> — například rozšířením zákazových zón, výsuvnými sloupky, redukcí vjezdových oprávnění a pečlivější kontrolou parkování,",
+      "3. při přípravě jakýchkoli změn v dopravní obsluze centra <strong>transparentně a včas zapojilo veřejnost</strong>."
     ],
-    "closing": "V dnešní době jsou dostupné šetrnější alternativy. Zpřísněme prosím pravidla.",
-    "place_date": "V Praze dne 1.1.2026",
+    "closing": "Kvalitní hromadná doprava je základ fungujícího města. Omezit auta v centru je správný krok. <strong>Omezení tramvají ne.</strong>",
+    "place_date": "V Brně 9. 3. 2026",
     "committee_label": "Za petiční výbor:",
     "committee": [
-      { "name": "Jméno Příjmení", "role": "funkce a organizace" },
-      { "name": "Jméno Příjmení", "role": "funkce a organizace" }
+      { "name": "Natálie Vencovská", "role": "Strana zelených" },
+      { "name": "Jana Drápalová", "role": "Strana zelených" },
+      { "name": "Jasna Flamiková", "role": "Strana zelených" }
     ]
   },
 
@@ -69,18 +74,20 @@
   },
 
   "form": {
-    "heading": "Podepište petici",
+    "heading": "Přidejte podpis i vy",
     "fields": {
       "given_name": "Jméno",
       "family_name": "Příjmení",
+      "email": "Váš e-mail",
+      "phone": "Telefon",
       "locality": "Město",
-      "postal_code": "PSČ",
-      "email": "Váš e-mail"
+      "message_label": "Co si vy myslíte o omezení šalin na Svoboďáku?",
+      "message": "Váš vzkaz"
     },
     "consent_text": "Je mi více než 15 let a souhlasím se zpracováním osobních údajů pro účely informování o petici a další činnosti Zelených.",
     "consent_detail": "Souhlas je možné kdykoli odvolat na soukromi@zeleni.cz.",
     "privacy_url": "https://zeleni.cz/ochrana-soukromi",
-    "submit_text": "PODEPSAT PETICI",
+    "submit_text": "Podepsat petici",
     "submitting_text": "Ukládám podpis…",
     "success_text": "Děkujeme za podpis!",
     "error_text": "Chyba, zkuste znovu."
@@ -88,26 +95,62 @@
 
   "authors": [
     {
-      "name": "Jméno Příjmení",
-      "role": "funkce",
+      "name": "Natálie Vencovská",
+      "role": "Strana zelených",
       "image": "/images/autor1.jpg",
-      "facebook": "https://facebook.com/",
+      "facebook": "https://facebook.com/stranazelenych",
+      "twitter": ""
+    },
+    {
+      "name": "Jana Drápalová",
+      "role": "Strana zelených",
+      "image": "/images/autor2.jpg",
+      "facebook": "",
+      "twitter": ""
+    },
+    {
+      "name": "Jasna Flamiková",
+      "role": "Strana zelených",
+      "image": "/images/autor3.jpg",
+      "facebook": "",
       "twitter": ""
     }
   ],
 
   "alternatives": {
-    "heading": "Jak vypadá situace jinde?",
+    "heading": "Tramvaj a živé centrum se vzájemně doplňují",
     "image": "/images/alternativy.jpg",
-    "image_alt": "Popis obrázku",
+    "image_alt": "Tramvaj v evropském centru",
     "items": [
       {
-        "title": "První téma",
-        "text": "Popis prvního tématu s příklady ze zahraničí."
+        "title": "Štrasburk",
+        "text": "Moderní tramvaj prochází přímo historickým centrem obklopeným gotickou katedrálou. Štrasburk je dnes vzorem pro desítky evropských měst, která tramvaj do centra vrátila.",
+        "image": "/petice-sailny/images/strasburk.png",
+        "image_alt": "Tramvaj v centru Štrasburku"
       },
       {
-        "title": "Druhé téma",
-        "text": "Popis druhého tématu."
+        "title": "Gent",
+        "text": "V roce 2017 byl zakázán průjezdní automobilový provoz centrem a pěší zóna se přes noc rozrostla o 128 %. Tramvaje přitom zůstaly a jsou nyní páteří dostupnosti centra.",
+        "image": "/petice-sailny/images/ghent.jpg",
+        "image_alt": "Tramvaj v centru Gentu"
+      },
+      {
+        "title": "Amsterdam",
+        "text": "Tramvaje projíždějí rušnými nákupními ulicemi historického centra vedle chodců i cyklistů. Sdílení prostoru funguje — město přitom patří k nejoblíbenějším v Evropě.",
+        "image": "/petice-sailny/images/amsterdam.png",
+        "image_alt": "Tramvaj v centru Amsterdamu"
+      },
+      {
+        "title": "Erfurt",
+        "text": "Pěší zóna v centru Erfurtu slouží zároveň tramvajím. Výsledkem je živé, přístupné centrum, kde se lidé pohybují pěšky, na kole i hromadnou dopravou.",
+        "image": "/petice-sailny/images/erfurt.jpg",
+        "image_alt": "Tramvaj v centru Erfurtu"
+      },
+      {
+        "title": "Graz",
+        "text": "Tramvaje jezdí centrem Grazu od roku 1878. Dnes fungují v plné pěší zóně, kde sdílí prostor s chodci — a centrum je díky tomu živější než kdy dřív.",
+        "image": "/petice-sailny/images/graz.png",
+        "image_alt": "Tramvaj v centru Grazu"
       }
     ]
   },

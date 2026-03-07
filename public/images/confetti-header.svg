@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="80" viewBox="0 0 1400 80">
+  <!-- Pink rectangles only (green blends into header background) -->
+  <rect x="-28" y="-9" width="56" height="18" rx="3" fill="#ffa6d1" transform="translate(60,25) rotate(20)"/>
+  <rect x="-28" y="-9" width="56" height="18" rx="3" fill="#ffa6d1" transform="translate(180,55) rotate(-15)"/>
+  <rect x="-28" y="-9" width="56" height="18" rx="3" fill="#ffa6d1" transform="translate(320,20) rotate(35)"/>
+  <rect x="-28" y="-9" width="56" height="18" rx="3" fill="#ffa6d1" transform="translate(480,60) rotate(-25)"/>
+  <rect x="-28" y="-9" width="56" height="18" rx="3" fill="#ffa6d1" transform="translate(620,18) rotate(10)"/>
+  <rect x="-28" y="-9" width="56" height="18" rx="3" fill="#ffa6d1" transform="translate(760,58) rotate(-30)"/>
+  <rect x="-28" y="-9" width="56" height="18" rx="3" fill="#ffa6d1" transform="translate(900,22) rotate(25)"/>
+  <rect x="-28" y="-9" width="56" height="18" rx="3" fill="#ffa6d1" transform="translate(1050,55) rotate(-18)"/>
+  <rect x="-28" y="-9" width="56" height="18" rx="3" fill="#ffa6d1" transform="translate(1200,20) rotate(15)"/>
+  <rect x="-28" y="-9" width="56" height="18" rx="3" fill="#ffa6d1" transform="translate(1350,50) rotate(-35)"/>
+  <!-- A few white ones for variety -->
+  <rect x="-20" y="-7" width="40" height="14" rx="3" fill="rgba(255,255,255,0.4)" transform="translate(130,48) rotate(-20)"/>
+  <rect x="-20" y="-7" width="40" height="14" rx="3" fill="rgba(255,255,255,0.4)" transform="translate(400,55) rotate(12)"/>
+  <rect x="-20" y="-7" width="40" height="14" rx="3" fill="rgba(255,255,255,0.4)" transform="translate(700,30) rotate(-28)"/>
+  <rect x="-20" y="-7" width="40" height="14" rx="3" fill="rgba(255,255,255,0.4)" transform="translate(980,18) rotate(22)"/>
+  <rect x="-20" y="-7" width="40" height="14" rx="3" fill="rgba(255,255,255,0.4)" transform="translate(1270,45) rotate(-10)"/>
+</svg>

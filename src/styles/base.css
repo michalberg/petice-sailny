@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Tusker Grotesk";
+  src: url("/petice-sailny/fonts/TuskerGrotesk-6700Bold.woff2") format("woff2"),
+       url("/petice-sailny/fonts/TuskerGrotesk-6700Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  @apply text-base;
+  scroll-behavior: smooth;
+}
+
+/* Kompenzace fixed navigace při skoku na kotvu */
+section[id],
+div[id] {
+  scroll-margin-top: 70px;
+}
+
+body {
+  @apply bg-body font-primary font-normal leading-relaxed text-text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-primary font-bold leading-tight text-text-dark;
+}
+
+h1, h2 {
+  font-family: "Tusker Grotesk", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+}
+
+h1,
+.h1 {
+  @apply text-h1-sm md:text-h1;
+}
+
+h2,
+.h2 {
+  @apply text-h2-sm md:text-h2;
+}
+
+h3,
+.h3 {
+  @apply text-h3-sm md:text-h3;
+}
+
+h4,
+.h4 {
+  @apply text-h4;
+}
+
+h5,
+.h5 {
+  @apply text-h5;
+}
+
+h6,
+.h6 {
+  @apply text-h6;
+}
+
+b,
+strong {
+  @apply font-semibold;
+}
+code {
+  @apply after:border-none;
+}

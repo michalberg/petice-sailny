@@ -1,0 +1,26 @@
+{
+  "colors": {
+    "default": {
+      "theme_color": {
+        "primary": "#0bd26f",
+        "body": "#ffffff",
+        "border": "#000000",
+        "light": "#f0faf5"
+      },
+      "text_color": {
+        "text": "#222222",
+        "text-dark": "#000000"
+      }
+    }
+  },
+  "fonts": {
+    "font_family": {
+      "primary": "Hanken+Grotesk:wght@400;500;600;700;800",
+      "primary_type": "sans-serif"
+    },
+    "font_size": {
+      "base": "16",
+      "scale": "1.2"
+    }
+  }
+}

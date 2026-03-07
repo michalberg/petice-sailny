@@ -1,0 +1,36 @@
+{
+  "site": {
+    "title": "Petice: Neomezujte šaliny v centru Brna!",
+    "base_url": "https://michalberg.github.io",
+    "base_path": "/petice-sailny",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/zeleni-brno-logo.png",
+    "logo_width": "120px",
+    "logo_height": "60px",
+    "logo_text": ""
+  },
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200
+  },
+  "nav_button": {
+    "enable": true,
+    "label": "Podepsat petici",
+    "link": "#petice"
+  },
+  "params": {
+    "contact_form_action": "#",
+    "footer_content": "Petice za zachování tramvajového provozu v centru Brna.",
+    "copyright": "2026 Strana zelených. Obsah je možné volně šířit dle licence [Creative Commons 2.0](https://creativecommons.org/licenses/by/2.0/)."
+  },
+  "metadata": {
+    "meta_author": "Strana zelených",
+    "meta_image": "/images/og_image.png",
+    "meta_description": "Vedení města zvažuje omezit provoz tramvají přes centrum Brna. Přidejte svůj podpis k petici!"
+  },
+  "google_tag_manager": {
+    "enable": false,
+    "gtm_id": "GTM-XXXXXX"
+  }
+}

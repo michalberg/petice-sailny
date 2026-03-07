@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@plugin "../tailwind-plugin/tw-theme.mjs";
+@plugin "../tailwind-plugin/tw-bs-grid.mjs";
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/typography";
+
+@import "./safe.css";
+@import "./utilities.css";
+
+@layer base {
+  @import "./base.css";
+}
+
+@layer components {
+  @import "./components.css";
+  @import "./navigation.css";
+  @import "./buttons.css";
+}
+
+/* Formulář – růžový okraj nahoře */
+#petice {
+  border-top: 6px solid #ffa6d1;
+}
+
+/* Honeypot – skryté pro lidi, viditelné pro boty */
+.hp-field {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}

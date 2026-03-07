@@ -1,213 +1,436 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import PetitionForm from '../components/PetitionForm.astro';
-import config from '../config/petition.json';
+import Base from "@/layouts/Base.astro";
+import PetitionText from "@/components/PetitionText.astro";
+import Accordion from "@/shortcodes/Accordion";
+import config from "@/config/petition.json";
 
-const { hero, intro, authors, alternatives, donate, footer } = config;
+const { intro, form, action_network, authors, alternatives } = config;
 ---
 
-<Layout>
+<Base>
 
-  <h1 style="text-align:center; font-size:3rem; padding:2rem 1rem;">Neomezujte brněnské šaliny</h1>
+  <!-- TĚLO STRÁNKY: dvousloupcový layout -->
+  <div class="container py-12">
+    <div class="gap-10 lg:grid lg:grid-cols-[1fr_380px]">
 
-  <!-- Hero s videem na pozadí -->
-  <header id="header" class="header video-header">
-    <video playsinline autoplay muted loop poster={hero.bg_poster} id="bgvid">
-      <source src={hero.bg_video_webm} type="video/webm">
-      <source src={hero.bg_video_mp4} type="video/mp4">
-    </video>
-    <div class="header-content">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="text-container">
-              <h1>{hero.heading_prefix} <span id="js-rotating">{hero.heading_highlight}</span></h1>
-              <p class="p-heading p-large">{hero.subtext}</p>
-              <a class="btn-solid-lg page-scroll" href={hero.cta_href}>{hero.cta_text}</a>
-            </div>
+      <!-- LEVÝ SLOUPEC -->
+      <div class="order-2 space-y-10 lg:order-1">
+
+        <!-- Hero -->
+        <div class="overflow-hidden rounded-2xl bg-primary">
+          <div class="p-10">
+            <p class="mb-2 font-primary text-xl font-bold uppercase tracking-widest text-[#ffa6d1]">Petice:</p>
+            <h1 class="leading-none text-black" id="intro">Neomezujte šaliny v&nbsp;centru Brna!</h1>
+            <p class="mt-4 text-lg text-black/75" set:html={intro.text} />
           </div>
+          <img src="/petice-sailny/images/tramvaj-pattern-hero.svg" alt="" style="display:block; width:100%; height:80px; object-fit:cover; object-position:left top;" />
         </div>
-      </div>
-    </div>
-  </header>
 
-  <!-- Úvod -->
-  <div id="intro" class="basic-1 main">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5">
-          <div class="text-container">
-            <h2>{intro.heading}</h2>
-            <p set:html={intro.text}></p>
-            <div class="col text-center" style="padding-top:2rem">
-              <a class="btn-solid-lg page-scroll" href={intro.cta_href}>{intro.cta_text}</a>
-            </div>
-          </div>
+        <!-- Mobilní CTA -->
+        <div class="lg:hidden">
+          <a href="#petice" class="btn btn-dark w-full text-center">Podepsat petici</a>
         </div>
-        <div class="col-lg-7">
-          <div class="image-container" style="max-width:500px;margin:0 auto;">
-            <img src={intro.image} alt={intro.image_alt} class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- Formulář + text petice -->
-  <PetitionForm />
+        <!-- Text petice -->
+        <PetitionText />
 
-  <!-- Autoři -->
-  <div id="autori" class="basic-2 main">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h2>Autoři petice</h2>
-          <p class="p-heading">&nbsp;</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          {authors.map(author => (
-            <div class="team-member">
-              <div class="image-wrapper">
-                <img class="img-fluid" src={author.image} alt={author.name}>
-              </div>
-              <p class="job-title">{author.name}</p>
-              <p class="p-large">{author.role}</p>
-              <span class="social-icons">
-                {author.facebook && (
-                  <span class="fa-stack">
-                    <a href={author.facebook} target="_blank" rel="noopener">
-                      <span class="hexagon"></span>
-                      <i class="fab fa-facebook-f fa-stack-1x"></i>
-                    </a>
-                  </span>
-                )}
-                {author.twitter && (
-                  <span class="fa-stack">
-                    <a href={author.twitter} target="_blank" rel="noopener">
-                      <span class="hexagon"></span>
-                      <i class="fab fa-twitter fa-stack-1x"></i>
-                    </a>
-                  </span>
-                )}
-              </span>
-            </div>
+        <!-- Alternativy -->
+        <section id="alternativy" class="rounded-2xl p-8" style="background:#ffa6d1">
+          <span class="mb-2 block font-primary text-xs font-bold uppercase italic tracking-widest text-black/50">V Evropě to jde</span>
+          <h2 class="mb-6">{alternatives.heading}</h2>
+          {alternatives.items.map((item, i) => (
+            <Accordion client:load title={item.title} className={i === 0 ? "active accordion-transparent" : "accordion-transparent"}>
+              {item.image && (
+                <img src={item.image} alt={item.image_alt} class="mb-4 w-full rounded-lg" />
+              )}
+              <p set:html={item.text} />
+            </Accordion>
           ))}
-        </div>
-      </div>
-    </div>
-  </div>
+        </section>
 
-  <!-- Alternativy / Accordion -->
-  <div id="alternativy" class="counter main">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 col-xl-6">
-          <div class="image-container">
-            <img class="img-fluid" src={alternatives.image} alt={alternatives.image_alt} style="margin:20px 0 30px 0">
-          </div>
-        </div>
-        <div class="col-lg-7 col-xl-6">
-          <div class="accordion" id="accordionAlternatives">
-            <h2>{alternatives.heading}</h2>
-            {alternatives.items.map((item, i) => (
-              <div class="item">
-                <div id={`heading${i}`}>
-                  <span
-                    class={i === 0 ? '' : 'collapsed'}
-                    data-toggle="collapse"
-                    data-target={`#collapse${i}`}
-                    aria-expanded={i === 0 ? 'true' : 'false'}
-                    aria-controls={`collapse${i}`}
-                    role="button"
-                  >
-                    <span class="circle-numbering">{i + 1}</span>
-                    <span class="accordion-title">{item.title}</span>
-                  </span>
-                </div>
-                <div
-                  id={`collapse${i}`}
-                  class={`collapse${i === 0 ? ' show' : ''}`}
-                  aria-labelledby={`heading${i}`}
-                  data-parent="#accordionAlternatives"
-                >
-                  <div class="accordion-body">
-                    <p set:html={item.text}></p>
-                  </div>
-                </div>
+        <!-- Autoři -->
+        <section id="autori" class="rounded-2xl bg-white p-8 shadow-sm">
+          <span class="mb-2 block font-primary text-xs font-bold uppercase italic tracking-widest text-[#ffa6d1]">Zelení Brno</span>
+          <h2 class="mb-8">Kdo za peticí stojí?</h2>
+          <div class="row justify-center">
+            {authors.map((author) => (
+              <div class="mb-8 text-center sm:col-6">
+                <img
+                  src={author.image}
+                  alt={author.name}
+                  class="mx-auto h-28 w-28 rounded-full object-cover shadow"
+                  onerror="this.src='/petice-sailny/images/image-placeholder.png'"
+                />
+                <h3 class="mt-4 text-lg font-bold">{author.name}</h3>
+                <p class="text-text">{author.role}</p>
+                {author.facebook && (
+                  <a href={author.facebook} target="_blank" rel="noopener"
+                    class="mt-2 inline-block text-sm text-primary hover:underline">Facebook</a>
+                )}
               </div>
             ))}
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
+        </section>
 
-  <!-- Donate -->
-  <div id="donate" class="basic-2 main">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h2>{donate.heading}</h2>
-          <p class="p-heading">
-            {donate.text}<br><br>
-            <a class="btn-solid-lg page-scroll" href={donate.url}>{donate.button_text}</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <div class="footer main">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="text-container about">
-            <h4>{footer.about_heading}</h4>
-            <p class="white">{footer.about_text}</p>
+        <!-- Sdílení (skryté na mobilu, formulář má vlastní sdílení v popupu) -->
+        <div class="hidden lg:block rounded-2xl bg-white p-5 shadow-sm">
+          <p class="mb-3 text-sm font-bold uppercase tracking-wide text-text-dark">Sdílejte petici</p>
+          <div class="grid grid-cols-3 gap-2">
+            <a id="share-fb" href="#" target="_blank" rel="noopener"
+              class="rounded-lg bg-[#1877F2] py-2 text-center text-sm font-bold text-white hover:opacity-90">Facebook</a>
+            <a id="share-x" href="#" target="_blank" rel="noopener"
+              class="rounded-lg bg-black py-2 text-center text-sm font-bold text-white hover:opacity-90">X</a>
+            <button id="share-copy"
+              class="rounded-lg bg-primary py-2 text-center text-sm font-bold text-black hover:opacity-90">Kopírovat</button>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="text-container">
-            <h4>{footer.links_heading}</h4>
-            <ul class="list-unstyled li-space-lg white">
-              {footer.links.map(link => (
-                <li>
-                  <i class="fas fa-square" style="color:#60b44c;font-size:60%"></i>{' '}
-                  <a class="white" href={link.url}>{link.label}</a>
-                </li>
-              ))}
-            </ul>
+
+      </div>
+
+      <!-- PRAVÝ SLOUPEC -->
+      <div class="order-1 lg:order-2 flex flex-col gap-4">
+
+          <!-- Počítadlo podpisů (jen při count > 20) -->
+          <div id="counter-section" class="hidden rounded-2xl p-5" style="background:#ffa6d1;">
+            <div class="flex items-baseline gap-2">
+              <span id="signature-count" class="text-4xl font-black leading-none text-black"></span>
+              <span class="text-sm font-semibold text-black/60">lidí podepsalo petici</span>
+            </div>
+            <div class="mt-3 h-2 overflow-hidden rounded-full bg-black/15">
+              <div id="progress-fill" class="h-full rounded-full bg-black transition-all duration-1000" style="width:0%"></div>
+            </div>
+            <div class="mt-1 flex justify-between text-xs text-black/50">
+              <span id="progress-label"></span>
+              <span id="progress-goal"></span>
+            </div>
+            <div class="mt-3 border-t border-black/15 pt-3">
+              <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-black/40">Nedávno podepsali</p>
+              <div id="signer-ticker" class="flex gap-5 overflow-hidden"></div>
+            </div>
           </div>
-        </div>
-        <div class="col-md-2">
-          <div class="text-container">
-            <h4>{footer.nav_heading}</h4>
-            <ul class="list-unstyled li-space-lg">
-              {footer.nav_links.map(link => (
-                <li>
-                  <i class="fas fa-square" style="color:#60b44c;font-size:60%"></i>{' '}
-                  <a class="white" href={link.url}>{link.label}</a>
-                </li>
-              ))}
-            </ul>
+
+          <!-- Formulář + Sdílení (sticky) -->
+          <div style="position:sticky; top:80px; z-index:10; display:flex; flex-direction:column; gap:1rem;">
+
+          <!-- Formulář -->
+          <div id="petice" class="rounded-2xl bg-black p-6" style="border-top: 4px solid #ffa6d1;">
+
+
+            <h3 class="mb-4 text-center text-xl font-bold text-white">{form.heading}</h3>
+            <form id="petition-form" novalidate>
+              <div class="hp-field" aria-hidden="true">
+                <input type="text" name="website" id="hp-website" tabindex="-1" autocomplete="off" />
+              </div>
+
+              <div class="mb-3 grid grid-cols-2 gap-3">
+                <div>
+                  <label for="given_name" class="mb-0.5 block text-xs font-semibold text-white/80">{form.fields.given_name} *</label>
+                  <input type="text" id="given_name" name="given_name" required
+                    class="w-full rounded-lg border border-white/20 bg-white/90 px-3 py-2 text-sm focus:border-white focus:outline-none" />
+                </div>
+                <div>
+                  <label for="family_name" class="mb-0.5 block text-xs font-semibold text-white/80">{form.fields.family_name} *</label>
+                  <input type="text" id="family_name" name="family_name" required
+                    class="w-full rounded-lg border border-white/20 bg-white/90 px-3 py-2 text-sm focus:border-white focus:outline-none" />
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="email_address" class="mb-0.5 block text-xs font-semibold text-white/80">{form.fields.email} *</label>
+                <input type="email" id="email_address" name="email_address" required
+                  class="w-full rounded-lg border border-white/20 bg-white/90 px-3 py-2 text-sm focus:border-white focus:outline-none" />
+                <div id="email-error" class="mt-1 text-xs text-red-300"></div>
+              </div>
+
+              <div class="mb-3 grid grid-cols-2 gap-3">
+                <div>
+                  <label for="phone" class="mb-0.5 block text-xs font-semibold text-white/80">{form.fields.phone}</label>
+                  <input type="tel" id="phone" name="phone"
+                    class="w-full rounded-lg border border-white/20 bg-white/90 px-3 py-2 text-sm focus:border-white focus:outline-none" />
+                </div>
+                <div>
+                  <label for="locality" class="mb-0.5 block text-xs font-semibold text-white/80">{form.fields.locality}</label>
+                  <input type="text" id="locality" name="locality"
+                    class="w-full rounded-lg border border-white/20 bg-white/90 px-3 py-2 text-sm focus:border-white focus:outline-none" />
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="message" class="mb-1 block text-sm font-semibold text-white/90">{form.fields.message_label}</label>
+                <textarea id="message" name="message" rows="3"
+                  class="w-full rounded-lg border border-white/20 bg-white/90 px-3 py-2 text-sm focus:border-white focus:outline-none"
+                  placeholder={form.fields.message}></textarea>
+              </div>
+
+              <div class="mb-4">
+                <label class="flex cursor-pointer items-start gap-2">
+                  <input type="checkbox" id="consent" name="consent" required
+                    class="mt-0.5 h-4 w-4 rounded border-white/40 accent-primary" />
+                  <span class="text-xs text-white/80">{form.consent_text}</span>
+                </label>
+                <p class="mt-1 pl-6 text-xs text-white/50">
+                  {form.consent_detail}
+                  Vaše osobní údaje jsou zpracovány podle
+                  <a class="text-white/80 underline hover:text-white" href={form.privacy_url}>zásad zpracování osobních údajů</a>.
+                </p>
+              </div>
+
+              <button type="submit" id="submit-btn" class="btn btn-primary w-full text-center font-bold">
+                {form.submit_text}
+              </button>
+              <div id="form-message" class="mt-3 hidden text-center text-base font-semibold text-white"></div>
+            </form>
           </div>
+
+          </div><!-- /sticky wrapper -->
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Popup po podpisu -->
+  <div id="thankyou-overlay" style="display:none; position:fixed; inset:0; z-index:100; background:rgba(0,0,0,0.7); align-items:center; justify-content:center; padding:1rem;">
+    <div id="thankyou-popup" style="background:#fff; border-radius:1.25rem; max-width:480px; width:100%; overflow:hidden; transform:scale(0.85); opacity:0; transition:transform 0.3s ease, opacity 0.3s ease;">
+      <!-- tramvaj pruh nahoře -->
+      <img src="/petice-sailny/images/tramvaj-pattern-hero.svg" alt="" style="display:block; width:100%; height:60px; object-fit:cover; object-position:left top; background:#0bd26f;" />
+      <!-- obsah -->
+      <div style="padding:2rem; text-align:center;">
+        <!-- checkmark -->
+        <div style="width:72px; height:72px; background:#0bd26f; border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 1.25rem;">
+          <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
         </div>
+        <h2 style="font-size:1.75rem; margin-bottom:0.5rem;">Děkujeme za podpis!</h2>
+        <p style="color:#555; margin-bottom:0.25rem;">Potvrzení jsme vám poslali na e-mail.</p>
+        <p style="color:#333; font-weight:600; margin-bottom:1.5rem;">O úspěchu ale rozhodne, kolik lidí petici podepíše.<br>Pošlete ji dál — každý hlas se počítá.</p>
+
+        <!-- sdílení -->
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.625rem; margin-bottom:1.5rem;">
+          <a id="popup-share-fb" href="#" target="_blank" rel="noopener"
+            style="background:#1877F2; color:white; font-weight:700; font-size:0.875rem; padding:0.625rem; border-radius:0.5rem; text-decoration:none; text-align:center;">Facebook</a>
+          <a id="popup-share-x" href="#" target="_blank" rel="noopener"
+            style="background:#000; color:white; font-weight:700; font-size:0.875rem; padding:0.625rem; border-radius:0.5rem; text-decoration:none; text-align:center;">X.com</a>
+          <a id="popup-share-ig" href="https://www.instagram.com/reel/DU290ABCI4q/" target="_blank" rel="noopener"
+            style="background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888); color:white; font-weight:700; font-size:0.875rem; padding:0.625rem; border-radius:0.5rem; text-decoration:none; text-align:center;">Instagram</a>
+          <a id="popup-share-wa" href="#" target="_blank" rel="noopener"
+            style="background:#25D366; color:white; font-weight:700; font-size:0.875rem; padding:0.625rem; border-radius:0.5rem; text-decoration:none; text-align:center;">WhatsApp</a>
+          <button id="popup-share-native" style="grid-column:span 2; background:#0bd26f; color:#000; font-weight:700; font-size:0.875rem; padding:0.625rem; border-radius:0.5rem; border:none; cursor:pointer; text-align:center;">Sdílet odkaz</button>
+        </div>
+
+        <!-- zavřít -->
+        <button id="thankyou-close-btn"
+          style="background:none; border:none; color:#aaa; font-size:0.875rem; cursor:pointer; text-decoration:underline;">Zavřít</button>
       </div>
     </div>
   </div>
 
-  <!-- Copyright -->
-  <div class="copyright main">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <p class="p-small">{footer.copyright}</p>
-        </div>
-      </div>
-    </div>
-  </div>
+</Base>
 
-</Layout>
+<script define:vars={{
+  endpointId: action_network.endpoint_id,
+  tags: action_network.tags,
+  submitText: form.submit_text,
+  submittingText: form.submitting_text,
+  successText: form.success_text,
+  errorText: form.error_text,
+}}>
+  // ── Validace ──────────────────────────────────────────
+  function validateEmail(email) {
+    return /^[\w.\-]+@([\w\-]+\.)+[a-zA-Z]{2,}$/.test(email);
+  }
+
+  // ── Formulář ──────────────────────────────────────────
+  const petitionForm = document.getElementById("petition-form");
+  const submitBtn = document.getElementById("submit-btn");
+  const emailInput = document.getElementById("email_address");
+  const emailError = document.getElementById("email-error");
+  const formMessage = document.getElementById("form-message");
+
+  emailInput.addEventListener("blur", () => {
+    const val = emailInput.value.trim();
+    if (val && !validateEmail(val)) {
+      emailError.textContent = "Prosím zadejte platný e-mail";
+    } else {
+      emailError.textContent = "";
+    }
+  });
+
+  petitionForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    // TODO: MOCKUP — odstraň tento řádek pro produkci
+    return showThankyouPopup();
+
+    const givenName = document.getElementById("given_name").value.trim();
+    const familyName = document.getElementById("family_name").value.trim();
+    const email = emailInput.value.trim();
+    const locality = document.getElementById("locality").value.trim();
+    const phone = document.getElementById("phone").value.trim();
+    const message = document.getElementById("message").value.trim();
+
+    if (document.getElementById("hp-website").value !== "") return;
+    if (!givenName || !familyName || !email || !validateEmail(email)) return;
+
+    submitBtn.textContent = submittingText;
+    submitBtn.disabled = true;
+
+    const body = {
+      person: {
+        given_name: givenName,
+        family_name: familyName,
+        email_addresses: [{ address: email }],
+        phone_numbers: phone ? [{ number: phone }] : [],
+        postal_addresses: [{ locality, country: "CZ" }],
+      },
+      add_tags: tags,
+      ...(message ? { comment: message } : {}),
+    };
+
+    try {
+      const resp = await fetch(`https://actionnetwork.org/api/v2/forms/${endpointId}/submissions/`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      if (resp.ok) {
+        submitBtn.textContent = successText;
+        submitBtn.disabled = true;
+        showThankyouPopup();
+      } else {
+        throw new Error(`HTTP ${resp.status}`);
+      }
+    } catch (err) {
+      console.error("Petition submit error:", err);
+      submitBtn.textContent = submitText;
+      submitBtn.disabled = false;
+      formMessage.textContent = errorText;
+      formMessage.style.color = "#f87171";
+      formMessage.classList.remove("hidden");
+    }
+  });
+
+  // ── Popup po podpisu ──────────────────────────────────
+  const overlay = document.getElementById("thankyou-overlay");
+  const popup = document.getElementById("thankyou-popup");
+
+  function showThankyouPopup() {
+    overlay.style.display = "flex";
+    requestAnimationFrame(() => {
+      popup.style.transform = "scale(1)";
+      popup.style.opacity = "1";
+    });
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeThankyouPopup() {
+    popup.style.transform = "scale(0.85)";
+    popup.style.opacity = "0";
+    setTimeout(() => {
+      overlay.style.display = "none";
+      document.body.style.overflow = "";
+    }, 300);
+  }
+
+  document.getElementById("thankyou-close-btn").addEventListener("click", closeThankyouPopup);
+  overlay.addEventListener("click", (e) => { if (e.target === overlay) closeThankyouPopup(); });
+
+  // ── Sdílení (stránka + popup) ─────────────────────────
+  const pageUrl = encodeURIComponent(window.location.href);
+  const shareText = encodeURIComponent("Podepsal/a jsem petici za šaliny v Brně. Připoj se!");
+  const shareFbUrl = `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
+  const shareXUrl = `https://x.com/intent/tweet?text=${shareText}&url=${pageUrl}`;
+  const shareWaUrl = `https://wa.me/?text=${shareText}+${pageUrl}`;
+
+  // sdílení na stránce
+  document.getElementById("share-fb").href = shareFbUrl;
+  document.getElementById("share-x").href = `https://twitter.com/intent/tweet?url=${pageUrl}&text=${shareText}`;
+  document.getElementById("share-copy").addEventListener("click", () => {
+    navigator.clipboard.writeText(window.location.href);
+    const btn = document.getElementById("share-copy");
+    btn.textContent = "Zkopírováno!";
+    setTimeout(() => { btn.textContent = "Kopírovat"; }, 2000);
+  });
+
+  // sdílení v popupu
+  document.getElementById("popup-share-fb").href = shareFbUrl;
+  document.getElementById("popup-share-x").href = shareXUrl;
+  document.getElementById("popup-share-wa").href = shareWaUrl;
+
+  const nativeBtn = document.getElementById("popup-share-native");
+  if (navigator.share) {
+    nativeBtn.addEventListener("click", () => {
+      navigator.share({
+        title: "Petice: Neomezujte šaliny",
+        text: "Podepsal/a jsem petici za šaliny v Brně. Připoj se!",
+        url: window.location.href,
+      });
+    });
+  } else {
+    nativeBtn.textContent = "Kopírovat odkaz";
+    nativeBtn.addEventListener("click", () => {
+      navigator.clipboard.writeText(window.location.href);
+      nativeBtn.textContent = "Zkopírováno ✓";
+      setTimeout(() => { nativeBtn.textContent = "Kopírovat odkaz"; }, 2000);
+    });
+  }
+
+  // ── Počítadlo + ticker ────────────────────────────────
+  const count = 47; // TODO: nahradit API hodnotou
+
+  function calcGoal(n) {
+    return Math.max(100, Math.ceil(n * 3 / 100) * 100);
+  }
+
+  const demoSigners = [
+    { name: "Jana N.", city: "Brno" },
+    { name: "Tomáš K.", city: "Brno" },
+    { name: "Marie S.", city: "Praha" },
+    { name: "Petr V.", city: "Brno" },
+    { name: "Eva H.", city: "Žabovřesky" },
+    { name: "Ondřej M.", city: "Brno" },
+    { name: "Lucie B.", city: "Královo Pole" },
+    { name: "Martin D.", city: "Brno" },
+    { name: "Tereza P.", city: "Praha" },
+    { name: "Jakub R.", city: "Brno" },
+  ];
+
+  if (count > 20) {
+    const goal = calcGoal(count);
+    document.getElementById("counter-section").classList.remove("hidden");
+    document.getElementById("signature-count").textContent = count.toLocaleString("cs-CZ");
+    document.getElementById("progress-label").textContent = count.toLocaleString("cs-CZ") + " podpisů";
+    document.getElementById("progress-goal").textContent = "Cíl: " + goal.toLocaleString("cs-CZ");
+    setTimeout(() => {
+      document.getElementById("progress-fill").style.width = Math.min((count / goal) * 100, 100) + "%";
+    }, 200);
+
+    const ticker = document.getElementById("signer-ticker");
+
+    function makeSignerEl(s) {
+      const el = document.createElement("div");
+      el.className = "shrink-0";
+      el.style.cssText = "opacity:0; transform:translateX(14px); transition:opacity 0.4s ease, transform 0.4s ease;";
+      el.innerHTML = `<div class="text-sm font-semibold text-black">${s.name}</div><div class="text-xs text-black/50">${s.city}</div>`;
+      return el;
+    }
+
+    demoSigners.slice(0, 3).forEach((s, i) => {
+      const el = makeSignerEl(s);
+      ticker.appendChild(el);
+      setTimeout(() => { el.style.opacity = "1"; el.style.transform = "translateX(0)"; }, i * 140);
+    });
+
+    let signerIdx = 3;
+    setInterval(() => {
+      const first = ticker.firstElementChild;
+      if (first) {
+        first.style.opacity = "0";
+        first.style.transform = "translateX(-14px)";
+        setTimeout(() => first.remove(), 400);
+      }
+      const el = makeSignerEl(demoSigners[signerIdx % demoSigners.length]);
+      signerIdx++;
+      ticker.appendChild(el);
+      setTimeout(() => { el.style.opacity = "1"; el.style.transform = "translateX(0)"; }, 50);
+    }, 2800);
+  }
+</script>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+  <!-- Green rectangles -->
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#0bd26f" transform="translate(80,55) rotate(-20)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#0bd26f" transform="translate(260,35) rotate(15)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#0bd26f" transform="translate(420,80) rotate(-35)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#0bd26f" transform="translate(600,45) rotate(25)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#0bd26f" transform="translate(780,110) rotate(-15)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#0bd26f" transform="translate(120,280) rotate(40)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#0bd26f" transform="translate(330,220) rotate(-30)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#0bd26f" transform="translate(530,300) rotate(20)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#0bd26f" transform="translate(700,240) rotate(-45)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#0bd26f" transform="translate(170,420) rotate(10)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#0bd26f" transform="translate(480,440) rotate(-25)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#0bd26f" transform="translate(820,380) rotate(30)"/>
+  <rect x="-35" y="-11" width="55" height="18" rx="3" fill="#0bd26f" transform="translate(30,380) rotate(-10)"/>
+  <rect x="-35" y="-11" width="55" height="18" rx="3" fill="#0bd26f" transform="translate(870,200) rotate(20)"/>
+  <!-- Pink rectangles -->
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#ffa6d1" transform="translate(50,160) rotate(30)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#ffa6d1" transform="translate(200,120) rotate(-15)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#ffa6d1" transform="translate(450,160) rotate(35)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#ffa6d1" transform="translate(670,175) rotate(-20)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#ffa6d1" transform="translate(360,350) rotate(25)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#ffa6d1" transform="translate(570,410) rotate(-30)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#ffa6d1" transform="translate(850,290) rotate(15)"/>
+  <rect x="-35" y="-11" width="70" height="22" rx="3" fill="#ffa6d1" transform="translate(740,460) rotate(-20)"/>
+  <rect x="-35" y="-11" width="55" height="18" rx="3" fill="#ffa6d1" transform="translate(310,480) rotate(15)"/>
+  <rect x="-35" y="-11" width="55" height="18" rx="3" fill="#ffa6d1" transform="translate(890,50) rotate(-25)"/>
+</svg>

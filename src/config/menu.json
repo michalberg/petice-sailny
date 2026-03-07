@@ -1,0 +1,30 @@
+{
+  "main": [
+    { "name": "Úvod", "url": "#intro" },
+    { "name": "Podepsat petici", "url": "#petice" },
+    { "name": "V Evropě to jde", "url": "#alternativy" },
+    { "name": "Kdo za peticí stojí?", "url": "#autori" }
+  ],
+  "footer": [
+    {
+      "name": "Petice",
+      "menu": [
+        { "text": "Podepsat", "url": "#petice" },
+        { "text": "Autoři", "url": "#autori" }
+      ]
+    },
+    {
+      "name": "Zelení",
+      "menu": [
+        { "text": "Web Zelených", "url": "https://www.zeleni.cz" },
+        { "text": "Podpořte nás", "url": "https://dary.zeleni.cz/" }
+      ]
+    },
+    {
+      "name": "Právní",
+      "menu": [
+        { "text": "Ochrana soukromí", "url": "https://zeleni.cz/ochrana-soukromi" }
+      ]
+    }
+  ]
+}
