@@ -17,6 +17,28 @@
   @import "./buttons.css";
 }
 
+/* Popup – menší na mobilu */
+@media (max-width: 767px) {
+  #thankyou-popup .popup-content {
+    padding: 1.25rem !important;
+  }
+  #thankyou-popup .popup-check {
+    width: 52px !important;
+    height: 52px !important;
+    margin-bottom: 0.75rem !important;
+  }
+  #thankyou-popup .popup-check-svg {
+    width: 26px !important;
+    height: 26px !important;
+  }
+  #thankyou-popup .popup-heading {
+    font-size: 1.25rem !important;
+  }
+  #thankyou-popup img {
+    height: 40px !important;
+  }
+}
+
 /* Accordion – menší padding na mobilu */
 @media (max-width: 767px) {
   .accordion-header {
