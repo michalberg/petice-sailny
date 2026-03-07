@@ -12,6 +12,8 @@ const imgSrc = src || (logo ? base + logo : null);
       <img
         src={imgSrc}
         alt={title}
+        width={parseInt(logo_width)}
+        height={parseInt(logo_height)}
         style={`height:${logo_height};width:${logo_width};object-fit:contain;`}
       />
     ) : logo_text ? (

@@ -23,7 +23,7 @@ const { intro, form, action_network, authors, alternatives } = config;
             <h1 class="leading-tight lg:leading-none text-black" id="intro">Neomezujte šaliny v&nbsp;centru Brna!</h1>
             <p class="mt-4 text-lg text-black/75" set:html={intro.text} />
           </div>
-          <img src="/petice-sailny/images/tramvaj-pattern-hero.svg" alt="" style="display:block; width:100%; height:80px; object-fit:cover; object-position:left top;" />
+          <img src="/petice-sailny/images/tramvaj-pattern-hero.svg" alt="" width="600" height="80" style="display:block; width:100%; height:80px; object-fit:cover; object-position:left top;" />
         </div>
 
         <!-- Mobilní CTA -->
@@ -41,7 +41,7 @@ const { intro, form, action_network, authors, alternatives } = config;
           {alternatives.items.map((item, i) => (
             <Accordion client:load title={item.title} className={i === 0 ? "active accordion-transparent" : "accordion-transparent"}>
               {item.image && (
-                <img src={item.image} alt={item.image_alt} class="mb-4 w-full rounded-lg" />
+                <img src={item.image} alt={item.image_alt} width="800" height="500" class="mb-4 w-full rounded-lg" />
               )}
               <p set:html={item.text} />
             </Accordion>
