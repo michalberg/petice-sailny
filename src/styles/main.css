@@ -51,6 +51,12 @@
   }
 }
 
+/* Formulář – disabled tlačítko */
+#submit-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
 /* Formulář – růžový okraj nahoře */
 #petice {
   border-top: 6px solid #ffa6d1;
