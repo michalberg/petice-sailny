@@ -17,6 +17,18 @@
   @import "./buttons.css";
 }
 
+/* Accordion – menší padding na mobilu */
+@media (max-width: 767px) {
+  .accordion-header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .accordion-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 /* Formulář – růžový okraj nahoře */
 #petice {
   border-top: 6px solid #ffa6d1;
