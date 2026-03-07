@@ -14,7 +14,7 @@ const Accordion = ({
 
   return (
     <div className={`accordion ${show ? "active" : ""} ${extraClasses}`}>
-      <button className="accordion-header" onClick={() => setShow(!show)}>
+      <button className="accordion-header font-bold" onClick={() => setShow(!show)}>
         {title}
         <svg
           className="accordion-icon"
