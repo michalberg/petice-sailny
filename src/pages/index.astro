@@ -269,6 +269,7 @@ const { intro, form, action_network, authors, alternatives } = config;
 
     if (document.getElementById("hp-website").value !== "") return;
     if (!givenName || !familyName || !email || !validateEmail(email)) return;
+    if (!document.getElementById("consent").checked) return;
 
     submitBtn.textContent = submittingText;
     submitBtn.disabled = true;
