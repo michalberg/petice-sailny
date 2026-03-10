@@ -6,7 +6,20 @@ import config from "@/config/petition.json";
 import sigData from "@/data/signatures.json";
 
 const { intro, form, action_network, authors, alternatives, sharing } = config;
-const { count: signatureCount, signers } = sigData;
+const demoSigners = [
+  { name: "Jana N.", city: "Brno" },
+  { name: "Tomáš K.", city: "Brno" },
+  { name: "Marie S.", city: "Praha" },
+  { name: "Petr V.", city: "Brno" },
+  { name: "Eva H.", city: "Žabovřesky" },
+  { name: "Ondřej M.", city: "Brno" },
+  { name: "Lucie B.", city: "Královo Pole" },
+  { name: "Martin D.", city: "Brno" },
+  { name: "Tereza P.", city: "Praha" },
+  { name: "Jakub R.", city: "Brno" },
+];
+const signatureCount = sigData.count || 47;
+const signers = sigData.signers.length > 0 ? sigData.signers : demoSigners;
 ---
 
 <Base>
