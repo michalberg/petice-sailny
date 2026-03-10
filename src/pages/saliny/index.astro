@@ -4,7 +4,7 @@ import PetitionText from "@/components/PetitionText.astro";
 import Accordion from "@/shortcodes/Accordion";
 import config from "@/config/petition.json";
 
-const { intro, form, action_network, authors, alternatives } = config;
+const { intro, form, action_network, authors, alternatives, sharing } = config;
 ---
 
 <Base>
@@ -234,6 +234,11 @@ const { intro, form, action_network, authors, alternatives } = config;
   submittingText: form.submitting_text,
   successText: form.success_text,
   errorText: form.error_text,
+  shareUrl: sharing.url,
+  shareTextFbX: sharing.text_fb_x,
+  shareTextWa: sharing.text_whatsapp,
+  shareNativeTitle: sharing.text_native_title,
+  shareNativeBody: sharing.text_native_body,
 }}>
   // ── Validace ──────────────────────────────────────────
   function validateEmail(email) {
@@ -343,18 +348,18 @@ const { intro, form, action_network, authors, alternatives } = config;
   overlay.addEventListener("click", (e) => { if (e.target === overlay) closeThankyouPopup(); });
 
   // ── Sdílení (stránka + popup) ─────────────────────────
-  const pageUrl = encodeURIComponent(window.location.href);
-  const shareTextFbX = encodeURIComponent("Podepište petici proti omezení šalin v centru Brna!");
-  const shareTextWa = encodeURIComponent("Vedení města Brna chce omezovat šaliny v centru. Podepiš proti tomu prosím petici.");
+  const pageUrl = encodeURIComponent(shareUrl);
+  const shareTextFbXEnc = encodeURIComponent(shareTextFbX);
+  const shareTextWaEnc = encodeURIComponent(shareTextWa);
   const shareFbUrl = `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
-  const shareXUrl = `https://x.com/intent/tweet?text=${shareTextFbX}&url=${pageUrl}`;
-  const shareWaUrl = `https://wa.me/?text=${shareTextWa}+${pageUrl}`;
+  const shareXUrl = `https://x.com/intent/tweet?text=${shareTextFbXEnc}&url=${pageUrl}`;
+  const shareWaUrl = `https://wa.me/?text=${shareTextWaEnc}+${pageUrl}`;
 
   // sdílení na stránce
   document.getElementById("share-fb").href = shareFbUrl;
-  document.getElementById("share-x").href = `https://twitter.com/intent/tweet?url=${pageUrl}&text=${shareTextFbX}`;
+  document.getElementById("share-x").href = `https://twitter.com/intent/tweet?url=${pageUrl}&text=${shareTextFbXEnc}`;
   document.getElementById("share-copy").addEventListener("click", () => {
-    navigator.clipboard.writeText(window.location.href);
+    navigator.clipboard.writeText(shareUrl);
     const btn = document.getElementById("share-copy");
     btn.textContent = "Zkopírováno!";
     setTimeout(() => { btn.textContent = "Kopírovat odkaz"; }, 2000);
@@ -369,15 +374,15 @@ const { intro, form, action_network, authors, alternatives } = config;
   if (navigator.share) {
     nativeBtn.addEventListener("click", () => {
       navigator.share({
-        title: "Petice: Neomezujte šaliny",
-        text: "Podepsal/a jsem petici za šaliny v Brně. Připoj se!",
-        url: window.location.href,
+        title: shareNativeTitle,
+        text: shareNativeBody,
+        url: shareUrl,
       });
     });
   } else {
     nativeBtn.textContent = "Kopírovat odkaz";
     nativeBtn.addEventListener("click", () => {
-      navigator.clipboard.writeText(window.location.href);
+      navigator.clipboard.writeText(shareUrl);
       nativeBtn.textContent = "Zkopírováno ✓";
       setTimeout(() => { nativeBtn.textContent = "Kopírovat odkaz"; }, 2000);
     });

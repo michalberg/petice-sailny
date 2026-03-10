@@ -3,7 +3,7 @@
     "title": "Petice: Neomezujte šaliny v centru Brna!",
     "description": "Vedení města zvažuje omezit provoz tramvají přes centrum Brna. Z ulic historického centra mají mizet auta — nikoli hromadná doprava. Podepište petici proti tomuto záměru!",
     "og_image": "/images/og_image.jpg",
-    "og_url": "https://petice.example.cz",
+    "og_url": "https://petice.online/saliny",
     "analytics_id": ""
   },
 
@@ -70,7 +70,7 @@
 
   "action_network": {
     "endpoint_id": "NAHRAD-TOTO-GUID-FORMULARE",
-    "tags": ["sailny"]
+    "tags": ["saliny"]
   },
 
   "form": {
@@ -155,11 +155,19 @@
     ]
   },
 
+  "sharing": {
+    "url": "https://petice.online/saliny",
+    "text_fb_x": "Podepište petici proti omezení šalin v centru Brna!",
+    "text_whatsapp": "Vedení města Brna chce omezovat šaliny v centru. Podepiš proti tomu prosím petici.",
+    "text_native_title": "Petice: Neomezujte šaliny",
+    "text_native_body": "Podepsal/a jsem petici za šaliny v Brně. Připoj se!"
+  },
+
   "donate": {
     "heading": "Podpořte nás",
     "text": "Popis výzvy k finanční podpoře organizace.",
     "button_text": "Podpořte nás finančním darem",
-    "url": "https://dary.zeleni.cz/"
+    "url": "https://dary.zeleni.cz/brno"
   },
 
   "footer": {
