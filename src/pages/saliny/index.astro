@@ -242,7 +242,7 @@ const { intro, form, action_network, authors, alternatives, sharing } = config;
 }}>
   // ── Validace ──────────────────────────────────────────
   function validateEmail(email) {
-    return /^[\w.\-]+@([\w\-]+\.)+[a-zA-Z]{2,}$/.test(email);
+    return /^[\w.+\-]+@([\w\-]+\.)+[a-zA-Z]{2,}$/.test(email);
   }
 
   // ── Formulář ──────────────────────────────────────────
