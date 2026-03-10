@@ -3,8 +3,10 @@ import Base from "@/layouts/Base.astro";
 import PetitionText from "@/components/PetitionText.astro";
 import Accordion from "@/shortcodes/Accordion";
 import config from "@/config/petition.json";
+import sigData from "@/data/signatures.json";
 
 const { intro, form, action_network, authors, alternatives, sharing } = config;
+const { count: signatureCount, signers } = sigData;
 ---
 
 <Base>
@@ -234,6 +236,8 @@ const { intro, form, action_network, authors, alternatives, sharing } = config;
   submittingText: form.submitting_text,
   successText: form.success_text,
   errorText: form.error_text,
+  signatureCount,
+  signers,
   shareUrl: sharing.url,
   shareTextFbX: sharing.text_fb_x,
   shareTextWa: sharing.text_whatsapp,
@@ -386,24 +390,11 @@ const { intro, form, action_network, authors, alternatives, sharing } = config;
   }
 
   // ── Počítadlo + ticker ────────────────────────────────
-  const count = 47; // TODO: nahradit API hodnotou
+  const count = signatureCount;
 
   function calcGoal(n) {
     return Math.max(100, Math.ceil(n * 3 / 100) * 100);
   }
-
-  const demoSigners = [
-    { name: "Jana N.", city: "Brno" },
-    { name: "Tomáš K.", city: "Brno" },
-    { name: "Marie S.", city: "Praha" },
-    { name: "Petr V.", city: "Brno" },
-    { name: "Eva H.", city: "Žabovřesky" },
-    { name: "Ondřej M.", city: "Brno" },
-    { name: "Lucie B.", city: "Královo Pole" },
-    { name: "Martin D.", city: "Brno" },
-    { name: "Tereza P.", city: "Praha" },
-    { name: "Jakub R.", city: "Brno" },
-  ];
 
   if (count > 20) {
     const goal = calcGoal(count);
@@ -425,7 +416,7 @@ const { intro, form, action_network, authors, alternatives, sharing } = config;
       return el;
     }
 
-    demoSigners.slice(0, 3).forEach((s, i) => {
+    signers.slice(0, 3).forEach((s, i) => {
       const el = makeSignerEl(s);
       ticker.appendChild(el);
       setTimeout(() => { el.style.opacity = "1"; el.style.transform = "translateX(0)"; }, i * 140);
@@ -439,7 +430,7 @@ const { intro, form, action_network, authors, alternatives, sharing } = config;
         first.style.transform = "translateX(-14px)";
         setTimeout(() => first.remove(), 400);
       }
-      const el = makeSignerEl(demoSigners[signerIdx % demoSigners.length]);
+      const el = makeSignerEl(signers[signerIdx % signers.length]);
       signerIdx++;
       ticker.appendChild(el);
       setTimeout(() => { el.style.opacity = "1"; el.style.transform = "translateX(0)"; }, 50);
