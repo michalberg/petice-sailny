@@ -1,8 +1,8 @@
 {
   "site": {
     "title": "Petice: Neomezujte šaliny v centru Brna!",
-    "base_url": "https://michalberg.github.io",
-    "base_path": "/petice-sailny",
+    "base_url": "https://petice.online",
+    "base_path": "/saliny",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/zeleni-brno-logo.png",

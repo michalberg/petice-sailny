@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Tusker Grotesk";
-  src: url("/petice-sailny/fonts/TuskerGrotesk-6700Bold.woff2") format("woff2"),
-       url("/petice-sailny/fonts/TuskerGrotesk-6700Bold.woff") format("woff");
+  src: url("/fonts/TuskerGrotesk-6700Bold.woff2") format("woff2"),
+       url("/fonts/TuskerGrotesk-6700Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
