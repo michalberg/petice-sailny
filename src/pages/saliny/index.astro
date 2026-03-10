@@ -270,9 +270,6 @@ const { intro, form, action_network, authors, alternatives, sharing } = config;
 
   petitionForm.addEventListener("submit", async (e) => {
     e.preventDefault();
-    // TODO: MOCKUP — odstraň tento řádek pro produkci
-    return showThankyouPopup();
-
     const givenName = document.getElementById("given_name").value.trim();
     const familyName = document.getElementById("family_name").value.trim();
     const email = emailInput.value.trim();

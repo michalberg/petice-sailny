@@ -69,8 +69,8 @@
   },
 
   "action_network": {
-    "endpoint_id": "NAHRAD-TOTO-GUID-FORMULARE",
-    "tags": ["saliny"]
+    "endpoint_id": "c630d75a-26d2-43c4-9413-15fafd159d86",
+    "tags": ["ohnostroje"]
   },
 
   "form": {
