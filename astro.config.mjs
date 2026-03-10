@@ -4,8 +4,8 @@ import { defineConfig, sharpImageService } from "astro/config";
 
 export default defineConfig({
   output: "static",
-  site: "https://michalberg.github.io",
-  base: "/petice-sailny",
+  site: "https://petice.online",
+  base: "/saliny",
   image: { service: sharpImageService() },
   vite: { plugins: [tailwindcss()] },
   integrations: [react()],
