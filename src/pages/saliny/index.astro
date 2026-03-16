@@ -314,7 +314,7 @@ const signers = sigData.signers.length > 0 ? sigData.signers : demoSigners;
     };
 
     try {
-      const resp = await fetch(`https://actionnetwork.org/api/v2/forms/${endpointId}/submissions/`, {
+      const resp = await fetch(`https://actionnetwork.org/api/v2/petitions/${endpointId}/signatures/`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
