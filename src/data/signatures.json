@@ -1,6 +1,46 @@
 {
-  "count": 80,
+  "count": 90,
   "signers": [
+    {
+      "name": "Luboš M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tomáš A.",
+      "city": "Brno"
+    },
+    {
+      "name": "David V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Iveta D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Natálie H.",
+      "city": "Klobouky u Brna"
+    },
+    {
+      "name": "Petra L.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jana B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Mariana P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Anna O.",
+      "city": ""
+    },
+    {
+      "name": "Petr M.",
+      "city": "Brno"
+    },
     {
       "name": "Nicol B.",
       "city": "Brno"
@@ -59,46 +99,6 @@
     },
     {
       "name": "David N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jaromír Ř.",
-      "city": "Brno"
-    },
-    {
-      "name": "Matěj H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lucie B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jiri D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lukáš K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Kateřina P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eva H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Zlata Č.",
-      "city": "Brno"
-    },
-    {
-      "name": "Šárka J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Klára K.",
       "city": "Brno"
     }
   ]
