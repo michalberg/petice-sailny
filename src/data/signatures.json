@@ -1,4 +1,105 @@
 {
-  "count": 32,
-  "signers": []
+  "count": 34,
+  "signers": [
+    {
+      "name": "Martin C.",
+      "city": "Brno"
+    },
+    {
+      "name": "Elena T.",
+      "city": "Brno"
+    },
+    {
+      "name": "Martina K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Kateřina J.",
+      "city": "Brno"
+    },
+    {
+      "name": "Anna K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Miroslava G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Zuzana R.",
+      "city": ""
+    },
+    {
+      "name": "Petr S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Štěpán Ž.",
+      "city": "Odry"
+    },
+    {
+      "name": "Vendula S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Roman L.",
+      "city": "Brno"
+    },
+    {
+      "name": "Zuzaba F.",
+      "city": "Brno"
+    },
+    {
+      "name": "Daniela P.",
+      "city": "Ostrava"
+    },
+    {
+      "name": "Leoš D.",
+      "city": "Brno 2"
+    },
+    {
+      "name": "Magdaléna D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Hana S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Pamela M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Sylwia W.",
+      "city": "Brno"
+    },
+    {
+      "name": "Zuzana H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Staňa K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Eva L.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jana V.",
+      "city": ""
+    },
+    {
+      "name": "Jan B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Petr N.",
+      "city": "Vyškov"
+    },
+    {
+      "name": "Kateřina S.",
+      "city": "Střelice u Brna"
+    }
+  ]
 }

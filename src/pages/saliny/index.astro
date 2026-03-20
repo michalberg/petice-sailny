@@ -409,7 +409,7 @@ const signers = sigData.signers.length > 0 ? sigData.signers : demoSigners;
     return Math.max(100, Math.ceil(n * 3 / 100) * 100);
   }
 
-  if (count > 20) {
+  if (count > 0) {
     const goal = calcGoal(count);
     document.getElementById("counter-section").classList.remove("hidden");
     document.getElementById("signature-count").textContent = count.toLocaleString("cs-CZ");

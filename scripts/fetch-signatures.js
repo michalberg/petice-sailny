@@ -9,6 +9,8 @@ if (!apiKey) {
   process.exit(1);
 }
 
+const headers = { "OSDI-API-Token": apiKey };
+
 const config = JSON.parse(readFileSync("src/config/petition.json", "utf8"));
 const { endpoint_id: formId, type = "petition" } = config.action_network;
 
@@ -17,7 +19,7 @@ const submissionsPath = type === "petition" ? "signatures" : "submissions";
 
 const res = await fetch(
   `https://actionnetwork.org/api/v2/${path}/${formId}/${submissionsPath}/?per_page=25&page=1`,
-  { headers: { "OSDI-API-Token": apiKey } }
+  { headers }
 );
 
 if (!res.ok) {
@@ -31,10 +33,17 @@ const count = data.total_records ?? 0;
 const embeddedKey = type === "petition" ? "osdi:signatures" : "osdi:submissions";
 const submissions = data._embedded?.[embeddedKey] ?? [];
 
-const signers = submissions
-  .map((s) => {
-    const person = s._embedded?.["osdi:person"];
-    if (!person) return null;
+// Dotáhnout data každé osoby paralelně
+const personUrls = submissions
+  .map((s) => s._links?.["osdi:person"]?.href)
+  .filter(Boolean);
+
+const people = await Promise.all(
+  personUrls.map((url) => fetch(url, { headers }).then((r) => r.json()))
+);
+
+const signers = people
+  .map((person) => {
     const firstName = person.given_name ?? "";
     const lastName = person.family_name ?? "";
     const city =
