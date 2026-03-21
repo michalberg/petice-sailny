@@ -1,6 +1,22 @@
 {
-  "count": 90,
+  "count": 94,
   "signers": [
+    {
+      "name": "Kateřina K.",
+      "city": "Brno"
+    },
+    {
+      "name": "David S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vojtěch L.",
+      "city": "Brno"
+    },
+    {
+      "name": "Daniel F.",
+      "city": "Brno"
+    },
     {
       "name": "Luboš M.",
       "city": "Brno"
@@ -84,22 +100,6 @@
     {
       "name": "Milan G.",
       "city": "Kamenný Újezd"
-    },
-    {
-      "name": "Lukáš S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Iva S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Kristýna K.",
-      "city": "Brno"
-    },
-    {
-      "name": "David N.",
-      "city": "Brno"
     }
   ]
 }
