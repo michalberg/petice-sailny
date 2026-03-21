@@ -310,7 +310,7 @@ const signers = sigData.signers.length > 0 ? sigData.signers : demoSigners;
         postal_addresses: [{ locality, country: "CZ" }],
       },
       add_tags: tags,
-      ...(message ? { comment: message } : {}),
+      ...(message ? { comments: message } : {}),
     };
 
     try {
