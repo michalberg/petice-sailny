@@ -1,6 +1,46 @@
 {
-  "count": 191,
+  "count": 201,
   "signers": [
+    {
+      "name": "Petr K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Lucie A.",
+      "city": "Rosice"
+    },
+    {
+      "name": "Zuzana B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Petra K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jan D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michaela B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Karel H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Johana Z.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tomáš M.",
+      "city": "Zlín"
+    },
+    {
+      "name": "Ladislav J.",
+      "city": "Brno"
+    },
     {
       "name": "David S.",
       "city": "Brno"
@@ -60,46 +100,6 @@
     {
       "name": "Ondřej K.",
       "city": "Blansko"
-    },
-    {
-      "name": "Eliška H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Matěj D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Dominik L.",
-      "city": "Brno"
-    },
-    {
-      "name": "Martin B.",
-      "city": "Česká"
-    },
-    {
-      "name": "Barbora V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ondřej Z.",
-      "city": "Bílovice nad Svitavou"
-    },
-    {
-      "name": "Maroš F.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tereza N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Šárka K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jan Š.",
-      "city": "Brno"
     }
   ]
 }
