@@ -2,8 +2,7 @@
   "main": [
     { "name": "Úvod", "url": "#intro" },
     { "name": "Podepsat petici", "url": "#petice" },
-    { "name": "V Evropě to jde", "url": "#alternativy" },
-    { "name": "Kdo za peticí stojí?", "url": "#autori" }
+    { "name": "V Evropě to jde", "url": "#alternativy" }
   ],
   "footer": [
     {
