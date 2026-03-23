@@ -1,6 +1,50 @@
 {
-  "count": 224,
+  "count": 235,
   "signers": [
+    {
+      "name": "JAN H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Barbora P.",
+      "city": "Vsetín"
+    },
+    {
+      "name": "Jakub H.",
+      "city": "BRNO"
+    },
+    {
+      "name": "Jan Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jiří P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Martin V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Daniel T.",
+      "city": "Ostrava"
+    },
+    {
+      "name": "Michal M.",
+      "city": "Tišnov"
+    },
+    {
+      "name": "Dušan K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tereza H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Radovan R.",
+      "city": "Brno"
+    },
     {
       "name": "Soňa F.",
       "city": "Brno"
@@ -56,50 +100,6 @@
     {
       "name": "Jakub Š.",
       "city": "Brno"
-    },
-    {
-      "name": "Luboš H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Dominik K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jožik S.",
-      "city": "Brno"
-    },
-    {
-      "name": "František B.",
-      "city": "Prostějov"
-    },
-    {
-      "name": "Lukáš S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Nela O.",
-      "city": "Brno"
-    },
-    {
-      "name": "Mirka N.",
-      "city": "Zborovice-Medlov"
-    },
-    {
-      "name": "Lucie K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Josef H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petr K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lucie A.",
-      "city": "Rosice"
     }
   ]
 }
