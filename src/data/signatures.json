@@ -1,6 +1,62 @@
 {
-  "count": 235,
+  "count": 249,
   "signers": [
+    {
+      "name": "Barbora N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michal M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Pavel ..",
+      "city": "Brno"
+    },
+    {
+      "name": "Stela D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Martin N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Šárka M.",
+      "city": "Říčany"
+    },
+    {
+      "name": "Radim G.",
+      "city": "BRNO 2"
+    },
+    {
+      "name": "Nela H.",
+      "city": "Moravské Knínice"
+    },
+    {
+      "name": "Roman R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Karla H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Luboš D.",
+      "city": "Šebetov"
+    },
+    {
+      "name": "Marek P.",
+      "city": "Šlapanice"
+    },
+    {
+      "name": "Alena T.",
+      "city": "Brno"
+    },
+    {
+      "name": "Světlana Z.",
+      "city": "Žabčice"
+    },
     {
       "name": "JAN H.",
       "city": "Brno"
@@ -43,62 +99,6 @@
     },
     {
       "name": "Radovan R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Soňa F.",
-      "city": "Brno"
-    },
-    {
-      "name": "Roman M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Markéta B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Natálie H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ruth K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Alžběta K.",
-      "city": "Brno"
-    },
-    {
-      "name": "René Č.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petra V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Anežka N.",
-      "city": "Miroslav"
-    },
-    {
-      "name": "Petr P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jan K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Sabina E.",
-      "city": "Brno"
-    },
-    {
-      "name": "Natálie S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jakub Š.",
       "city": "Brno"
     }
   ]
