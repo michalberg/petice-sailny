@@ -1,6 +1,66 @@
 {
-  "count": 254,
+  "count": 269,
   "signers": [
+    {
+      "name": "Ivana Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Kremena T.",
+      "city": ""
+    },
+    {
+      "name": "Vojtěch S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michaela S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jakub B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jan P.",
+      "city": "Židlochovice"
+    },
+    {
+      "name": "Magda D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Cass S.",
+      "city": "Chrudim"
+    },
+    {
+      "name": "Milada K.",
+      "city": "Brno"
+    },
+    {
+      "name": "David P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ondřej F.",
+      "city": "Ústí nad Orlicí"
+    },
+    {
+      "name": "František T.",
+      "city": "Letovice"
+    },
+    {
+      "name": "Adel Š.",
+      "city": "žabovřesky"
+    },
+    {
+      "name": "Tereza D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Štěpánka S.",
+      "city": "Hustopeče u Brna"
+    },
     {
       "name": "Julie K.",
       "city": "Brno"
@@ -39,66 +99,6 @@
     },
     {
       "name": "Martin N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Šárka M.",
-      "city": "Říčany"
-    },
-    {
-      "name": "Radim G.",
-      "city": "BRNO 2"
-    },
-    {
-      "name": "Nela H.",
-      "city": "Moravské Knínice"
-    },
-    {
-      "name": "Roman R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Karla H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Luboš D.",
-      "city": "Šebetov"
-    },
-    {
-      "name": "Marek P.",
-      "city": "Šlapanice"
-    },
-    {
-      "name": "Alena T.",
-      "city": "Brno"
-    },
-    {
-      "name": "Světlana Z.",
-      "city": "Žabčice"
-    },
-    {
-      "name": "JAN H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Barbora P.",
-      "city": "Vsetín"
-    },
-    {
-      "name": "Jakub H.",
-      "city": "BRNO"
-    },
-    {
-      "name": "Jan Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jiří P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Martin V.",
       "city": "Brno"
     }
   ]
