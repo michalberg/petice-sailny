@@ -1,6 +1,50 @@
 {
-  "count": 278,
+  "count": 288,
   "signers": [
+    {
+      "name": "Radim C.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jasna C.",
+      "city": "Brno"
+    },
+    {
+      "name": "Hana P.",
+      "city": "Vír"
+    },
+    {
+      "name": "Radka S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Adam S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Elisabeth S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ondřej F.",
+      "city": "Brno"
+    },
+    {
+      "name": "Eva Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Milan G.",
+      "city": "Kamenný Újezd"
+    },
+    {
+      "name": "Anna Z.",
+      "city": "Brno"
+    },
+    {
+      "name": "Libor S.",
+      "city": "Brno"
+    },
     {
       "name": "Hana F.",
       "city": "Brno"
@@ -55,50 +99,6 @@
     },
     {
       "name": "Jakub B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jan P.",
-      "city": "Židlochovice"
-    },
-    {
-      "name": "Magda D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Cass S.",
-      "city": "Chrudim"
-    },
-    {
-      "name": "Milada K.",
-      "city": "Brno"
-    },
-    {
-      "name": "David P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ondřej F.",
-      "city": "Ústí nad Orlicí"
-    },
-    {
-      "name": "František T.",
-      "city": "Letovice"
-    },
-    {
-      "name": "Adel Š.",
-      "city": "žabovřesky"
-    },
-    {
-      "name": "Tereza D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Štěpánka S.",
-      "city": "Hustopeče u Brna"
-    },
-    {
-      "name": "Julie K.",
       "city": "Brno"
     }
   ]
