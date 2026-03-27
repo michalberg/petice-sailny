@@ -301,6 +301,7 @@ const signers = sigData.signers.length > 0 ? sigData.signers : demoSigners;
     submitBtn.textContent = submittingText;
     submitBtn.disabled = true;
 
+    const utmSource = new URLSearchParams(window.location.search).get("utm_source");
     const body = {
       person: {
         given_name: givenName,
@@ -311,6 +312,7 @@ const signers = sigData.signers.length > 0 ? sigData.signers : demoSigners;
       },
       add_tags: tags,
       ...(message ? { comments: message } : {}),
+      ...(utmSource ? { "action_network:referrer_data": { source: utmSource } } : {}),
     };
 
     try {
