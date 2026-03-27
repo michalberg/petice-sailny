@@ -1,6 +1,62 @@
 {
-  "count": 540,
+  "count": 554,
   "signers": [
+    {
+      "name": "Christine H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Eliška P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Štefan T.",
+      "city": "Brno"
+    },
+    {
+      "name": "Filip G.",
+      "city": "Žilina"
+    },
+    {
+      "name": "Tamara T.",
+      "city": "Brno"
+    },
+    {
+      "name": "Adéla Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Adam Z.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michal K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Kristýna C.",
+      "city": "Brno"
+    },
+    {
+      "name": "Albert V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Yvona H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jan K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Adam K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Petr H.",
+      "city": "Brno"
+    },
     {
       "name": "Marcel G.",
       "city": ""
@@ -43,62 +99,6 @@
     },
     {
       "name": "Anna D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Andrej K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Natálie H.",
-      "city": "Brno-sever"
-    },
-    {
-      "name": "Filip M.",
-      "city": "Studénka"
-    },
-    {
-      "name": "Iva P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Filip H.",
-      "city": "Brno-sever"
-    },
-    {
-      "name": "Ludmiła Č.",
-      "city": "Brno-střed"
-    },
-    {
-      "name": "Romana K.",
-      "city": "Hustopeče"
-    },
-    {
-      "name": "Milan D.",
-      "city": "Brno"
-    },
-    {
-      "name": "David V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Andrea H.",
-      "city": "Brno"
-    },
-    {
-      "name": "David V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Nikola L.",
-      "city": "Řícmanice"
-    },
-    {
-      "name": "Samuel B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Artem D.",
       "city": "Brno"
     }
   ]
