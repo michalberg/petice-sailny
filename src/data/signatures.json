@@ -1,6 +1,50 @@
 {
-  "count": 608,
+  "count": 618,
   "signers": [
+    {
+      "name": "Ján Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Lenka C.",
+      "city": "Brno-střed"
+    },
+    {
+      "name": "Alžběta K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Pavel H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Petra C.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tomáš K.",
+      "city": "Horní Cerekev"
+    },
+    {
+      "name": "Martin Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jitka K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ondřej P.",
+      "city": "Veverská Bítýška"
+    },
+    {
+      "name": "Nikola J.",
+      "city": "Brno"
+    },
+    {
+      "name": "Veronika V.",
+      "city": "Brno"
+    },
     {
       "name": "Anna K.",
       "city": "Brno"
@@ -56,50 +100,6 @@
     {
       "name": "Daniel K.",
       "city": "Hradec Králové"
-    },
-    {
-      "name": "Dagmar K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jiří N.",
-      "city": "Třebíč"
-    },
-    {
-      "name": "Lenka Ř.",
-      "city": "Brno"
-    },
-    {
-      "name": "Radim N.",
-      "city": "Prostějov"
-    },
-    {
-      "name": "Linda V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Věra G.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petr K.",
-      "city": "Střelice"
-    },
-    {
-      "name": "Adam P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Marie S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Niki K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Klára K.",
-      "city": "Říčany"
     }
   ]
 }
