@@ -1,6 +1,42 @@
 {
-  "count": 590,
+  "count": 599,
   "signers": [
+    {
+      "name": "Jiří N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vanessa K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Daniela U.",
+      "city": "Brno"
+    },
+    {
+      "name": "Štěpán K.",
+      "city": ""
+    },
+    {
+      "name": "Daniel K.",
+      "city": "Hradec Králové"
+    },
+    {
+      "name": "Dagmar K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jiří N.",
+      "city": "Třebíč"
+    },
+    {
+      "name": "Lenka Ř.",
+      "city": "Brno"
+    },
+    {
+      "name": "Radim N.",
+      "city": "Prostějov"
+    },
     {
       "name": "Linda V.",
       "city": "Brno"
@@ -63,42 +99,6 @@
     },
     {
       "name": "Klára C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Heda Ř.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tadeáš J.",
-      "city": "Josefov"
-    },
-    {
-      "name": "Markéta J.",
-      "city": "Brno"
-    },
-    {
-      "name": "David L.",
-      "city": "Brno"
-    },
-    {
-      "name": "David L.",
-      "city": "Velké Meziříčí"
-    },
-    {
-      "name": "Martin R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jana P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Monika V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Viktorie L.",
       "city": "Brno"
     }
   ]
