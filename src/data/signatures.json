@@ -1,6 +1,58 @@
 {
-  "count": 577,
+  "count": 590,
   "signers": [
+    {
+      "name": "Linda V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Věra G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Petr K.",
+      "city": "Střelice"
+    },
+    {
+      "name": "Adam P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Marie S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Niki K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Klára K.",
+      "city": "Říčany"
+    },
+    {
+      "name": "Ema F.",
+      "city": "Brno"
+    },
+    {
+      "name": "Filip V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Dominik B.",
+      "city": "Gouda"
+    },
+    {
+      "name": "Marek Š.",
+      "city": "Kovalovice"
+    },
+    {
+      "name": "Tereza J.",
+      "city": "Brno"
+    },
+    {
+      "name": "Petra Š.",
+      "city": "Brno"
+    },
     {
       "name": "Kornél M.",
       "city": "Brno"
@@ -47,58 +99,6 @@
     },
     {
       "name": "Viktorie L.",
-      "city": "Brno"
-    },
-    {
-      "name": "Patrik B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ludmila D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Antonín D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Svatava D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Magdalena S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Apolena D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petra L.",
-      "city": "Brno 23"
-    },
-    {
-      "name": "Blanka S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vojtěch R.",
-      "city": "Brno-jih"
-    },
-    {
-      "name": "marie g.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eliška S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Štěpánka M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Christine H.",
       "city": "Brno"
     }
   ]
