@@ -1,6 +1,42 @@
 {
-  "count": 599,
+  "count": 608,
   "signers": [
+    {
+      "name": "Anna K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Aneta J.",
+      "city": "Brno"
+    },
+    {
+      "name": "Adam S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Marta E.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vít P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Marta E.",
+      "city": "Brno"
+    },
+    {
+      "name": "Cyril H.",
+      "city": "Praha"
+    },
+    {
+      "name": "Martin C.",
+      "city": "Brno"
+    },
+    {
+      "name": "Veronika P.",
+      "city": "Brno"
+    },
     {
       "name": "Jiří N.",
       "city": "Brno"
@@ -64,42 +100,6 @@
     {
       "name": "Klára K.",
       "city": "Říčany"
-    },
-    {
-      "name": "Ema F.",
-      "city": "Brno"
-    },
-    {
-      "name": "Filip V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Dominik B.",
-      "city": "Gouda"
-    },
-    {
-      "name": "Marek Š.",
-      "city": "Kovalovice"
-    },
-    {
-      "name": "Tereza J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petra Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Kornél M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Andrej K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Klára C.",
-      "city": "Brno"
     }
   ]
 }
