@@ -1,6 +1,38 @@
 {
-  "count": 732,
+  "count": 739,
   "signers": [
+    {
+      "name": "René R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Pavel K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Denis P.",
+      "city": "Krakovany"
+    },
+    {
+      "name": "Miroslav C.",
+      "city": "Brno"
+    },
+    {
+      "name": "Marta E.",
+      "city": "Brno"
+    },
+    {
+      "name": "Sara S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Sarah G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Zdeňka U.",
+      "city": "Brno"
+    },
     {
       "name": "Jaromír F.",
       "city": "Mimoň (Mimoň I)"
@@ -68,38 +100,6 @@
     {
       "name": "Jolana J.",
       "city": "Tišnov"
-    },
-    {
-      "name": "Lukáš H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Zdeňka D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Viktória B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Rastislav R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ema N.",
-      "city": "Předklášteří"
-    },
-    {
-      "name": "Jakub V.",
-      "city": "Podolí"
-    },
-    {
-      "name": "Christopher K.",
-      "city": ""
-    },
-    {
-      "name": "Jana K.",
-      "city": "Brno-střed"
     }
   ]
 }
