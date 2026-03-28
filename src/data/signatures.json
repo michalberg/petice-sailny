@@ -1,6 +1,50 @@
 {
-  "count": 686,
+  "count": 697,
   "signers": [
+    {
+      "name": "Petr U.",
+      "city": "Králíky"
+    },
+    {
+      "name": "Martin R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Alena K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Nikol M.",
+      "city": "Vyškov"
+    },
+    {
+      "name": "Ludmila C.",
+      "city": "Rovečné"
+    },
+    {
+      "name": "Jakub K.",
+      "city": "Praha"
+    },
+    {
+      "name": "Stella K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Nathan U.",
+      "city": "Brno"
+    },
+    {
+      "name": "Janette Ř.",
+      "city": "Bolatice"
+    },
+    {
+      "name": "Natálie S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Karolína Š.",
+      "city": "Brno"
+    },
     {
       "name": "Martina D.",
       "city": "␀"
@@ -55,50 +99,6 @@
     },
     {
       "name": "Kateřina M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jan S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tereza S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Kamila Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Terezie K.",
-      "city": "Brno"
-    },
-    {
-      "name": "barbora f.",
-      "city": "brno"
-    },
-    {
-      "name": "Pavla N.",
-      "city": "Kostelec nad Černými lesy"
-    },
-    {
-      "name": "Pavla H.",
-      "city": "Praha"
-    },
-    {
-      "name": "Kristina O.",
-      "city": "Ochoz u Brna"
-    },
-    {
-      "name": "Terezie S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Karolína K.",
-      "city": "Želešice"
-    },
-    {
-      "name": "Veronika Š.",
       "city": "Brno"
     }
   ]
