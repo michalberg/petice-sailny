@@ -1,6 +1,26 @@
 {
-  "count": 681,
+  "count": 686,
   "signers": [
+    {
+      "name": "Martina D.",
+      "city": "␀"
+    },
+    {
+      "name": "Anna V.",
+      "city": "Brno - Veveří"
+    },
+    {
+      "name": "Max M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Marek K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Diana N.",
+      "city": "Brno"
+    },
     {
       "name": "Michal O.",
       "city": "Brno"
@@ -79,26 +99,6 @@
     },
     {
       "name": "Veronika Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Martin B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Sylvie Š.",
-      "city": "Nrno"
-    },
-    {
-      "name": "Dean O.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jaroslav M.",
-      "city": "Karlovy Vary"
-    },
-    {
-      "name": "Karolína S.",
       "city": "Brno"
     }
   ]
