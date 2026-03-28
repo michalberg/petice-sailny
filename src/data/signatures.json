@@ -1,6 +1,30 @@
 {
-  "count": 640,
+  "count": 646,
   "signers": [
+    {
+      "name": "Martina V.",
+      "city": "Drnovice"
+    },
+    {
+      "name": "Veronika A.",
+      "city": "Hrušovany u Brna"
+    },
+    {
+      "name": "Zuzana T.",
+      "city": "Brno"
+    },
+    {
+      "name": "Robert Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Eva L.",
+      "city": "Řícmanice"
+    },
+    {
+      "name": "Eliška B.",
+      "city": "Ostrava"
+    },
     {
       "name": "Vít P.",
       "city": "Brno 25"
@@ -76,30 +100,6 @@
     {
       "name": "Michael Alex S.",
       "city": "Bratislava"
-    },
-    {
-      "name": "Adriana J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Júlia H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eden M.",
-      "city": "Krnov"
-    },
-    {
-      "name": "Andrej Antonín H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ján Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lenka C.",
-      "city": "Brno-střed"
     }
   ]
 }
