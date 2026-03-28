@@ -1,6 +1,58 @@
 {
-  "count": 653,
+  "count": 666,
   "signers": [
+    {
+      "name": "Kristina O.",
+      "city": "Ochoz u Brna"
+    },
+    {
+      "name": "Terezie S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Karolína K.",
+      "city": "Želešice"
+    },
+    {
+      "name": "Veronika Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Martin B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Sylvie Š.",
+      "city": "Nrno"
+    },
+    {
+      "name": "Dean O.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jaroslav M.",
+      "city": "Karlovy Vary"
+    },
+    {
+      "name": "Karolína S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ilona V.",
+      "city": "Praha"
+    },
+    {
+      "name": "Michaela M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Adéla Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Emerie Satine R.",
+      "city": "Ostrava"
+    },
     {
       "name": "Šárka S.",
       "city": "Brno"
@@ -48,58 +100,6 @@
     {
       "name": "Eva L.",
       "city": "Řícmanice"
-    },
-    {
-      "name": "Eliška B.",
-      "city": "Ostrava"
-    },
-    {
-      "name": "Vít P.",
-      "city": "Brno 25"
-    },
-    {
-      "name": "Daniel Č.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lucie D.",
-      "city": "Hustopeče"
-    },
-    {
-      "name": "Eliška K.",
-      "city": "Vyškov"
-    },
-    {
-      "name": "Maxime M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jana M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Zuzana M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Zuzana M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Alžběta S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lucie N.",
-      "city": "Mikulov"
-    },
-    {
-      "name": "Roman H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jiří C.",
-      "city": "Brno"
     }
   ]
 }
