@@ -1,6 +1,22 @@
 {
-  "count": 728,
+  "count": 732,
   "signers": [
+    {
+      "name": "Jaromír F.",
+      "city": "Mimoň (Mimoň I)"
+    },
+    {
+      "name": "Markéta Z.",
+      "city": "Brno"
+    },
+    {
+      "name": "Sofie N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Eva O.",
+      "city": "Brno"
+    },
     {
       "name": "Sylva F.",
       "city": "Brno"
@@ -84,22 +100,6 @@
     {
       "name": "Jana K.",
       "city": "Brno-střed"
-    },
-    {
-      "name": "Hana K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jakub J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Anežka K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Veronika M.",
-      "city": "Brno"
     }
   ]
 }
