@@ -1,6 +1,58 @@
 {
-  "count": 666,
+  "count": 678,
   "signers": [
+    {
+      "name": "Petra B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Sofia B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Martin K.",
+      "city": "Brno"
+    },
+    {
+      "name": "markéta z.",
+      "city": "Brno"
+    },
+    {
+      "name": "Martin U.",
+      "city": "Brno"
+    },
+    {
+      "name": "Kateřina M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jan S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tereza S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Kamila Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Terezie K.",
+      "city": "Brno"
+    },
+    {
+      "name": "barbora f.",
+      "city": "brno"
+    },
+    {
+      "name": "Pavla N.",
+      "city": "Kostelec nad Černými lesy"
+    },
+    {
+      "name": "Pavla H.",
+      "city": "Praha"
+    },
     {
       "name": "Kristina O.",
       "city": "Ochoz u Brna"
@@ -48,58 +100,6 @@
     {
       "name": "Adéla Š.",
       "city": "Brno"
-    },
-    {
-      "name": "Emerie Satine R.",
-      "city": "Ostrava"
-    },
-    {
-      "name": "Šárka S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jan P.",
-      "city": "Děčín"
-    },
-    {
-      "name": "Miriam R.",
-      "city": "Kanice"
-    },
-    {
-      "name": "Adéla P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Daniel H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eliška P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eva S.",
-      "city": "Šlapanice"
-    },
-    {
-      "name": "Martina V.",
-      "city": "Drnovice"
-    },
-    {
-      "name": "Veronika A.",
-      "city": "Hrušovany u Brna"
-    },
-    {
-      "name": "Zuzana T.",
-      "city": "Brno"
-    },
-    {
-      "name": "Robert Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eva L.",
-      "city": "Řícmanice"
     }
   ]
 }
