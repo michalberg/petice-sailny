@@ -1,6 +1,18 @@
 {
-  "count": 754,
+  "count": 757,
   "signers": [
+    {
+      "name": "Henrieta V.",
+      "city": "Lovčičky"
+    },
+    {
+      "name": "Hana Ř.",
+      "city": "Svitavy"
+    },
+    {
+      "name": "Marie B.",
+      "city": "Brno"
+    },
     {
       "name": "Jana H.",
       "city": "Brno"
@@ -88,18 +100,6 @@
     {
       "name": "Sara S.",
       "city": "Brno"
-    },
-    {
-      "name": "Sarah G.",
-      "city": "Brno"
-    },
-    {
-      "name": "Zdeňka U.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jaromír F.",
-      "city": "Mimoň (Mimoň I)"
     }
   ]
 }
