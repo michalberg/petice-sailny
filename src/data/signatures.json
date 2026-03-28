@@ -1,6 +1,10 @@
 {
-  "count": 721,
+  "count": 722,
   "signers": [
+    {
+      "name": "Eva H.",
+      "city": "Dubaňany"
+    },
     {
       "name": "Tereza K.",
       "city": "Brni"
@@ -96,10 +100,6 @@
     {
       "name": "Karel O.",
       "city": "Brno"
-    },
-    {
-      "name": "Petr U.",
-      "city": "Králíky"
     }
   ]
 }
