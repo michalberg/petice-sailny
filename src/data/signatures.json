@@ -1,6 +1,98 @@
 {
-  "count": 618,
+  "count": 640,
   "signers": [
+    {
+      "name": "Vít P.",
+      "city": "Brno 25"
+    },
+    {
+      "name": "Daniel Č.",
+      "city": "Brno"
+    },
+    {
+      "name": "Lucie D.",
+      "city": "Hustopeče"
+    },
+    {
+      "name": "Eliška K.",
+      "city": "Vyškov"
+    },
+    {
+      "name": "Maxime M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jana M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Zuzana M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Zuzana M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Alžběta S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Lucie N.",
+      "city": "Mikulov"
+    },
+    {
+      "name": "Roman H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jiří C.",
+      "city": "Brno"
+    },
+    {
+      "name": "Lukáš D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Anna Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Marek M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Natálie Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jan S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Dorota K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michael Alex S.",
+      "city": "Bratislava"
+    },
+    {
+      "name": "Adriana J.",
+      "city": "Brno"
+    },
+    {
+      "name": "Júlia H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Eden M.",
+      "city": "Krnov"
+    },
+    {
+      "name": "Andrej Antonín H.",
+      "city": "Brno"
+    },
     {
       "name": "Ján Š.",
       "city": "Brno"
@@ -8,98 +100,6 @@
     {
       "name": "Lenka C.",
       "city": "Brno-střed"
-    },
-    {
-      "name": "Alžběta K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Pavel H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petra C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tomáš K.",
-      "city": "Horní Cerekev"
-    },
-    {
-      "name": "Martin Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jitka K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ondřej P.",
-      "city": "Veverská Bítýška"
-    },
-    {
-      "name": "Nikola J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Veronika V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Anna K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Aneta J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Adam S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Marta E.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vít P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Marta E.",
-      "city": "Brno"
-    },
-    {
-      "name": "Cyril H.",
-      "city": "Praha"
-    },
-    {
-      "name": "Martin C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Veronika P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jiří N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vanessa K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Daniela U.",
-      "city": "Brno"
-    },
-    {
-      "name": "Štěpán K.",
-      "city": ""
-    },
-    {
-      "name": "Daniel K.",
-      "city": "Hradec Králové"
     }
   ]
 }
