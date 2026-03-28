@@ -1,6 +1,18 @@
 {
-  "count": 678,
+  "count": 681,
   "signers": [
+    {
+      "name": "Michal O.",
+      "city": "Brno"
+    },
+    {
+      "name": "Marie K.",
+      "city": "Bratronice"
+    },
+    {
+      "name": "Anežka H.",
+      "city": "Prušánky"
+    },
     {
       "name": "Petra B.",
       "city": "Brno"
@@ -87,18 +99,6 @@
     },
     {
       "name": "Karolína S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ilona V.",
-      "city": "Praha"
-    },
-    {
-      "name": "Michaela M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Adéla Š.",
       "city": "Brno"
     }
   ]
