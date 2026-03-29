@@ -1,6 +1,34 @@
 {
-  "count": 777,
+  "count": 784,
   "signers": [
+    {
+      "name": "Lucie B.",
+      "city": "Kunovice"
+    },
+    {
+      "name": "Svatava Š.",
+      "city": "Rájec Jestřebí"
+    },
+    {
+      "name": "Jakub S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ondřej Z.",
+      "city": "Brno"
+    },
+    {
+      "name": "Viktorie U.",
+      "city": "Přerov"
+    },
+    {
+      "name": "Matěj Z.",
+      "city": "Brno"
+    },
+    {
+      "name": "Kateřina M.",
+      "city": "Brno"
+    },
     {
       "name": "Nicole P.",
       "city": "Brno"
@@ -71,34 +99,6 @@
     },
     {
       "name": "Tomáš W.",
-      "city": "Brno"
-    },
-    {
-      "name": "Markéta S.",
-      "city": "Vranov"
-    },
-    {
-      "name": "Ondřej F.",
-      "city": "Ústí nad Orlicí"
-    },
-    {
-      "name": "Vladimír Ž.",
-      "city": "Brno"
-    },
-    {
-      "name": "Henrieta V.",
-      "city": "Lovčičky"
-    },
-    {
-      "name": "Hana Ř.",
-      "city": "Svitavy"
-    },
-    {
-      "name": "Marie B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jana H.",
       "city": "Brno"
     }
   ]
