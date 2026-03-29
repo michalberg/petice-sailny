@@ -1,6 +1,14 @@
 {
-  "count": 772,
+  "count": 774,
   "signers": [
+    {
+      "name": "Jana Z.",
+      "city": "Brno"
+    },
+    {
+      "name": "Milada N.",
+      "city": "Pavlov"
+    },
     {
       "name": "Lucie K.",
       "city": ""
@@ -92,14 +100,6 @@
     {
       "name": "Soňa K.",
       "city": "Vyškov"
-    },
-    {
-      "name": "Julie O.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lenka T.",
-      "city": "Modřice"
     }
   ]
 }
