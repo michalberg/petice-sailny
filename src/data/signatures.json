@@ -1,6 +1,66 @@
 {
-  "count": 757,
+  "count": 771,
   "signers": [
+    {
+      "name": "Andrea H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Liliana H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Adriana J.",
+      "city": "Brno"
+    },
+    {
+      "name": "Anna V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Gunes B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jan R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Daniela H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Polina Š.",
+      "city": "Brno 2"
+    },
+    {
+      "name": "Aleš S.",
+      "city": "Ořechov"
+    },
+    {
+      "name": "Charlotte Š.",
+      "city": "Vranov"
+    },
+    {
+      "name": "Radim S.",
+      "city": "Vraní"
+    },
+    {
+      "name": "Tomáš W.",
+      "city": "Brno"
+    },
+    {
+      "name": "Markéta S.",
+      "city": "Vranov"
+    },
+    {
+      "name": "Ondřej F.",
+      "city": "Ústí nad Orlicí"
+    },
+    {
+      "name": "Vladimír Ž.",
+      "city": "Brno"
+    },
     {
       "name": "Henrieta V.",
       "city": "Lovčičky"
@@ -39,66 +99,6 @@
     },
     {
       "name": "Matěj P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jindrich F.",
-      "city": "Brno"
-    },
-    {
-      "name": "Natalie S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Michael K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Roman R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ondřej G.",
-      "city": "Brno"
-    },
-    {
-      "name": "Nikola N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Dagmar A.",
-      "city": "Brno"
-    },
-    {
-      "name": "Míchal J.",
-      "city": "Kyjov"
-    },
-    {
-      "name": "Tomáš Z.",
-      "city": "Brno"
-    },
-    {
-      "name": "René R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Pavel K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Denis P.",
-      "city": "Krakovany"
-    },
-    {
-      "name": "Miroslav C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Marta E.",
-      "city": "Brno"
-    },
-    {
-      "name": "Sara S.",
       "city": "Brno"
     }
   ]
