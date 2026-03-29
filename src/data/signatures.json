@@ -1,6 +1,62 @@
 {
-  "count": 784,
+  "count": 798,
   "signers": [
+    {
+      "name": "Jamie G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Petr Z.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ema P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jan M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Matěj B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Josef J.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tobias V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Eva J.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jaroslava O.",
+      "city": "Rovečné"
+    },
+    {
+      "name": "Isa O.",
+      "city": "Rovečné"
+    },
+    {
+      "name": "Blanka P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jana S.",
+      "city": "Brno oko"
+    },
+    {
+      "name": "Martina R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michaela E.",
+      "city": "Brno"
+    },
     {
       "name": "Lucie B.",
       "city": "Kunovice"
@@ -43,62 +99,6 @@
     },
     {
       "name": "Jana Z.",
-      "city": "Brno"
-    },
-    {
-      "name": "Milada N.",
-      "city": "Pavlov"
-    },
-    {
-      "name": "Lucie K.",
-      "city": ""
-    },
-    {
-      "name": "Andrea H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Liliana H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Adriana J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Anna V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Gunes B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jan R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Daniela H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Polina Š.",
-      "city": "Brno 2"
-    },
-    {
-      "name": "Aleš S.",
-      "city": "Ořechov"
-    },
-    {
-      "name": "Charlotte Š.",
-      "city": "Vranov"
-    },
-    {
-      "name": "Radim S.",
-      "city": "Vraní"
-    },
-    {
-      "name": "Tomáš W.",
       "city": "Brno"
     }
   ]
