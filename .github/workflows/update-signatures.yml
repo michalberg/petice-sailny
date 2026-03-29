@@ -2,7 +2,7 @@ name: Aktualizovat počet podpisů
 
 on:
   schedule:
-    - cron: "0 */4 * * *"  # každé 4 hodiny
+    - cron: "0 5,8,11,14,17,20 * * *"  # 7,10,13,16,19,22 CZ (UTC+2)
   workflow_dispatch:          # ruční spuštění
 
 permissions:
