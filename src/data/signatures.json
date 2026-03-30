@@ -1,6 +1,58 @@
 {
-  "count": 828,
+  "count": 841,
   "signers": [
+    {
+      "name": "Kateřina Š.",
+      "city": "Hrádek"
+    },
+    {
+      "name": "Gabriela S.",
+      "city": "Rousínov"
+    },
+    {
+      "name": "Klára T.",
+      "city": "Brno"
+    },
+    {
+      "name": "Petr S.",
+      "city": "Rozdrojovice"
+    },
+    {
+      "name": "Vendula H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Dorota J.",
+      "city": "Brno"
+    },
+    {
+      "name": "Giovanni Federico G.",
+      "city": ""
+    },
+    {
+      "name": "Jakub Jan V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jana D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Galina S.",
+      "city": "Rozdrojovice"
+    },
+    {
+      "name": "Michaela D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Martina H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Antonie V.",
+      "city": "Brno"
+    },
     {
       "name": "Kira V.",
       "city": "Brno"
@@ -47,58 +99,6 @@
     },
     {
       "name": "Vojtěch L.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vojtěch R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lucie D.",
-      "city": "Bučovice"
-    },
-    {
-      "name": "Adam D.",
-      "city": "Olomouc"
-    },
-    {
-      "name": "Marcel H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Marek T.",
-      "city": "Olomouc"
-    },
-    {
-      "name": "Evelina C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petr S.",
-      "city": "Jihlava"
-    },
-    {
-      "name": "Drahomír S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Michaela P.",
-      "city": "Valašské Meziříčí"
-    },
-    {
-      "name": "Rebecca Sofia Š.",
-      "city": "Moravské Lieskové"
-    },
-    {
-      "name": "Irena B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Klára E.",
-      "city": "Šlapanice"
-    },
-    {
-      "name": "Eliška S.",
       "city": "Brno"
     }
   ]
