@@ -1,6 +1,50 @@
 {
-  "count": 859,
+  "count": 869,
   "signers": [
+    {
+      "name": "Dagmar V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Daniel E.",
+      "city": "Brno"
+    },
+    {
+      "name": "Lola K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Silvie J.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michal K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tereza K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jana M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Andrea R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michal L.",
+      "city": "Brno - Stránice"
+    },
+    {
+      "name": "Karolína R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ľubor P.",
+      "city": "Brno"
+    },
     {
       "name": "Erik H.",
       "city": "Brno"
@@ -56,50 +100,6 @@
     {
       "name": "Radek H.",
       "city": "Brno-střed"
-    },
-    {
-      "name": "Barbora H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Olga O.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tereza K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Pavel Ž.",
-      "city": "Bedřichovice"
-    },
-    {
-      "name": "Kateřina Š.",
-      "city": "Hrádek"
-    },
-    {
-      "name": "Gabriela S.",
-      "city": "Rousínov"
-    },
-    {
-      "name": "Klára T.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petr S.",
-      "city": "Rozdrojovice"
-    },
-    {
-      "name": "Vendula H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Dorota J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Giovanni Federico G.",
-      "city": ""
     }
   ]
 }
