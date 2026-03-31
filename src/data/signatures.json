@@ -1,6 +1,38 @@
 {
-  "count": 886,
+  "count": 894,
   "signers": [
+    {
+      "name": "Valerie H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Oliver K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Markéta M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Liba H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Radim D.",
+      "city": "Nový Malín"
+    },
+    {
+      "name": "Kateřina H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vladimír P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Liliana K.",
+      "city": "Brno"
+    },
     {
       "name": "Anna D.",
       "city": ""
@@ -67,38 +99,6 @@
     },
     {
       "name": "Nikola P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Dagmar V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Daniel E.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lola K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Silvie J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Michal K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tereza K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jana M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Andrea R.",
       "city": "Brno"
     }
   ]
