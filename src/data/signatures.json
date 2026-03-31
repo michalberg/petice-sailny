@@ -1,6 +1,62 @@
 {
-  "count": 894,
+  "count": 908,
   "signers": [
+    {
+      "name": "Anna K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Miroslav S.",
+      "city": "Rozrojovice"
+    },
+    {
+      "name": "Aneta Š.",
+      "city": "Komořany"
+    },
+    {
+      "name": "Tomas D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Marek H.",
+      "city": "Brno-Královo Pole"
+    },
+    {
+      "name": "Jan A.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ema Ž.",
+      "city": "Brno"
+    },
+    {
+      "name": "Marek Z.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michal H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Eliška K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Leona P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Šimom B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Mariia F.",
+      "city": "Brno"
+    },
+    {
+      "name": "Julie J.",
+      "city": "Brno"
+    },
     {
       "name": "Valerie H.",
       "city": "Brno"
@@ -43,62 +99,6 @@
     },
     {
       "name": "Renata H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jana S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petr U.",
-      "city": "Brno"
-    },
-    {
-      "name": "Sofie S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Anna B.",
-      "city": "Sokolnice"
-    },
-    {
-      "name": "Marie Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Anetta N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Saša M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eva D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Anna S.",
-      "city": "Sedlčany"
-    },
-    {
-      "name": "Michaela B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jolana J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Andrew N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jasmin Y.",
-      "city": "Brno"
-    },
-    {
-      "name": "Nikola P.",
       "city": "Brno"
     }
   ]
