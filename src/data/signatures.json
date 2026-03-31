@@ -1,6 +1,18 @@
 {
-  "count": 916,
+  "count": 919,
   "signers": [
+    {
+      "name": "Johana K.",
+      "city": ""
+    },
+    {
+      "name": "Valentýna K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jiří D.",
+      "city": "Brno"
+    },
     {
       "name": "Mariana B.",
       "city": "Vřesina"
@@ -87,18 +99,6 @@
     },
     {
       "name": "Julie J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Valerie H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Oliver K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Markéta M.",
       "city": "Brno"
     }
   ]
