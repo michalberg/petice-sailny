@@ -1,6 +1,26 @@
 {
-  "count": 881,
+  "count": 886,
   "signers": [
+    {
+      "name": "Anna D.",
+      "city": ""
+    },
+    {
+      "name": "Natalie H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Renata H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jana S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Petr U.",
+      "city": "Brno"
+    },
     {
       "name": "Sofie S.",
       "city": "Brno"
@@ -79,26 +99,6 @@
     },
     {
       "name": "Andrea R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Michal L.",
-      "city": "Brno - Stránice"
-    },
-    {
-      "name": "Karolína R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ľubor P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Erik H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Šimon Š.",
       "city": "Brno"
     }
   ]
