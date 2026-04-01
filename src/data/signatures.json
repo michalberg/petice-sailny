@@ -1,6 +1,38 @@
 {
-  "count": 933,
+  "count": 940,
   "signers": [
+    {
+      "name": "Dorota H.",
+      "city": "Trojanovice"
+    },
+    {
+      "name": "Ondřej W.",
+      "city": "Brno-sever"
+    },
+    {
+      "name": "Eva V.",
+      "city": "Olomouc"
+    },
+    {
+      "name": "Jolana W.",
+      "city": "Brno"
+    },
+    {
+      "name": "Marta E.",
+      "city": "Brno"
+    },
+    {
+      "name": "Martin S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Metoděj P.",
+      "city": "Babice nad Svitavou"
+    },
+    {
+      "name": "Alena S.",
+      "city": "Olomučany"
+    },
     {
       "name": "Peška P.",
       "city": "Babice nad Svitavou 143"
@@ -68,38 +100,6 @@
     {
       "name": "Jiří D.",
       "city": "Brno"
-    },
-    {
-      "name": "Mariana B.",
-      "city": "Vřesina"
-    },
-    {
-      "name": "Michal K.",
-      "city": "Tvrdonice"
-    },
-    {
-      "name": "Julie Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Linda Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Dominika K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petr E.",
-      "city": "České Budějovice"
-    },
-    {
-      "name": "Eva J.",
-      "city": "Rrno"
-    },
-    {
-      "name": "Tomáš H.",
-      "city": "Lelekovice"
     }
   ]
 }
