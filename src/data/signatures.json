@@ -1,6 +1,18 @@
 {
-  "count": 928,
+  "count": 931,
   "signers": [
+    {
+      "name": "Vojtěch O.",
+      "city": "Brno"
+    },
+    {
+      "name": "Markéta A.",
+      "city": "Brno"
+    },
+    {
+      "name": "Carlos Ramon Eduardo C.",
+      "city": "Brno"
+    },
     {
       "name": "Luboš A.",
       "city": "BRNO-ŽABOVŘESKY"
@@ -88,18 +100,6 @@
     {
       "name": "Miroslav S.",
       "city": "Rozrojovice"
-    },
-    {
-      "name": "Aneta Š.",
-      "city": "Komořany"
-    },
-    {
-      "name": "Tomas D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Marek H.",
-      "city": "Brno-Královo Pole"
     }
   ]
 }
