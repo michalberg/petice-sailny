@@ -1,6 +1,22 @@
 {
-  "count": 921,
+  "count": 925,
   "signers": [
+    {
+      "name": "Petr V.",
+      "city": "Židlochovice"
+    },
+    {
+      "name": "Marie M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Kryštof B.",
+      "city": ""
+    },
+    {
+      "name": "Jan K.",
+      "city": "Brno"
+    },
     {
       "name": "Samuel P.",
       "city": "Brno"
@@ -83,22 +99,6 @@
     },
     {
       "name": "Marek Z.",
-      "city": "Brno"
-    },
-    {
-      "name": "Michal H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eliška K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Leona P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Šimom B.",
       "city": "Brno"
     }
   ]
