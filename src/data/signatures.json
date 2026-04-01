@@ -1,6 +1,14 @@
 {
-  "count": 931,
+  "count": 933,
   "signers": [
+    {
+      "name": "Peška P.",
+      "city": "Babice nad Svitavou 143"
+    },
+    {
+      "name": "Jakub H.",
+      "city": "Brno"
+    },
     {
       "name": "Vojtěch O.",
       "city": "Brno"
@@ -92,14 +100,6 @@
     {
       "name": "Tomáš H.",
       "city": "Lelekovice"
-    },
-    {
-      "name": "Anna K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Miroslav S.",
-      "city": "Rozrojovice"
     }
   ]
 }
