@@ -1,6 +1,14 @@
 {
-  "count": 958,
+  "count": 960,
   "signers": [
+    {
+      "name": "Maty S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Monika K.",
+      "city": "Brno"
+    },
     {
       "name": "Karolína M.",
       "city": "Náchod"
@@ -92,14 +100,6 @@
     {
       "name": "Marta E.",
       "city": "Brno"
-    },
-    {
-      "name": "Martin S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Metoděj P.",
-      "city": "Babice nad Svitavou"
     }
   ]
 }
