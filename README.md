@@ -2,7 +2,7 @@
 
 Webová stránka petice Strany zelených proti omezení tramvajového provozu v centru Brna.
 
-**Živá stránka:** https://michalberg.github.io/petice-sailny/
+**Živá stránka:** https://petice.online/saliny
 
 ## Technologie
 
@@ -49,6 +49,8 @@ V `petition.json` nastav správné `endpoint_id` formuláře:
   "tags": ["sailny"]
 }
 ```
+
+Stránka také pravidelně stahuje počet podpisů a poslední jména a zobrazuje je dynamicky.
 
 ### Autoři
 
