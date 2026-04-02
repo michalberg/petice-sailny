@@ -1,6 +1,14 @@
 {
-  "count": 956,
+  "count": 958,
   "signers": [
+    {
+      "name": "Karolína M.",
+      "city": "Náchod"
+    },
+    {
+      "name": "David V.",
+      "city": "Brno"
+    },
     {
       "name": "Veronika H.",
       "city": "Brno"
@@ -92,14 +100,6 @@
     {
       "name": "Metoděj P.",
       "city": "Babice nad Svitavou"
-    },
-    {
-      "name": "Alena S.",
-      "city": "Olomučany"
-    },
-    {
-      "name": "Peška P.",
-      "city": "Babice nad Svitavou 143"
     }
   ]
 }
