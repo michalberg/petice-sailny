@@ -1,6 +1,38 @@
 {
-  "count": 941,
+  "count": 949,
   "signers": [
+    {
+      "name": "Matěj Š.",
+      "city": "Řícmanice"
+    },
+    {
+      "name": "Anna P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Anežka M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Martin S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tomáš T.",
+      "city": "Brno"
+    },
+    {
+      "name": "Marie S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Radmila B.",
+      "city": "Blansko"
+    },
+    {
+      "name": "Bernard F.",
+      "city": "Brno"
+    },
     {
       "name": "Natália Ž.",
       "city": "Košice"
@@ -68,38 +100,6 @@
     {
       "name": "Hana H.",
       "city": "Jeseník"
-    },
-    {
-      "name": "Petr V.",
-      "city": "Židlochovice"
-    },
-    {
-      "name": "Marie M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Kryštof B.",
-      "city": ""
-    },
-    {
-      "name": "Jan K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Samuel P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Otto Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Johana K.",
-      "city": ""
-    },
-    {
-      "name": "Valentýna K.",
-      "city": "Brno"
     }
   ]
 }
