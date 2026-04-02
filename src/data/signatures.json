@@ -1,6 +1,10 @@
 {
-  "count": 940,
+  "count": 941,
   "signers": [
+    {
+      "name": "Natália Ž.",
+      "city": "Košice"
+    },
     {
       "name": "Dorota H.",
       "city": "Trojanovice"
@@ -95,10 +99,6 @@
     },
     {
       "name": "Valentýna K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jiří D.",
       "city": "Brno"
     }
   ]
