@@ -1,6 +1,14 @@
 {
-  "count": 963,
+  "count": 965,
   "signers": [
+    {
+      "name": "Lucie K.",
+      "city": "Židlochovice"
+    },
+    {
+      "name": "Zdeněk B.",
+      "city": "Brno"
+    },
     {
       "name": "Nikol M.",
       "city": "Brno"
@@ -92,14 +100,6 @@
     {
       "name": "Natália Ž.",
       "city": "Košice"
-    },
-    {
-      "name": "Dorota H.",
-      "city": "Trojanovice"
-    },
-    {
-      "name": "Ondřej W.",
-      "city": "Brno-sever"
     }
   ]
 }
