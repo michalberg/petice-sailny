@@ -1,6 +1,14 @@
 {
-  "count": 968,
+  "count": 970,
   "signers": [
+    {
+      "name": "Aneta K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Karolina K.",
+      "city": "Brno"
+    },
     {
       "name": "Bernat I.",
       "city": "Olomouc"
@@ -91,14 +99,6 @@
     },
     {
       "name": "Martin S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tomáš T.",
-      "city": "Brno"
-    },
-    {
-      "name": "Marie S.",
       "city": "Brno"
     }
   ]
