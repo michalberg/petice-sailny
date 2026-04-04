@@ -1,6 +1,14 @@
 {
-  "count": 966,
+  "count": 968,
   "signers": [
+    {
+      "name": "Bernat I.",
+      "city": "Olomouc"
+    },
+    {
+      "name": "Tereza P.",
+      "city": "Želetice"
+    },
     {
       "name": "Jiří J.",
       "city": "Březina"
@@ -91,14 +99,6 @@
     },
     {
       "name": "Marie S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Radmila B.",
-      "city": "Blansko"
-    },
-    {
-      "name": "Bernard F.",
       "city": "Brno"
     }
   ]
