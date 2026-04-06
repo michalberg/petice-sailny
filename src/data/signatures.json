@@ -1,6 +1,10 @@
 {
-  "count": 978,
+  "count": 979,
   "signers": [
+    {
+      "name": "Martina P.",
+      "city": "Adamov"
+    },
     {
       "name": "Alexandr P.",
       "city": "Miroslav"
@@ -95,10 +99,6 @@
     },
     {
       "name": "Josefína P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Nikola Gabriela M.",
       "city": "Brno"
     }
   ]
