@@ -1,6 +1,10 @@
 {
-  "count": 980,
+  "count": 981,
   "signers": [
+    {
+      "name": "Ema B.",
+      "city": "Brno"
+    },
     {
       "name": "Nikol A.",
       "city": "Boskovice"
@@ -95,10 +99,6 @@
     },
     {
       "name": "David V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Veronika H.",
       "city": "Brno"
     }
   ]
