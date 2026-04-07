@@ -1,6 +1,14 @@
 {
-  "count": 984,
+  "count": 986,
   "signers": [
+    {
+      "name": "Lukáš D.",
+      "city": ""
+    },
+    {
+      "name": "Jakub H.",
+      "city": "Brno"
+    },
     {
       "name": "Šimon Š.",
       "city": "Hustopeče"
@@ -91,14 +99,6 @@
     },
     {
       "name": "Ján T.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tereza Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Maty S.",
       "city": "Brno"
     }
   ]
