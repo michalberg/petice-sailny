@@ -1,6 +1,74 @@
 {
-  "count": 992,
+  "count": 1008,
   "signers": [
+    {
+      "name": "Veronika P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tereza K.",
+      "city": "Moravské Budějovice"
+    },
+    {
+      "name": "Theodore K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vojtěch Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vojtěch B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Lucie Z.",
+      "city": "Brno"
+    },
+    {
+      "name": "Matěj Š.",
+      "city": ""
+    },
+    {
+      "name": "Jakub K.",
+      "city": "Rousínov"
+    },
+    {
+      "name": "Petra L.",
+      "city": "Brno-Královo Pole"
+    },
+    {
+      "name": "Petra L.",
+      "city": "Brno"
+    },
+    {
+      "name": "Terézia B.",
+      "city": ""
+    },
+    {
+      "name": "Stanislav P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jakub František Č.",
+      "city": "Třebíč"
+    },
+    {
+      "name": "David J.",
+      "city": "Jihlava"
+    },
+    {
+      "name": "Tadeáš D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Johana F.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tereza S.",
+      "city": "Brno"
+    },
     {
       "name": "Adla K.",
       "city": "Brno"
@@ -32,74 +100,6 @@
     {
       "name": "Jakub H.",
       "city": "Brno"
-    },
-    {
-      "name": "Šimon Š.",
-      "city": "Hustopeče"
-    },
-    {
-      "name": "Pavel N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eliška B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ema B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Nikol A.",
-      "city": "Boskovice"
-    },
-    {
-      "name": "Martina P.",
-      "city": "Adamov"
-    },
-    {
-      "name": "Alexandr P.",
-      "city": "Miroslav"
-    },
-    {
-      "name": "Michal J.",
-      "city": ""
-    },
-    {
-      "name": "Marta F.",
-      "city": "Brno"
-    },
-    {
-      "name": "Simona A.",
-      "city": "Brno"
-    },
-    {
-      "name": "Olga F.",
-      "city": "Brno"
-    },
-    {
-      "name": "Václav C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jana K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Otakar K.",
-      "city": "Brno, 61200"
-    },
-    {
-      "name": "Aneta K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Karolina K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Bernat I.",
-      "city": "Olomouc"
     }
   ]
 }
