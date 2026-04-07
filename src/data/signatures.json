@@ -1,6 +1,62 @@
 {
-  "count": 1008,
+  "count": 1021,
   "signers": [
+    {
+      "name": "Daniils F.",
+      "city": "Brno"
+    },
+    {
+      "name": "Iva P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Lea B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tatiana G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Kateřina M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Soňa A.",
+      "city": "Brno"
+    },
+    {
+      "name": "Martin K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Eliška M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Eva B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Juraj Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "David P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Valentina Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tereza V.",
+      "city": "Rosice"
+    },
+    {
+      "name": "Ludmila T.",
+      "city": "Brno"
+    },
     {
       "name": "Veronika P.",
       "city": "Brno"
@@ -44,62 +100,6 @@
     {
       "name": "Terézia B.",
       "city": ""
-    },
-    {
-      "name": "Stanislav P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jakub František Č.",
-      "city": "Třebíč"
-    },
-    {
-      "name": "David J.",
-      "city": "Jihlava"
-    },
-    {
-      "name": "Tadeáš D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Johana F.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tereza S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Adla K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petr E.",
-      "city": "Brno"
-    },
-    {
-      "name": "Dominika V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tereza Č.",
-      "city": "Brno"
-    },
-    {
-      "name": "Kristína S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Magdalena H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lukáš D.",
-      "city": ""
-    },
-    {
-      "name": "Jakub H.",
-      "city": "Brno"
     }
   ]
 }
