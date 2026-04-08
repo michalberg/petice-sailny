@@ -1,6 +1,50 @@
 {
-  "count": 1038,
+  "count": 1049,
   "signers": [
+    {
+      "name": "Jáchym B.",
+      "city": "Velké Pavlovice"
+    },
+    {
+      "name": "Šimon K.",
+      "city": "Lomnice u Tišnova"
+    },
+    {
+      "name": "Lucie H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Eliška B.",
+      "city": "Šumperk"
+    },
+    {
+      "name": "Michal R.",
+      "city": "Brno - Černovice"
+    },
+    {
+      "name": "Antonín J.",
+      "city": "Brno"
+    },
+    {
+      "name": "Martin D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Petra Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Veronika B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Lucie Ž.",
+      "city": "Brno"
+    },
+    {
+      "name": "Alexandr M.",
+      "city": "Brno"
+    },
     {
       "name": "Johanka M.",
       "city": ""
@@ -55,50 +99,6 @@
     },
     {
       "name": "Barbara Anna C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Adam K.",
-      "city": "Kobylí"
-    },
-    {
-      "name": "Jaroslav T.",
-      "city": "Brno"
-    },
-    {
-      "name": "Julie K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Bálint V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Daniils F.",
-      "city": "Brno"
-    },
-    {
-      "name": "Iva P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lea B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tatiana G.",
-      "city": "Brno"
-    },
-    {
-      "name": "Kateřina M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Soňa A.",
-      "city": "Brno"
-    },
-    {
-      "name": "Martin K.",
       "city": "Brno"
     }
   ]
