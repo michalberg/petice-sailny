@@ -1,6 +1,14 @@
 {
-  "count": 1049,
+  "count": 1051,
   "signers": [
+    {
+      "name": "Kristina Z.",
+      "city": "Brno"
+    },
+    {
+      "name": "Kateřina P.",
+      "city": "Brno"
+    },
     {
       "name": "Jáchym B.",
       "city": "Velké Pavlovice"
@@ -91,14 +99,6 @@
     },
     {
       "name": "Tereza B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jozef R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Barbara Anna C.",
       "city": "Brno"
     }
   ]
