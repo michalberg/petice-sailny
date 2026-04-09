@@ -1,6 +1,18 @@
 {
-  "count": 1060,
+  "count": 1063,
   "signers": [
+    {
+      "name": "Lenka K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vladimír D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Martin K.",
+      "city": "Brno"
+    },
     {
       "name": "Josef Baltazar Š.",
       "city": "Olomouc"
@@ -88,18 +100,6 @@
     {
       "name": "Lucie Ž.",
       "city": "Brno"
-    },
-    {
-      "name": "Alexandr M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Johanka M.",
-      "city": ""
-    },
-    {
-      "name": "Jakub J.",
-      "city": ""
     }
   ]
 }
