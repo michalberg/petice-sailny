@@ -1,6 +1,62 @@
 {
-  "count": 1310,
+  "count": 1324,
   "signers": [
+    {
+      "name": "Igor G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Martina Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Daniel P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jana M.",
+      "city": "Brno 2"
+    },
+    {
+      "name": "Martin G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jurik Z.",
+      "city": "Bratislava"
+    },
+    {
+      "name": "Marie G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jan M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Josef R.",
+      "city": "39001"
+    },
+    {
+      "name": "Martin H.",
+      "city": "Vrahovice"
+    },
+    {
+      "name": "Jachym F.",
+      "city": "Praha"
+    },
+    {
+      "name": "Julie Š.",
+      "city": "Horažďovice"
+    },
+    {
+      "name": "Marek B.",
+      "city": "Brno-Židenice"
+    },
+    {
+      "name": "Jiří S.",
+      "city": "Brno"
+    },
     {
       "name": "Zuzana R.",
       "city": "Brno"
@@ -43,62 +99,6 @@
     },
     {
       "name": "Jarmila H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petr K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Gabriela S.",
-      "city": "Praha 6"
-    },
-    {
-      "name": "Dominik J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Hana K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Radoslav N.",
-      "city": "Opava"
-    },
-    {
-      "name": "Michal P.",
-      "city": "brno"
-    },
-    {
-      "name": "Martina F.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jan K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Šimon J.",
-      "city": "Plesná"
-    },
-    {
-      "name": "Alexandra O.",
-      "city": "Brno"
-    },
-    {
-      "name": "Adela F.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ondřej K.",
-      "city": "Litovel"
-    },
-    {
-      "name": "Vendula P.",
-      "city": "Hustopeče"
-    },
-    {
-      "name": "Jan K.",
       "city": "Brno"
     }
   ]
