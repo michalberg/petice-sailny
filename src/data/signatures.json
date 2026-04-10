@@ -1,6 +1,46 @@
 {
-  "count": 1332,
+  "count": 1342,
   "signers": [
+    {
+      "name": "Lenka J.",
+      "city": "Nová Ves"
+    },
+    {
+      "name": "Jakub P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tereza Barbora B.",
+      "city": "Žamberk"
+    },
+    {
+      "name": "Martina C.",
+      "city": "Čebín"
+    },
+    {
+      "name": "Kryštof B.",
+      "city": "Jaroměř"
+    },
+    {
+      "name": "Adam K.",
+      "city": "Praha"
+    },
+    {
+      "name": "Jana H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ivana H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vojtěch V.",
+      "city": "Tišnov"
+    },
+    {
+      "name": "Tomáš V.",
+      "city": "Brno"
+    },
     {
       "name": "Marino M.",
       "city": "Praha"
@@ -60,46 +100,6 @@
     {
       "name": "Marie G.",
       "city": "Brno"
-    },
-    {
-      "name": "Jan M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Josef R.",
-      "city": "39001"
-    },
-    {
-      "name": "Martin H.",
-      "city": "Vrahovice"
-    },
-    {
-      "name": "Jachym F.",
-      "city": "Praha"
-    },
-    {
-      "name": "Julie Š.",
-      "city": "Horažďovice"
-    },
-    {
-      "name": "Marek B.",
-      "city": "Brno-Židenice"
-    },
-    {
-      "name": "Jiří S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Zuzana R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tomáš H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eva B.",
-      "city": "Vrbice u Břeclavě"
     }
   ]
 }
