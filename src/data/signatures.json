@@ -1,6 +1,50 @@
 {
-  "count": 1355,
+  "count": 1365,
   "signers": [
+    {
+      "name": "Petr U.",
+      "city": "Králíky"
+    },
+    {
+      "name": "Jana Viktória G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Eliska P.",
+      "city": "Lhenice"
+    },
+    {
+      "name": "Zuzana M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Patrik S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Dominik T.",
+      "city": "Grešlové mýto"
+    },
+    {
+      "name": "Adam B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jana L.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vítek Ž.",
+      "city": "Praha"
+    },
+    {
+      "name": "Josef K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Sofia S.",
+      "city": "Partizánska Ľupča"
+    },
     {
       "name": "Mikuláš N.",
       "city": "Brno"
@@ -56,50 +100,6 @@
     {
       "name": "Lenka J.",
       "city": "Nová Ves"
-    },
-    {
-      "name": "Jakub P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tereza Barbora B.",
-      "city": "Žamberk"
-    },
-    {
-      "name": "Martina C.",
-      "city": "Čebín"
-    },
-    {
-      "name": "Kryštof B.",
-      "city": "Jaroměř"
-    },
-    {
-      "name": "Adam K.",
-      "city": "Praha"
-    },
-    {
-      "name": "Jana H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ivana H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vojtěch V.",
-      "city": "Tišnov"
-    },
-    {
-      "name": "Tomáš V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Marino M.",
-      "city": "Praha"
-    },
-    {
-      "name": "Veronika K.",
-      "city": "Brno"
     }
   ]
 }
