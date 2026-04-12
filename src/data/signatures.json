@@ -1,6 +1,18 @@
 {
-  "count": 1376,
+  "count": 1379,
   "signers": [
+    {
+      "name": "Jiří Z.",
+      "city": "Brno Líšeň"
+    },
+    {
+      "name": "Klára V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Eliška J.",
+      "city": "Brno"
+    },
     {
       "name": "Martin B.",
       "city": "Brno"
@@ -88,18 +100,6 @@
     {
       "name": "Josef K.",
       "city": "Brno"
-    },
-    {
-      "name": "Sofia S.",
-      "city": "Partizánska Ľupča"
-    },
-    {
-      "name": "Mikuláš N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Hana V.",
-      "city": "Brno-střed"
     }
   ]
 }
