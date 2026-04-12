@@ -1,6 +1,22 @@
 {
-  "count": 1385,
+  "count": 1389,
   "signers": [
+    {
+      "name": "Šimon Ř.",
+      "city": "Brno"
+    },
+    {
+      "name": "Nikola K.",
+      "city": "Sedlnice"
+    },
+    {
+      "name": "Jonáš C.",
+      "city": "Brno"
+    },
+    {
+      "name": "Natálie K.",
+      "city": "Orlová - Lutyně"
+    },
     {
       "name": "Jiří K.",
       "city": "Brno"
@@ -83,22 +99,6 @@
     },
     {
       "name": "Monika R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petr U.",
-      "city": "Králíky"
-    },
-    {
-      "name": "Jana Viktória G.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eliska P.",
-      "city": "Lhenice"
-    },
-    {
-      "name": "Zuzana M.",
       "city": "Brno"
     }
   ]
