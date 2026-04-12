@@ -1,6 +1,26 @@
 {
-  "count": 1379,
+  "count": 1384,
   "signers": [
+    {
+      "name": "Marek M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vasyl B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Karolína H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Anastázie D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Cenek K.",
+      "city": "Brno"
+    },
     {
       "name": "Jiří Z.",
       "city": "Brno Líšeň"
@@ -79,26 +99,6 @@
     },
     {
       "name": "Patrik S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Dominik T.",
-      "city": "Grešlové mýto"
-    },
-    {
-      "name": "Adam B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jana L.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vítek Ž.",
-      "city": "Praha"
-    },
-    {
-      "name": "Josef K.",
       "city": "Brno"
     }
   ]
