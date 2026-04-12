@@ -1,6 +1,14 @@
 {
-  "count": 1374,
+  "count": 1376,
   "signers": [
+    {
+      "name": "Martin B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Benjamín J.",
+      "city": "Brno"
+    },
     {
       "name": "Jarmila H.",
       "city": "Kaly"
@@ -92,14 +100,6 @@
     {
       "name": "Hana V.",
       "city": "Brno-střed"
-    },
-    {
-      "name": "Barbora S.",
-      "city": "Břeclav"
-    },
-    {
-      "name": "Miroslav B.",
-      "city": "Brno"
     }
   ]
 }
