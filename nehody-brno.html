@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dopravní nehody — Brno</title>
+  <style>
+    @font-face {
+      font-family: 'TuskerGrotesk';
+      src: url('https://petice.online/fonty/TuskerGrotesk-5700Bold.woff2') format('woff2');
+      font-weight: 700;
+    }
+    @font-face {
+      font-family: 'UrbanGrotesk';
+      src: url('https://petice.online/fonty/Urban-Grotesk-Semibold.otf') format('opentype');
+      font-weight: 600;
+    }
+    @font-face {
+      font-family: 'UrbanGrotesk';
+      src: url('https://petice.online/fonty/Urban-Grotesk-Bold.otf') format('opentype');
+      font-weight: 700;
+    }
+    @font-face {
+      font-family: 'UrbanGrotesk';
+      src: url('https://petice.online/fonty/Urban-Grotesk-Regular.otf') format('opentype');
+      font-weight: 400;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'UrbanGrotesk', 'Arial', sans-serif;
+      font-weight: 400;
+      background: #0bd26f;
+      min-height: 100vh;
+      padding: 0 0 64px;
+      color: #000000;
+    }
+
+    .page-wrap {
+      padding: 48px 24px 0;
+    }
+
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* Dekorativní pozadí */
+    .bg-shapes {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .shape {
+      position: absolute;
+      opacity: 0.18;
+    }
+
+    /* Header */
+    header {
+      position: relative;
+      z-index: 1;
+      margin-bottom: 40px;
+    }
+
+    .logo {
+      width: 120px;
+      margin-bottom: 28px;
+    }
+
+    h1 {
+      font-family: 'TuskerGrotesk', 'Arial Black', sans-serif;
+      font-weight: 700;
+      font-size: 2.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      color: #000000;
+      line-height: 1.1;
+      margin-bottom: 10px;
+    }
+
+    .lead {
+      font-family: 'UrbanGrotesk', sans-serif;
+      font-weight: 600;
+      font-size: 1.05rem;
+      color: #000000;
+      opacity: 0.75;
+      max-width: 600px;
+    }
+
+    /* Cards */
+    .card {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 36px 40px;
+      margin-bottom: 24px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .card-title {
+      font-family: 'TuskerGrotesk', 'Arial Black', sans-serif;
+      font-weight: 700;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      color: #000000;
+      margin-bottom: 28px;
+    }
+
+    /* Stat boxes */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 24px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .stat-box {
+      background: #000000;
+      border-radius: 20px;
+      padding: 28px 24px;
+      color: #ffffff;
+    }
+
+    .stat-number {
+      font-family: 'TuskerGrotesk', 'Arial Black', sans-serif;
+      font-weight: 700;
+      font-size: 3.2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      color: #ffffff;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .stat-label {
+      font-family: 'UrbanGrotesk', sans-serif;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: #ffffff;
+      opacity: 0.8;
+    }
+
+    /* Chart */
+    .chart-wrapper {
+      position: relative;
+    }
+
+    svg.chart {
+      width: 100%;
+      height: auto;
+      overflow: visible;
+    }
+
+    .bar {
+      fill: #0bd26f;
+      transition: fill 0.15s;
+      cursor: pointer;
+    }
+
+    .bar:hover { fill: #067a40; }
+
+    .grid-line { stroke: #f0f0f0; stroke-width: 1; }
+    .axis-label {
+      fill: #888;
+      font-size: 11px;
+      font-family: 'UrbanGrotesk', sans-serif;
+    }
+    .bar-label {
+      fill: #000;
+      font-size: 11px;
+      font-family: 'UrbanGrotesk', sans-serif;
+      font-weight: 700;
+    }
+
+    .tooltip {
+      position: absolute;
+      background: #000;
+      color: #fff;
+      border-radius: 10px;
+      padding: 10px 16px;
+      font-size: 0.82rem;
+      font-family: 'UrbanGrotesk', sans-serif;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.15s;
+      white-space: nowrap;
+      z-index: 10;
+    }
+    .tooltip.visible { opacity: 1; }
+
+    .tt-year {
+      font-weight: 700;
+      color: #0bd26f;
+      margin-bottom: 8px;
+      font-size: 0.88rem;
+    }
+    .tt-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 4px;
+      font-size: 0.8rem;
+    }
+    .tt-row:last-child { margin-bottom: 0; }
+    .tt-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: #0bd26f;
+      flex-shrink: 0;
+    }
+    .tt-label { color: #ccc; flex: 1; }
+    .tt-n { color: #fff; font-weight: 700; padding-left: 12px; white-space: nowrap; }
+
+    /* Druh nehody tabulka */
+    .druh-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .druh-item {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .druh-label {
+      font-family: 'UrbanGrotesk', sans-serif;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: #000;
+      flex: 1;
+      min-width: 0;
+    }
+
+    .druh-bar-wrap {
+      flex: 2;
+      background: #f0f0f0;
+      border-radius: 99px;
+      height: 10px;
+      overflow: hidden;
+    }
+
+    .druh-bar-fill {
+      height: 100%;
+      background: #0bd26f;
+      border-radius: 99px;
+    }
+
+    .druh-count {
+      font-family: 'TuskerGrotesk', 'Arial Black', sans-serif;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #000;
+      min-width: 28px;
+      text-align: right;
+    }
+
+    /* Alert kolejové */
+    .alert {
+      background: #000000;
+      border-radius: 20px;
+      padding: 28px 36px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      position: relative;
+      z-index: 1;
+      margin-bottom: 24px;
+    }
+
+    .alert-icon {
+      font-size: 2.4rem;
+      flex-shrink: 0;
+    }
+
+    .alert-text {
+      font-family: 'UrbanGrotesk', sans-serif;
+      font-weight: 600;
+      font-size: 1rem;
+      color: #ffffff;
+      line-height: 1.5;
+    }
+
+    .alert-text strong {
+      font-family: 'TuskerGrotesk', 'Arial Black', sans-serif;
+      font-weight: 700;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      color: #0bd26f;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    footer {
+      position: relative;
+      z-index: 1;
+      margin-top: 32px;
+      font-family: 'UrbanGrotesk', sans-serif;
+      font-weight: 400;
+      font-size: 0.78rem;
+      color: #000;
+      opacity: 0.55;
+      text-align: center;
+    }
+
+    /* Site header */
+    .site-header {
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 24px;
+      box-shadow: 0 1px 0 rgba(0,0,0,0.08);
+    }
+
+    .logo-nav {
+      height: 44px;
+      width: auto;
+    }
+
+    .btn-petition-nav {
+      font-family: 'UrbanGrotesk', sans-serif;
+      font-weight: 700;
+      font-size: 0.88rem;
+      background: #000000;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 22px;
+      border-radius: 99px;
+      transition: background 0.15s;
+    }
+
+    .btn-petition-nav:hover { background: #222; }
+
+    /* CTA tlačítko dole */
+    .cta-block {
+      position: relative;
+      z-index: 1;
+      margin-top: 16px;
+      margin-bottom: 8px;
+    }
+
+    .btn-petition-large {
+      display: block;
+      font-family: 'TuskerGrotesk', 'Arial Black', sans-serif;
+      font-weight: 700;
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      background: #000000;
+      color: #0bd26f;
+      text-decoration: none;
+      padding: 28px 24px;
+      border-radius: 20px;
+      text-align: center;
+      transition: background 0.15s;
+    }
+
+    .btn-petition-large:hover { background: #222; }
+  </style>
+</head>
+<body>
+
+<!-- Záhlaví -->
+<div class="site-header">
+  <img src="https://petice.online/logo-zeleni-brno.png" alt="Zelení Brno" class="logo-nav">
+  <a href="https://petice.online/saliny?utm_source=nehody" class="btn-petition-nav">Podepsat petici</a>
+</div>
+
+<!-- Dekorativní tvary -->
+<div class="bg-shapes">
+  <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+    <!-- 75% pink, 25% gray -->
+    <rect x="80%" y="5%" width="120" height="120" rx="8" fill="#ffa6d1" transform="rotate(20, 900, 80)"/>
+    <circle cx="10%" cy="18%" r="70" fill="#ffa6d1"/>
+    <rect x="5%" y="55%" width="90" height="90" fill="#d9d9d9" transform="rotate(-30, 80, 500)"/>
+    <circle cx="92%" cy="60%" r="50" fill="#ffa6d1"/>
+    <rect x="50%" y="80%" width="140" height="60" rx="6" fill="#ffa6d1" transform="rotate(15, 500, 750)"/>
+    <circle cx="30%" cy="90%" r="40" fill="#d9d9d9"/>
+    <rect x="75%" y="38%" width="80" height="80" fill="#ffa6d1" transform="rotate(-20, 750, 380)"/>
+  </svg>
+</div>
+
+<div class="page-wrap"><div class="page">
+
+  <header>
+    <h1>Nehody na náměstí Svobody, Masarykově a Rašínově ulici</h1>
+    <p class="lead">Analýza nehod v zadané oblasti Brna za období 2010–2025 na základě dat Policie ČR.</p>
+  </header>
+
+  <!-- Stat boxy -->
+  <div class="stats-row">
+    <div class="stat-box">
+      <div class="stat-number">78</div>
+      <div class="stat-label">Celkem nehod<br>2010–2025</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-number">28</div>
+      <div class="stat-label">Osob zraněno<br>(27 lehce, 1 těžce)</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-number">0</div>
+      <div class="stat-label">Usmrcených<br>osob</div>
+    </div>
+  </div>
+
+  <!-- Graf -->
+  <div class="card">
+    <div class="card-title">Počet nehod podle roku</div>
+    <div class="chart-wrapper">
+      <div class="tooltip" id="tooltip"></div>
+      <svg class="chart" viewBox="0 0 820 300" id="chart"></svg>
+    </div>
+  </div>
+
+  <!-- Alert kolejové -->
+  <div class="alert">
+    <div class="alert-icon">🚃</div>
+    <div class="alert-text">
+      <strong>Žádná srážka s kolejovým vozidlem</strong>
+      V analyzované oblasti nebyla za celé sledované období (2010–2025) zaznamenána jediná srážka s tramvají.
+    </div>
+  </div>
+
+  <!-- Druh nehody -->
+  <div class="card">
+    <div class="card-title">Druh nehody</div>
+    <div class="druh-list" id="druh-list"></div>
+  </div>
+
+  <!-- CTA tlačítko -->
+  <div class="cta-block">
+    <a href="https://petice.online/saliny?utm_source=nehody" class="btn-petition-large">Podepsat petici</a>
+  </div>
+
+  <footer>
+    Zdroj dat: Policie ČR prostřednictvím <a href="https://data.brno.cz/apps/10b081c3f62b4a3e8bcedf31f77d391f/explore" style="color:#000;opacity:0.7;">Portálu otevřených dat města Brna</a> &nbsp;·&nbsp; Licence CC-BY-4.0
+  </footer>
+
+</div></div>
+
+<script>
+  // --- Data ---
+  const byYear = [
+    { rok: 2010, count: 3,  druhy: {"srážka s pevnou překážkou":2,"havárie":1} },
+    { rok: 2011, count: 4,  druhy: {"srážka s pevnou překážkou":2,"srážka s chodcem":1,"srážka s jedoucím nekolejovým vozidlem":1} },
+    { rok: 2012, count: 7,  druhy: {"srážka s pevnou překážkou":7} },
+    { rok: 2013, count: 4,  druhy: {"srážka s pevnou překážkou":2,"srážka s chodcem":1,"havárie":1} },
+    { rok: 2014, count: 5,  druhy: {"srážka s pevnou překážkou":4,"srážka s chodcem":1} },
+    { rok: 2015, count: 3,  druhy: {"srážka s chodcem":1,"srážka s pevnou překážkou":1,"jiný druh nehody":1} },
+    { rok: 2016, count: 2,  druhy: {"srážka s pevnou překážkou":2} },
+    { rok: 2017, count: 3,  druhy: {"srážka s pevnou překážkou":2,"srážka s chodcem":1} },
+    { rok: 2018, count: 2,  druhy: {"srážka s pevnou překážkou":2} },
+    { rok: 2019, count: 5,  druhy: {"srážka s pevnou překážkou":2,"srážka s chodcem":1,"havárie":1,"srážka s jedoucím nekolejovým vozidlem":1} },
+    { rok: 2020, count: 8,  druhy: {"havárie":3,"srážka s chodcem":2,"srážka s pevnou překážkou":2,"srážka s vozidlem zaparkovaným, odstaveným":1} },
+    { rok: 2021, count: 10, druhy: {"srážka s pevnou překážkou":6,"havárie":3,"jiný druh nehody":1} },
+    { rok: 2022, count: 10, druhy: {"srážka s pevnou překážkou":7,"havárie":2,"srážka s vozidlem zaparkovaným, odstaveným":1} },
+    { rok: 2023, count: 3,  druhy: {"havárie":2,"srážka s pevnou překážkou":1} },
+    { rok: 2024, count: 3,  druhy: {"srážka s chodcem":2,"srážka s vozidlem zaparkovaným, odstaveným":1} },
+    { rok: 2025, count: 6,  druhy: {"srážka s vozidlem zaparkovaným, odstaveným":2,"jiný druh nehody":2,"srážka s pevnou překážkou":1,"havárie":1} },
+  ];
+
+  const druhy = [
+    { label: 'Srážka s pevnou překážkou', count: 43 },
+    { label: 'Havárie', count: 14 },
+    { label: 'Srážka s chodcem', count: 10 },
+    { label: 'Srážka s parkujícím vozidlem', count: 5 },
+    { label: 'Jiný druh nehody', count: 4 },
+    { label: 'Srážka s jedoucím vozidlem', count: 2 },
+  ];
+
+  // --- Bar chart ---
+  const W = 820, H = 300;
+  const margin = { top: 20, right: 10, bottom: 36, left: 36 };
+  const innerW = W - margin.left - margin.right;
+  const innerH = H - margin.top - margin.bottom;
+  const maxCount = 12;
+
+  const svg = document.getElementById('chart');
+  const ns = 'http://www.w3.org/2000/svg';
+
+  function el(tag, attrs, parent) {
+    const e = document.createElementNS(ns, tag);
+    for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v);
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+
+  const n = byYear.length;
+  const barW = (innerW / n) * 0.6;
+  const gap = innerW / n;
+
+  const yScale = v => margin.top + innerH - (v / maxCount) * innerH;
+  const xCenter = i => margin.left + i * gap + gap / 2;
+
+  // Grid lines
+  [0, 2, 4, 6, 8, 10, 12].forEach(t => {
+    el('line', {
+      x1: margin.left, x2: margin.left + innerW,
+      y1: yScale(t), y2: yScale(t),
+      class: 'grid-line'
+    }, svg);
+    el('text', {
+      x: margin.left - 6, y: yScale(t) + 4,
+      'text-anchor': 'end', class: 'axis-label'
+    }, svg).textContent = t;
+  });
+
+  const tooltip = document.getElementById('tooltip');
+  const chartWrapper = document.querySelector('.chart-wrapper');
+
+  byYear.forEach((d, i) => {
+    const x = xCenter(i) - barW / 2;
+    const barH = (d.count / maxCount) * innerH;
+    const y = yScale(d.count);
+
+    // Bar
+    const rect = el('rect', {
+      x, y,
+      width: barW, height: barH,
+      rx: 5,
+      class: 'bar'
+    }, svg);
+
+    // X label
+    el('text', {
+      x: xCenter(i), y: margin.top + innerH + 18,
+      'text-anchor': 'middle', class: 'axis-label'
+    }, svg).textContent = d.rok;
+
+    // Value label nad barem
+    el('text', {
+      x: xCenter(i), y: y - 5,
+      'text-anchor': 'middle', class: 'bar-label'
+    }, svg).textContent = d.count;
+
+    // Tooltip
+    rect.addEventListener('mouseenter', e => {
+      const rows = Object.entries(d.druhy)
+        .map(([label, n]) => `<div class="tt-row"><span class="tt-dot"></span><span class="tt-label">${label}</span><span class="tt-n">${n}×</span></div>`)
+        .join('');
+      tooltip.innerHTML = `<div class="tt-year">${d.rok} — ${d.count} nehod</div>${rows}`;
+      tooltip.classList.add('visible');
+      position(e);
+    });
+    rect.addEventListener('mousemove', position);
+    rect.addEventListener('mouseleave', () => tooltip.classList.remove('visible'));
+  });
+
+  function position(e) {
+    const rect = chartWrapper.getBoundingClientRect();
+    let x = e.clientX - rect.left + 12;
+    let y = e.clientY - rect.top - 36;
+    if (x + 140 > rect.width) x -= 160;
+    tooltip.style.left = x + 'px';
+    tooltip.style.top = y + 'px';
+  }
+
+  // --- Druh nehody bars ---
+  const max = druhy[0].count;
+  const list = document.getElementById('druh-list');
+  druhy.forEach(d => {
+    const pct = (d.count / max * 100).toFixed(0);
+    list.innerHTML += `
+      <div class="druh-item">
+        <div class="druh-label">${d.label}</div>
+        <div class="druh-bar-wrap">
+          <div class="druh-bar-fill" style="width:${pct}%"></div>
+        </div>
+        <div class="druh-count">${d.count}×</div>
+      </div>
+    `;
+  });
+</script>
+</body>
+</html>
