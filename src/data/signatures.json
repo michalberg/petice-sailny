@@ -1,6 +1,74 @@
 {
-  "count": 1439,
+  "count": 1456,
   "signers": [
+    {
+      "name": "Denis K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Martina M.",
+      "city": "Bratislava"
+    },
+    {
+      "name": "Tomáš S.",
+      "city": "BRNO - PONAVA"
+    },
+    {
+      "name": "Alice Č.",
+      "city": "Brno"
+    },
+    {
+      "name": "František B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ctirad M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Helena Z.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michal W.",
+      "city": "Brno"
+    },
+    {
+      "name": "Barbora Z.",
+      "city": "Brno"
+    },
+    {
+      "name": "Marie T.",
+      "city": "Brno"
+    },
+    {
+      "name": "Zlata Č.",
+      "city": "Brno"
+    },
+    {
+      "name": "Pavel D.",
+      "city": "Brno"
+    },
+    {
+      "name": "David Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jana H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Nina G.",
+      "city": "brno"
+    },
+    {
+      "name": "Eliška K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ctibor Š.",
+      "city": "Jičín"
+    },
     {
       "name": "Zuzana C.",
       "city": "Brno"
@@ -32,74 +100,6 @@
     {
       "name": "Aneta A.",
       "city": "Liberec"
-    },
-    {
-      "name": "Hana T.",
-      "city": "Brno"
-    },
-    {
-      "name": "Naděžda R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Veri B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ester Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Daniela O.",
-      "city": "Brno"
-    },
-    {
-      "name": "Zuzana U.",
-      "city": "Praha"
-    },
-    {
-      "name": "František C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jolana P.",
-      "city": "Bílovice nad Svitavou"
-    },
-    {
-      "name": "Juliana J.",
-      "city": "Topoľčany"
-    },
-    {
-      "name": "Adela C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Anna P.",
-      "city": "Pardubice"
-    },
-    {
-      "name": "Dan P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Karel C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Regina O.",
-      "city": "Přísnotice"
-    },
-    {
-      "name": "Lucie K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Michaela K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Markéta J.",
-      "city": "Brno"
     }
   ]
 }
