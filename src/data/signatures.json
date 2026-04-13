@@ -1,6 +1,42 @@
 {
-  "count": 1401,
+  "count": 1410,
   "signers": [
+    {
+      "name": "Anna F.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jiří I.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vladimír R.",
+      "city": "Brno-střed"
+    },
+    {
+      "name": "Veronika B.",
+      "city": "Vyškov"
+    },
+    {
+      "name": "Iva H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Zbyněk M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Dagmar V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michal G.",
+      "city": "Brno-Černovice"
+    },
+    {
+      "name": "Marek S.",
+      "city": "Brno"
+    },
     {
       "name": "Barbora Č.",
       "city": "Brno"
@@ -63,42 +99,6 @@
     },
     {
       "name": "Jonáš C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Natálie K.",
-      "city": "Orlová - Lutyně"
-    },
-    {
-      "name": "Jiří K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Marek M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vasyl B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Karolína H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Anastázie D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Cenek K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jiří Z.",
-      "city": "Brno Líšeň"
-    },
-    {
-      "name": "Klára V.",
       "city": "Brno"
     }
   ]
