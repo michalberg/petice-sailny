@@ -1,6 +1,22 @@
 {
-  "count": 1485,
+  "count": 1489,
   "signers": [
+    {
+      "name": "Ivana N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Adéla P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Nela N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Terézia D.",
+      "city": "Brno"
+    },
     {
       "name": "Zuzana Š.",
       "city": "Brno"
@@ -84,22 +100,6 @@
     {
       "name": "Natáli B.",
       "city": "Brno"
-    },
-    {
-      "name": "Jan Š.",
-      "city": "Malhostovice"
-    },
-    {
-      "name": "Jana Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jaroslav V.",
-      "city": "Veselí nad Moravou"
-    },
-    {
-      "name": "Lukáš O.",
-      "city": "Brno/Boskovice"
     }
   ]
 }
