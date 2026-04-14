@@ -1,6 +1,34 @@
 {
-  "count": 1469,
+  "count": 1475,
   "signers": [
+    {
+      "name": "Eliška B.",
+      "city": "Vsetín"
+    },
+    {
+      "name": "Andrea K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jitka B.",
+      "city": "Otnice"
+    },
+    {
+      "name": "Damian v.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ladislava V.",
+      "city": "Veselí nad Moravou"
+    },
+    {
+      "name": "Alexandr G.",
+      "city": "Třinec"
+    },
+    {
+      "name": "David V.",
+      "city": "Veselí nad Moravou"
+    },
     {
       "name": "Natáli B.",
       "city": "Brno"
@@ -72,34 +100,6 @@
     {
       "name": "Tomáš S.",
       "city": "BRNO - PONAVA"
-    },
-    {
-      "name": "Alice Č.",
-      "city": "Brno"
-    },
-    {
-      "name": "František B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ctirad M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Helena Z.",
-      "city": "Brno"
-    },
-    {
-      "name": "Michal W.",
-      "city": "Brno"
-    },
-    {
-      "name": "Barbora Z.",
-      "city": "Brno"
-    },
-    {
-      "name": "Marie T.",
-      "city": "Brno"
     }
   ]
 }
