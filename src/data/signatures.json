@@ -1,6 +1,46 @@
 {
-  "count": 1459,
+  "count": 1469,
   "signers": [
+    {
+      "name": "Natáli B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jan Š.",
+      "city": "Malhostovice"
+    },
+    {
+      "name": "Jana Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jaroslav V.",
+      "city": "Veselí nad Moravou"
+    },
+    {
+      "name": "Lukáš O.",
+      "city": "Brno/Boskovice"
+    },
+    {
+      "name": "L. D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ludmila H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Hana B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tomáš H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Alois M.",
+      "city": "Černovice"
+    },
     {
       "name": "Josef M.",
       "city": "Brno"
@@ -59,46 +99,6 @@
     },
     {
       "name": "Marie T.",
-      "city": "Brno"
-    },
-    {
-      "name": "Zlata Č.",
-      "city": "Brno"
-    },
-    {
-      "name": "Pavel D.",
-      "city": "Brno"
-    },
-    {
-      "name": "David Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jana H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Nina G.",
-      "city": "brno"
-    },
-    {
-      "name": "Eliška K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ctibor Š.",
-      "city": "Jičín"
-    },
-    {
-      "name": "Zuzana C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Natálie H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jan R.",
       "city": "Brno"
     }
   ]
