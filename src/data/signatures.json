@@ -1,6 +1,46 @@
 {
-  "count": 1496,
+  "count": 1506,
   "signers": [
+    {
+      "name": "Radovan N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jiří J.",
+      "city": "Bukovany"
+    },
+    {
+      "name": "Lukáš N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Šimon R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Rita P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vladlen L.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jaroslav H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Viktorie K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jana Helena C.",
+      "city": "Rajhrad"
+    },
+    {
+      "name": "Dana B.",
+      "city": "Brno"
+    },
     {
       "name": "Hana S.",
       "city": ""
@@ -60,46 +100,6 @@
     {
       "name": "Radek H.",
       "city": "Rosice"
-    },
-    {
-      "name": "Jana N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Marketa L.",
-      "city": "Brno"
-    },
-    {
-      "name": "Dagmar P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Veronika N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Helena O.",
-      "city": "BRNO"
-    },
-    {
-      "name": "Heda Ř.",
-      "city": "Brno"
-    },
-    {
-      "name": "David B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eva K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Marek M.",
-      "city": "Brno"
-    },
-    {
-      "name": "David V.",
-      "city": "Veselí nad Moravou"
     }
   ]
 }
