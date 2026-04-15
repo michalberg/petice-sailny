@@ -1,6 +1,26 @@
 {
-  "count": 1517,
+  "count": 1522,
   "signers": [
+    {
+      "name": "Petand@seznam.cz O.",
+      "city": "Brno"
+    },
+    {
+      "name": "Matouš M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Nikola G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jakub F.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tobiáš T.",
+      "city": "Brno"
+    },
     {
       "name": "Eliška Ř.",
       "city": "Žernovník"
@@ -80,26 +100,6 @@
     {
       "name": "Jaroslav H.",
       "city": "Brno"
-    },
-    {
-      "name": "Viktorie K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jana Helena C.",
-      "city": "Rajhrad"
-    },
-    {
-      "name": "Dana B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Hana S.",
-      "city": ""
-    },
-    {
-      "name": "Karel G.",
-      "city": "Brno - Obřany"
     }
   ]
 }
