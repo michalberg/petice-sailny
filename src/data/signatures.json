@@ -1,6 +1,34 @@
 {
-  "count": 1489,
+  "count": 1496,
   "signers": [
+    {
+      "name": "Hana S.",
+      "city": ""
+    },
+    {
+      "name": "Karel G.",
+      "city": "Brno - Obřany"
+    },
+    {
+      "name": "Helena M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Markéta N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Karolína L.",
+      "city": "Hodonín"
+    },
+    {
+      "name": "Simona K.",
+      "city": "Uherské Hradiště"
+    },
+    {
+      "name": "Kristýna J.",
+      "city": "Brno"
+    },
     {
       "name": "Ivana N.",
       "city": "Brno"
@@ -72,34 +100,6 @@
     {
       "name": "David V.",
       "city": "Veselí nad Moravou"
-    },
-    {
-      "name": "Eliška B.",
-      "city": "Vsetín"
-    },
-    {
-      "name": "Andrea K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jitka B.",
-      "city": "Otnice"
-    },
-    {
-      "name": "Damian v.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ladislava V.",
-      "city": "Veselí nad Moravou"
-    },
-    {
-      "name": "Alexandr G.",
-      "city": "Třinec"
-    },
-    {
-      "name": "Natáli B.",
-      "city": "Brno"
     }
   ]
 }
