@@ -1,6 +1,22 @@
 {
-  "count": 1522,
+  "count": 1526,
   "signers": [
+    {
+      "name": "Olga B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Pavlína T.",
+      "city": "Viničné Šumice"
+    },
+    {
+      "name": "František S.",
+      "city": "Pardubice"
+    },
+    {
+      "name": "Jana B.",
+      "city": "Brno"
+    },
     {
       "name": "Petand@seznam.cz O.",
       "city": "Brno"
@@ -83,22 +99,6 @@
     },
     {
       "name": "Lukáš N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Šimon R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Rita P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vladlen L.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jaroslav H.",
       "city": "Brno"
     }
   ]
