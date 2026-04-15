@@ -1,6 +1,26 @@
 {
-  "count": 1512,
+  "count": 1517,
   "signers": [
+    {
+      "name": "Eliška Ř.",
+      "city": "Žernovník"
+    },
+    {
+      "name": "Joy Tomáš S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Anna K.",
+      "city": "Opava"
+    },
+    {
+      "name": "Petra Č.",
+      "city": "Brno"
+    },
+    {
+      "name": "Alžbeta N.",
+      "city": "Brno"
+    },
     {
       "name": "Karel P.",
       "city": "Brno"
@@ -80,26 +100,6 @@
     {
       "name": "Karel G.",
       "city": "Brno - Obřany"
-    },
-    {
-      "name": "Helena M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Markéta N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Karolína L.",
-      "city": "Hodonín"
-    },
-    {
-      "name": "Simona K.",
-      "city": "Uherské Hradiště"
-    },
-    {
-      "name": "Kristýna J.",
-      "city": "Brno"
     }
   ]
 }
