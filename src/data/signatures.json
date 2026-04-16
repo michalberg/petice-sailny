@@ -1,6 +1,14 @@
 {
-  "count": 1530,
+  "count": 1532,
   "signers": [
+    {
+      "name": "Soňa B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Markéta B.",
+      "city": "Brno"
+    },
     {
       "name": "Radim V.",
       "city": "Luka nad Jihlavou"
@@ -92,14 +100,6 @@
     {
       "name": "Marta F.",
       "city": "Brno"
-    },
-    {
-      "name": "Jana H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Věra V.",
-      "city": "Drásov"
     }
   ]
 }
