@@ -1,6 +1,14 @@
 {
-  "count": 1539,
+  "count": 1541,
   "signers": [
+    {
+      "name": "Marek S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Barbora V.",
+      "city": "Poděbrady"
+    },
     {
       "name": "Eliška B.",
       "city": "Brno"
@@ -92,14 +100,6 @@
     {
       "name": "Eliška Ř.",
       "city": "Žernovník"
-    },
-    {
-      "name": "Joy Tomáš S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Anna K.",
-      "city": "Opava"
     }
   ]
 }
