@@ -1,6 +1,30 @@
 {
-  "count": 1541,
+  "count": 1547,
   "signers": [
+    {
+      "name": "Petr Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Svatava Ř.",
+      "city": "Brno"
+    },
+    {
+      "name": "Helena K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Roman Ř.",
+      "city": "Brno"
+    },
+    {
+      "name": "Radim P.",
+      "city": "Brno-Židenice"
+    },
+    {
+      "name": "Irena H.",
+      "city": "Brno"
+    },
     {
       "name": "Marek S.",
       "city": "Brno"
@@ -76,30 +100,6 @@
     {
       "name": "Jana B.",
       "city": "Brno"
-    },
-    {
-      "name": "Petand@seznam.cz O.",
-      "city": "Brno"
-    },
-    {
-      "name": "Matouš M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Nikola G.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jakub F.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tobiáš T.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eliška Ř.",
-      "city": "Žernovník"
     }
   ]
 }
