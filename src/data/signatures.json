@@ -1,6 +1,18 @@
 {
-  "count": 1547,
+  "count": 1550,
   "signers": [
+    {
+      "name": "Jindra T.",
+      "city": "Brno"
+    },
+    {
+      "name": "Hana N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Yvona T.",
+      "city": "Brno"
+    },
     {
       "name": "Petr Š.",
       "city": "Brno"
@@ -87,18 +99,6 @@
     },
     {
       "name": "Olga B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Pavlína T.",
-      "city": "Viničné Šumice"
-    },
-    {
-      "name": "František S.",
-      "city": "Pardubice"
-    },
-    {
-      "name": "Jana B.",
       "city": "Brno"
     }
   ]
