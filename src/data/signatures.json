@@ -1,6 +1,18 @@
 {
-  "count": 1559,
+  "count": 1562,
   "signers": [
+    {
+      "name": "Eliška J.",
+      "city": "Brno"
+    },
+    {
+      "name": "Valerie F.",
+      "city": "Brno"
+    },
+    {
+      "name": "Daniel S.",
+      "city": "Brno"
+    },
     {
       "name": "Petra Z.",
       "city": "Brno-Komín"
@@ -87,18 +99,6 @@
     },
     {
       "name": "Vlasta N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Martin F.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eva B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Martin B.",
       "city": "Brno"
     }
   ]
