@@ -1,6 +1,26 @@
 {
-  "count": 1554,
+  "count": 1559,
   "signers": [
+    {
+      "name": "Petra Z.",
+      "city": "Brno-Komín"
+    },
+    {
+      "name": "Karel N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Monika P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Iva P.",
+      "city": "Nové Město na Moravě"
+    },
+    {
+      "name": "Anežka M.",
+      "city": "Lysá nad Labem"
+    },
     {
       "name": "Amálie T.",
       "city": "Brno"
@@ -80,26 +100,6 @@
     {
       "name": "Martin B.",
       "city": "Brno"
-    },
-    {
-      "name": "Gabriela P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Alžběta P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Soňa B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Markéta B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Radim V.",
-      "city": "Luka nad Jihlavou"
     }
   ]
 }
