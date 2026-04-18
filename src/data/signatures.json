@@ -1,6 +1,10 @@
 {
-  "count": 1552,
+  "count": 1553,
   "signers": [
+    {
+      "name": "Hanka J.",
+      "city": "Brno"
+    },
     {
       "name": "Blanka M.",
       "city": "Hustopeče (Břeclav)"
@@ -95,10 +99,6 @@
     },
     {
       "name": "Klára D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Beponuka K.",
       "city": "Brno"
     }
   ]
