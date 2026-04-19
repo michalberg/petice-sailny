@@ -1,6 +1,18 @@
 {
-  "count": 1563,
+  "count": 1564,
   "signers": [
+    {
+      "name": "Eva B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Martin B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Hana B.",
+      "city": "Šlapanice"
+    },
     {
       "name": "Jana Š.",
       "city": "Brno"
@@ -87,18 +99,6 @@
     },
     {
       "name": "Irena H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Marek S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Barbora V.",
-      "city": "Poděbrady"
-    },
-    {
-      "name": "Eliška B.",
       "city": "Brno"
     }
   ]
