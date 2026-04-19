@@ -1,6 +1,10 @@
 {
-  "count": 1562,
+  "count": 1563,
   "signers": [
+    {
+      "name": "Jana Š.",
+      "city": "Brno"
+    },
     {
       "name": "Eliška J.",
       "city": "Brno"
@@ -95,10 +99,6 @@
     },
     {
       "name": "Eliška B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vlasta N.",
       "city": "Brno"
     }
   ]
