@@ -1,6 +1,18 @@
 {
-  "count": 1568,
+  "count": 1571,
   "signers": [
+    {
+      "name": "Kateřina E.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jarmila S.",
+      "city": "Brno 2"
+    },
+    {
+      "name": "Eva P.",
+      "city": "Ostopovice"
+    },
     {
       "name": "Dagmar B.",
       "city": "Brno"
@@ -87,18 +99,6 @@
     },
     {
       "name": "Jindra T.",
-      "city": "Brno"
-    },
-    {
-      "name": "Hana N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Yvona T.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petr Š.",
       "city": "Brno"
     }
   ]
