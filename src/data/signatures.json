@@ -1,6 +1,18 @@
 {
-  "count": 1584,
+  "count": 1587,
   "signers": [
+    {
+      "name": "Marie Anna H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Robert D.",
+      "city": "Prostějov"
+    },
+    {
+      "name": "Soňa R.",
+      "city": "Brno"
+    },
     {
       "name": "Nina B.",
       "city": "Brno"
@@ -87,18 +99,6 @@
     },
     {
       "name": "Jindra D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lucie N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eva B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Martin B.",
       "city": "Brno"
     }
   ]
