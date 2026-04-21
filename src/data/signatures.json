@@ -1,6 +1,26 @@
 {
-  "count": 1592,
+  "count": 1597,
   "signers": [
+    {
+      "name": "Miloslav J.",
+      "city": "Brno-střed"
+    },
+    {
+      "name": "Silvia A.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jakub G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Krištof M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Adam N.",
+      "city": "Brno"
+    },
     {
       "name": "Jakub H.",
       "city": "Pardubice"
@@ -80,26 +100,6 @@
     {
       "name": "Iva Š.",
       "city": "Brno"
-    },
-    {
-      "name": "Michal K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Pavlína S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Pavel S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Kateřina E.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jarmila S.",
-      "city": "Brno 2"
     }
   ]
 }
