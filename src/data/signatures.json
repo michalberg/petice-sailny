@@ -1,6 +1,22 @@
 {
-  "count": 1597,
+  "count": 1601,
   "signers": [
+    {
+      "name": "Petr K.",
+      "city": "Varnsdorf"
+    },
+    {
+      "name": "Michaela M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Nikola O.",
+      "city": "Brno"
+    },
+    {
+      "name": "Marek T.",
+      "city": "Opava"
+    },
     {
       "name": "Miloslav J.",
       "city": "Brno-střed"
@@ -84,22 +100,6 @@
     {
       "name": "Igor J.",
       "city": "Čerčany"
-    },
-    {
-      "name": "Oskar B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tomáš T.",
-      "city": "Brno"
-    },
-    {
-      "name": "David C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Iva Š.",
-      "city": "Brno"
     }
   ]
 }
