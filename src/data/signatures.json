@@ -1,6 +1,34 @@
 {
-  "count": 1601,
+  "count": 1608,
   "signers": [
+    {
+      "name": "Matěj K.",
+      "city": "Přerov"
+    },
+    {
+      "name": "Barbora K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Svatava R.",
+      "city": "Druztová"
+    },
+    {
+      "name": "Markéta D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Eliška C.",
+      "city": "BrnoOmrzeni saliny na Svoboďáku"
+    },
+    {
+      "name": "Kateřina S.",
+      "city": "Louka"
+    },
+    {
+      "name": "Petr Š.",
+      "city": "Brno"
+    },
     {
       "name": "Petr K.",
       "city": "Varnsdorf"
@@ -72,34 +100,6 @@
     {
       "name": "Nina B.",
       "city": "Brno"
-    },
-    {
-      "name": "Matej M.",
-      "city": "Trnava"
-    },
-    {
-      "name": "Karolína B.",
-      "city": "Brno"
-    },
-    {
-      "name": "kazi A.",
-      "city": "Brno"
-    },
-    {
-      "name": "Diana P.",
-      "city": "Pardubice"
-    },
-    {
-      "name": "Vít P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Helena Z.",
-      "city": "Brno"
-    },
-    {
-      "name": "Igor J.",
-      "city": "Čerčany"
     }
   ]
 }
