@@ -1,6 +1,26 @@
 {
-  "count": 1587,
+  "count": 1592,
   "signers": [
+    {
+      "name": "Jakub H.",
+      "city": "Pardubice"
+    },
+    {
+      "name": "Petra O.",
+      "city": "Brno"
+    },
+    {
+      "name": "Simona M.",
+      "city": "Blansko"
+    },
+    {
+      "name": "Martin M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jiří P.",
+      "city": "Brno"
+    },
     {
       "name": "Marie Anna H.",
       "city": "Brno"
@@ -80,26 +100,6 @@
     {
       "name": "Jarmila S.",
       "city": "Brno 2"
-    },
-    {
-      "name": "Eva P.",
-      "city": "Ostopovice"
-    },
-    {
-      "name": "Dagmar B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ivana H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Pavla B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jindra D.",
-      "city": "Brno"
     }
   ]
 }
