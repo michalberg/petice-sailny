@@ -1,6 +1,10 @@
 {
-  "count": 1608,
+  "count": 1609,
   "signers": [
+    {
+      "name": "Adéla H.",
+      "city": "Havlíčkův Brod"
+    },
     {
       "name": "Matěj K.",
       "city": "Přerov"
@@ -95,10 +99,6 @@
     },
     {
       "name": "Soňa R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Nina B.",
       "city": "Brno"
     }
   ]
