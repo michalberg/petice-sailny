@@ -1,6 +1,18 @@
 {
-  "count": 1623,
+  "count": 1626,
   "signers": [
+    {
+      "name": "Vojtěch S.",
+      "city": "Litomyšl"
+    },
+    {
+      "name": "Aleš R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ondřej Z.",
+      "city": "Brno"
+    },
     {
       "name": "Jakub K.",
       "city": "Brno"
@@ -87,18 +99,6 @@
     },
     {
       "name": "Petr Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petr K.",
-      "city": "Varnsdorf"
-    },
-    {
-      "name": "Michaela M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Nikola O.",
       "city": "Brno"
     }
   ]
