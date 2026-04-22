@@ -1,6 +1,18 @@
 {
-  "count": 1620,
+  "count": 1623,
   "signers": [
+    {
+      "name": "Jakub K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Soňa K.",
+      "city": "BRNO"
+    },
+    {
+      "name": "Jan K.",
+      "city": "BRNO"
+    },
     {
       "name": "Barbora M.",
       "city": "Brno"
@@ -87,18 +99,6 @@
     },
     {
       "name": "Nikola O.",
-      "city": "Brno"
-    },
-    {
-      "name": "Marek T.",
-      "city": "Opava"
-    },
-    {
-      "name": "Miloslav J.",
-      "city": "Brno-střed"
-    },
-    {
-      "name": "Silvia A.",
       "city": "Brno"
     }
   ]
