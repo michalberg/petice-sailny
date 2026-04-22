@@ -1,6 +1,18 @@
 {
-  "count": 1626,
+  "count": 1629,
   "signers": [
+    {
+      "name": "Jana S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vendula C.",
+      "city": "Brno"
+    },
+    {
+      "name": "Martin Ď.",
+      "city": "Brno"
+    },
     {
       "name": "Vojtěch S.",
       "city": "Litomyšl"
@@ -87,18 +99,6 @@
     },
     {
       "name": "Markéta D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eliška C.",
-      "city": "BrnoOmrzeni saliny na Svoboďáku"
-    },
-    {
-      "name": "Kateřina S.",
-      "city": "Louka"
-    },
-    {
-      "name": "Petr Š.",
       "city": "Brno"
     }
   ]
