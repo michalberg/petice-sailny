@@ -1,6 +1,22 @@
 {
-  "count": 1629,
+  "count": 1633,
   "signers": [
+    {
+      "name": "Martin H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tereza Š.",
+      "city": "Klecany"
+    },
+    {
+      "name": "Michal S.",
+      "city": "Ostrava"
+    },
+    {
+      "name": "Kryštof R.",
+      "city": ""
+    },
     {
       "name": "Jana S.",
       "city": "Brno"
@@ -84,22 +100,6 @@
     {
       "name": "Adéla H.",
       "city": "Havlíčkův Brod"
-    },
-    {
-      "name": "Matěj K.",
-      "city": "Přerov"
-    },
-    {
-      "name": "Barbora K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Svatava R.",
-      "city": "Druztová"
-    },
-    {
-      "name": "Markéta D.",
-      "city": "Brno"
     }
   ]
 }
