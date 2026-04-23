@@ -1,6 +1,14 @@
 {
-  "count": 1658,
+  "count": 1660,
   "signers": [
+    {
+      "name": "Nguyen Nhat Minh P.",
+      "city": "Rosice"
+    },
+    {
+      "name": "Tomáš T.",
+      "city": "Brno"
+    },
     {
       "name": "Olivia G.",
       "city": "Brno"
@@ -91,14 +99,6 @@
     },
     {
       "name": "Hana D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lucas T.",
-      "city": "Drásov"
-    },
-    {
-      "name": "Ondřej K.",
       "city": "Brno"
     }
   ]
