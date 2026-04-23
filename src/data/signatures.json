@@ -1,6 +1,14 @@
 {
-  "count": 1656,
+  "count": 1658,
   "signers": [
+    {
+      "name": "Olivia G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Šimon B.",
+      "city": "Praha"
+    },
     {
       "name": "Milena H.",
       "city": "Brno"
@@ -92,14 +100,6 @@
     {
       "name": "Ondřej K.",
       "city": "Brno"
-    },
-    {
-      "name": "Martin H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tereza Š.",
-      "city": "Klecany"
     }
   ]
 }
