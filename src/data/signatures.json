@@ -1,6 +1,26 @@
 {
-  "count": 1633,
+  "count": 1638,
   "signers": [
+    {
+      "name": "Jana H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Marie S.",
+      "city": "Olomouc"
+    },
+    {
+      "name": "Hana D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Lucas T.",
+      "city": "Drásov"
+    },
+    {
+      "name": "Ondřej K.",
+      "city": "Brno"
+    },
     {
       "name": "Martin H.",
       "city": "Brno"
@@ -80,26 +100,6 @@
     {
       "name": "Vladimíra D.",
       "city": "Brno"
-    },
-    {
-      "name": "Štěpán Š.",
-      "city": "Česká Třebová"
-    },
-    {
-      "name": "Kateřina Z.",
-      "city": "Drnholec"
-    },
-    {
-      "name": "Albína V.",
-      "city": "Hlohovec"
-    },
-    {
-      "name": "Vendula B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Adéla H.",
-      "city": "Havlíčkův Brod"
     }
   ]
 }
