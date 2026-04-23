@@ -1,6 +1,46 @@
 {
-  "count": 1644,
+  "count": 1654,
   "signers": [
+    {
+      "name": "Petra J.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jana K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Marek T.",
+      "city": "Hustopeče"
+    },
+    {
+      "name": "Monika G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tim P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Václav K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Iva b.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michaela B.",
+      "city": "Slavkov u Brna"
+    },
+    {
+      "name": "Matěj V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tomáš P.",
+      "city": "Uherské Hradiště"
+    },
     {
       "name": "Alena L.",
       "city": "Brno"
@@ -60,46 +100,6 @@
     {
       "name": "Kryštof R.",
       "city": ""
-    },
-    {
-      "name": "Jana S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vendula C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Martin Ď.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vojtěch S.",
-      "city": "Litomyšl"
-    },
-    {
-      "name": "Aleš R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ondřej Z.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jakub K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Soňa K.",
-      "city": "BRNO"
-    },
-    {
-      "name": "Jan K.",
-      "city": "BRNO"
-    },
-    {
-      "name": "Barbora M.",
-      "city": "Brno"
     }
   ]
 }
