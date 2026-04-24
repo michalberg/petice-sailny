@@ -1,56 +1,80 @@
 {
-  "count": 1702,
+  "count": 1727,
   "signers": [
     {
-      "name": "Marek J.",
+      "name": "Petra M.",
       "city": "Brno"
     },
     {
-      "name": "Martin Š.",
+      "name": "Matyáš N.",
+      "city": "Tábor"
+    },
+    {
+      "name": "Daniel S.",
+      "city": "Milotice"
+    },
+    {
+      "name": "Jakub Č.",
+      "city": "Praha"
+    },
+    {
+      "name": "Jakub S.",
       "city": "Brno"
     },
     {
-      "name": "Ondřej D.",
-      "city": "Šlapanice"
+      "name": "Jiří B.",
+      "city": "Černá Hora"
     },
     {
-      "name": "Jiří H.",
-      "city": "Brno 15"
-    },
-    {
-      "name": "David P.",
-      "city": "Rohatec"
-    },
-    {
-      "name": "Ondřej F.",
+      "name": "Lubomír Ř.",
       "city": "Brno"
     },
     {
-      "name": "Matyáš S.",
+      "name": "Jakub Ryszard R.",
       "city": "Brno"
     },
     {
-      "name": "František B.",
+      "name": "Vojtěch M.",
       "city": "Brno"
     },
     {
-      "name": "Lukáš P.",
-      "city": "Hodonín"
-    },
-    {
-      "name": "Michal V.",
+      "name": "Alisa V.",
       "city": "Brno"
     },
     {
-      "name": "Pavla K.",
+      "name": "Juraj V.",
       "city": "Brno"
     },
     {
-      "name": "Štefan H.",
+      "name": "Petr Š.",
+      "city": "Písek"
+    },
+    {
+      "name": "Geoffrey P.",
       "city": "Brno"
     },
     {
-      "name": "Štěpán F.",
+      "name": "Tomáš N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jana P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Iassana M.",
+      "city": "Brno-Starý Lískovec"
+    },
+    {
+      "name": "Radim D.",
+      "city": "Staré Město"
+    },
+    {
+      "name": "Anna K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Adam P.",
       "city": "Brno"
     },
     {
@@ -58,47 +82,23 @@
       "city": "Brno"
     },
     {
-      "name": "Ales T.",
+      "name": "Leona N.",
       "city": "Brno"
     },
     {
-      "name": "Peter Š.",
+      "name": "Jaromír Ř.",
       "city": "Brno"
     },
     {
-      "name": "Martin P.",
-      "city": "Havířov"
+      "name": "Jakub H.",
+      "city": "Bruntál"
     },
     {
-      "name": "Bohdana Z.",
-      "city": "Brno"
+      "name": "Sara Naileh F.",
+      "city": "Brno-střed"
     },
     {
-      "name": "Jiřina D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lenka J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ondřej D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Kateřina K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Zora M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Karolína D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jan V.",
+      "name": "Gabriela P.",
       "city": "Brno"
     }
   ]
