@@ -1,6 +1,70 @@
 {
-  "count": 1740,
+  "count": 1756,
   "signers": [
+    {
+      "name": "Lenka V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Kristýna O.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vojtěch P.",
+      "city": "69142"
+    },
+    {
+      "name": "Tomáš B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Irma K.",
+      "city": "Valtice"
+    },
+    {
+      "name": "Adéla K.",
+      "city": "Hustopeče U Brna"
+    },
+    {
+      "name": "Gabriela P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Natálie J.",
+      "city": "Mikulov"
+    },
+    {
+      "name": "Petr S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Sofie R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jana H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Robin J.",
+      "city": "Mikulov"
+    },
+    {
+      "name": "Andrej B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Casey N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Nina K.",
+      "city": "Brno-Slatina"
+    },
+    {
+      "name": "Marie V.",
+      "city": "Brno"
+    },
     {
       "name": "Šimon M.",
       "city": "Brno"
@@ -35,70 +99,6 @@
     },
     {
       "name": "Lukáš P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Pavla Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Julie V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Pavel K.",
-      "city": "Brumov-Bylnice"
-    },
-    {
-      "name": "Julie F.",
-      "city": "Brno"
-    },
-    {
-      "name": "Marek S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petra M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Matyáš N.",
-      "city": "Tábor"
-    },
-    {
-      "name": "Daniel S.",
-      "city": "Milotice"
-    },
-    {
-      "name": "Jakub Č.",
-      "city": "Praha"
-    },
-    {
-      "name": "Jakub S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jiří B.",
-      "city": "Černá Hora"
-    },
-    {
-      "name": "Lubomír Ř.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jakub Ryszard R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vojtěch M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Alisa V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Juraj V.",
       "city": "Brno"
     }
   ]
