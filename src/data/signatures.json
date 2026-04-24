@@ -1,6 +1,34 @@
 {
-  "count": 1756,
+  "count": 1763,
   "signers": [
+    {
+      "name": "Ivo L.",
+      "city": "Blansko"
+    },
+    {
+      "name": "Tereza Š.",
+      "city": "Brno-Komín"
+    },
+    {
+      "name": "Jáchym K.",
+      "city": "Adamov"
+    },
+    {
+      "name": "Jan P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Zdeněk K.",
+      "city": "Brno-Bystrc"
+    },
+    {
+      "name": "Barbora B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Olesia M.",
+      "city": "Brno"
+    },
     {
       "name": "Lenka V.",
       "city": "Brno"
@@ -71,34 +99,6 @@
     },
     {
       "name": "Jan S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eva S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Michal S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Daniel Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Adéla H.",
-      "city": "Řícmanice"
-    },
-    {
-      "name": "Veronika B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Radim M.",
-      "city": "Znojmo"
-    },
-    {
-      "name": "Lukáš P.",
       "city": "Brno"
     }
   ]
