@@ -1,6 +1,18 @@
 {
-  "count": 1660,
+  "count": 1663,
   "signers": [
+    {
+      "name": "Ladislava B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Pavlína B.",
+      "city": "Police"
+    },
+    {
+      "name": "Lucia K.",
+      "city": "Brno"
+    },
     {
       "name": "Nguyen Nhat Minh P.",
       "city": "Rosice"
@@ -87,18 +99,6 @@
     },
     {
       "name": "Akhan A.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jana H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Marie S.",
-      "city": "Olomouc"
-    },
-    {
-      "name": "Hana D.",
       "city": "Brno"
     }
   ]
