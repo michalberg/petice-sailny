@@ -1,6 +1,54 @@
 {
-  "count": 1771,
+  "count": 1782,
   "signers": [
+    {
+      "name": "sara k.",
+      "city": "brno"
+    },
+    {
+      "name": "Veronika S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Markéta M.",
+      "city": "Hrušovany u Brna"
+    },
+    {
+      "name": "Eliška Č.",
+      "city": "Brno"
+    },
+    {
+      "name": "Elen M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Barbora S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Aleš D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vladimir Č.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michal P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Karin S.",
+      "city": "Brno/Brezno"
+    },
+    {
+      "name": "Julie K.",
+      "city": "Český Krumlov (studentka v Brně)"
+    },
+    {
+      "name": "Miloš H.",
+      "city": "Brno"
+    },
     {
       "name": "Šárka N.",
       "city": "Brno"
@@ -52,54 +100,6 @@
     {
       "name": "Zdeněk K.",
       "city": "Brno-Bystrc"
-    },
-    {
-      "name": "Barbora B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Olesia M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lenka V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Kristýna O.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vojtěch P.",
-      "city": "69142"
-    },
-    {
-      "name": "Tomáš B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Irma K.",
-      "city": "Valtice"
-    },
-    {
-      "name": "Adéla K.",
-      "city": "Hustopeče U Brna"
-    },
-    {
-      "name": "Gabriela P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Natálie J.",
-      "city": "Mikulov"
-    },
-    {
-      "name": "Petr S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Sofie R.",
-      "city": "Brno"
     }
   ]
 }
