@@ -1,6 +1,22 @@
 {
-  "count": 1793,
+  "count": 1797,
   "signers": [
+    {
+      "name": "Jaroslava G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Dominika G.",
+      "city": "Zlín"
+    },
+    {
+      "name": "Jindřich C.",
+      "city": "Žabovřesky"
+    },
+    {
+      "name": "Dominik S.",
+      "city": "Brno"
+    },
     {
       "name": "Jakub S.",
       "city": "Přerov"
@@ -84,22 +100,6 @@
     {
       "name": "Karin S.",
       "city": "Brno/Brezno"
-    },
-    {
-      "name": "Julie K.",
-      "city": "Český Krumlov (studentka v Brně)"
-    },
-    {
-      "name": "Miloš H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Šárka N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Markéta M.",
-      "city": "Brno"
     }
   ]
 }
