@@ -1,6 +1,26 @@
 {
-  "count": 1788,
+  "count": 1793,
   "signers": [
+    {
+      "name": "Jakub S.",
+      "city": "Přerov"
+    },
+    {
+      "name": "František Č.",
+      "city": "Brno"
+    },
+    {
+      "name": "Aneta G.",
+      "city": "Brno"
+    },
+    {
+      "name": "René Č.",
+      "city": "Brno"
+    },
+    {
+      "name": "Josef n.",
+      "city": "Brno"
+    },
     {
       "name": "Marek J.",
       "city": "Brno"
@@ -79,26 +99,6 @@
     },
     {
       "name": "Markéta M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Gabor O.",
-      "city": "Brno"
-    },
-    {
-      "name": "Věra B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Albert Ž.",
-      "city": "Brno"
-    },
-    {
-      "name": "Klára M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ján L.",
       "city": "Brno"
     }
   ]
