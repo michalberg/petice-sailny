@@ -1,6 +1,30 @@
 {
-  "count": 1782,
+  "count": 1788,
   "signers": [
+    {
+      "name": "Marek J.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ondřej Š.",
+      "city": "Rakvice"
+    },
+    {
+      "name": "Dominik R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tomáš K.",
+      "city": "Liberec"
+    },
+    {
+      "name": "Mojmír S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Timotej K.",
+      "city": "Brno"
+    },
     {
       "name": "sara k.",
       "city": "brno"
@@ -76,30 +100,6 @@
     {
       "name": "Ján L.",
       "city": "Brno"
-    },
-    {
-      "name": "Patricie H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ivo L.",
-      "city": "Blansko"
-    },
-    {
-      "name": "Tereza Š.",
-      "city": "Brno-Komín"
-    },
-    {
-      "name": "Jáchym K.",
-      "city": "Adamov"
-    },
-    {
-      "name": "Jan P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Zdeněk K.",
-      "city": "Brno-Bystrc"
     }
   ]
 }
