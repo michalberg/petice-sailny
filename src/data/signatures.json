@@ -1,6 +1,14 @@
 {
-  "count": 1797,
+  "count": 1799,
   "signers": [
+    {
+      "name": "Rozálie Č.",
+      "city": "Praha-Slivenec"
+    },
+    {
+      "name": "Samuel M.",
+      "city": "Brno"
+    },
     {
       "name": "Jaroslava G.",
       "city": "Brno"
@@ -92,14 +100,6 @@
     {
       "name": "Vladimir Č.",
       "city": "Brno"
-    },
-    {
-      "name": "Michal P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Karin S.",
-      "city": "Brno/Brezno"
     }
   ]
 }
