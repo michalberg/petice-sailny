@@ -1,6 +1,34 @@
 {
-  "count": 1825,
+  "count": 1831,
   "signers": [
+    {
+      "name": "Eliška K.",
+      "city": "Břeclav"
+    },
+    {
+      "name": "Marty V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ada R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ondřej K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Karolína K.",
+      "city": "Brno-židenice"
+    },
+    {
+      "name": "Marie H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vladimír P.",
+      "city": "Brno"
+    },
     {
       "name": "Dominik J.",
       "city": "Velke Mezirici"
@@ -71,34 +99,6 @@
     },
     {
       "name": "Eva K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Štěpán H.",
-      "city": "Říčany"
-    },
-    {
-      "name": "Viktoria D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ria B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Kateřina B.",
-      "city": "Střelice"
-    },
-    {
-      "name": "Radovan K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Michal B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Helena N.",
       "city": "Brno"
     }
   ]
