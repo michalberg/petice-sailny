@@ -1,6 +1,30 @@
 {
-  "count": 1802,
+  "count": 1808,
   "signers": [
+    {
+      "name": "Štěpán H.",
+      "city": "Říčany"
+    },
+    {
+      "name": "Viktoria D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ria B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Kateřina B.",
+      "city": "Střelice"
+    },
+    {
+      "name": "Radovan K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michal B.",
+      "city": "Brno"
+    },
     {
       "name": "Helena N.",
       "city": "Brno"
@@ -75,30 +99,6 @@
     },
     {
       "name": "Mojmír S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Timotej K.",
-      "city": "Brno"
-    },
-    {
-      "name": "sara k.",
-      "city": "brno"
-    },
-    {
-      "name": "Veronika S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Markéta M.",
-      "city": "Hrušovany u Brna"
-    },
-    {
-      "name": "Eliška Č.",
-      "city": "Brno"
-    },
-    {
-      "name": "Elen M.",
       "city": "Brno"
     }
   ]
