@@ -1,6 +1,38 @@
 {
-  "count": 1818,
+  "count": 1825,
   "signers": [
+    {
+      "name": "Dominik J.",
+      "city": "Velke Mezirici"
+    },
+    {
+      "name": "Zbyněk G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Samuel S.",
+      "city": "Praha"
+    },
+    {
+      "name": "Slavomíra R.",
+      "city": "Hontianske Tesáre"
+    },
+    {
+      "name": "Jarmila R.",
+      "city": "Jihomoravský kraj"
+    },
+    {
+      "name": "Ivana P.",
+      "city": "Veveří"
+    },
+    {
+      "name": "Adam Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Denisa M.",
+      "city": "Veveří"
+    },
     {
       "name": "Rowan S.",
       "city": "Brno"
@@ -67,38 +99,6 @@
     },
     {
       "name": "Helena N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Šimon Orlan Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Olga H.",
-      "city": "Brno, Czechia"
-    },
-    {
-      "name": "Rozálie Č.",
-      "city": "Praha-Slivenec"
-    },
-    {
-      "name": "Samuel M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jaroslava G.",
-      "city": "Brno"
-    },
-    {
-      "name": "Dominika G.",
-      "city": "Zlín"
-    },
-    {
-      "name": "Jindřich C.",
-      "city": "Žabovřesky"
-    },
-    {
-      "name": "Dominik S.",
       "city": "Brno"
     }
   ]
