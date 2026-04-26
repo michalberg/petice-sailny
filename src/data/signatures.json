@@ -1,6 +1,18 @@
 {
-  "count": 1808,
+  "count": 1811,
   "signers": [
+    {
+      "name": "Pavel N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Patrícia H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Eva K.",
+      "city": "Brno"
+    },
     {
       "name": "Štěpán H.",
       "city": "Říčany"
@@ -88,18 +100,6 @@
     {
       "name": "Ondřej Š.",
       "city": "Rakvice"
-    },
-    {
-      "name": "Dominik R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tomáš K.",
-      "city": "Liberec"
-    },
-    {
-      "name": "Mojmír S.",
-      "city": "Brno"
     }
   ]
 }
