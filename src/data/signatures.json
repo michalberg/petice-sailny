@@ -1,6 +1,18 @@
 {
-  "count": 1799,
+  "count": 1802,
   "signers": [
+    {
+      "name": "Helena N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Šimon Orlan Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Olga H.",
+      "city": "Brno, Czechia"
+    },
     {
       "name": "Rozálie Č.",
       "city": "Praha-Slivenec"
@@ -87,18 +99,6 @@
     },
     {
       "name": "Elen M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Barbora S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Aleš D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vladimir Č.",
       "city": "Brno"
     }
   ]
