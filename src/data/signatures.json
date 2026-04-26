@@ -1,6 +1,34 @@
 {
-  "count": 1811,
+  "count": 1818,
   "signers": [
+    {
+      "name": "Rowan S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tomáš J.",
+      "city": "Brno"
+    },
+    {
+      "name": "Lenka P.",
+      "city": "Brno 14"
+    },
+    {
+      "name": "Klára B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jan P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Adéla S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jan P.",
+      "city": "Brno"
+    },
     {
       "name": "Pavel N.",
       "city": "Brno"
@@ -72,34 +100,6 @@
     {
       "name": "Dominik S.",
       "city": "Brno"
-    },
-    {
-      "name": "Jakub S.",
-      "city": "Přerov"
-    },
-    {
-      "name": "František Č.",
-      "city": "Brno"
-    },
-    {
-      "name": "Aneta G.",
-      "city": "Brno"
-    },
-    {
-      "name": "René Č.",
-      "city": "Brno"
-    },
-    {
-      "name": "Josef n.",
-      "city": "Brno"
-    },
-    {
-      "name": "Marek J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ondřej Š.",
-      "city": "Rakvice"
     }
   ]
 }
