@@ -1,6 +1,22 @@
 {
-  "count": 1839,
+  "count": 1843,
   "signers": [
+    {
+      "name": "Vojtěch K.",
+      "city": "Brno-Ořešín"
+    },
+    {
+      "name": "Radek Z.",
+      "city": "Brno - Nový Lískovec"
+    },
+    {
+      "name": "Josef M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jan M.",
+      "city": "Brno"
+    },
     {
       "name": "Vít S.",
       "city": "Němčice"
@@ -84,22 +100,6 @@
     {
       "name": "Ivana P.",
       "city": "Veveří"
-    },
-    {
-      "name": "Adam Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Denisa M.",
-      "city": "Veveří"
-    },
-    {
-      "name": "Rowan S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tomáš J.",
-      "city": "Brno"
     }
   ]
 }
