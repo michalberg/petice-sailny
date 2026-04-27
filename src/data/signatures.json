@@ -1,6 +1,38 @@
 {
-  "count": 1831,
+  "count": 1839,
   "signers": [
+    {
+      "name": "Vít S.",
+      "city": "Němčice"
+    },
+    {
+      "name": "Lucie O.",
+      "city": "Brno"
+    },
+    {
+      "name": "Adéla D.",
+      "city": "Brno-střed"
+    },
+    {
+      "name": "Mikuláš A.",
+      "city": "Brno"
+    },
+    {
+      "name": "Nora Júlia L.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vendula K.",
+      "city": "Rýmařov"
+    },
+    {
+      "name": "Agnieszka B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Zuzana M.",
+      "city": "Brno"
+    },
     {
       "name": "Eliška K.",
       "city": "Břeclav"
@@ -67,38 +99,6 @@
     },
     {
       "name": "Tomáš J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lenka P.",
-      "city": "Brno 14"
-    },
-    {
-      "name": "Klára B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jan P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Adéla S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jan P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Pavel N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Patrícia H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eva K.",
       "city": "Brno"
     }
   ]
