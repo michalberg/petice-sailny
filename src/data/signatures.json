@@ -1,6 +1,10 @@
 {
-  "count": 1857,
+  "count": 1858,
   "signers": [
+    {
+      "name": "Matyáš H.",
+      "city": "Brno"
+    },
     {
       "name": "Julie J.",
       "city": "Zlín"
@@ -96,10 +100,6 @@
     {
       "name": "Vendula K.",
       "city": "Rýmařov"
-    },
-    {
-      "name": "Agnieszka B.",
-      "city": "Brno"
     }
   ]
 }
