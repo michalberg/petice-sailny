@@ -1,6 +1,18 @@
 {
-  "count": 1858,
+  "count": 1861,
   "signers": [
+    {
+      "name": "Agáta H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Alena T.",
+      "city": "Brno"
+    },
+    {
+      "name": "David H.",
+      "city": "Brno"
+    },
     {
       "name": "Matyáš H.",
       "city": "Brno"
@@ -88,18 +100,6 @@
     {
       "name": "Adéla D.",
       "city": "Brno-střed"
-    },
-    {
-      "name": "Mikuláš A.",
-      "city": "Brno"
-    },
-    {
-      "name": "Nora Júlia L.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vendula K.",
-      "city": "Rýmařov"
     }
   ]
 }
