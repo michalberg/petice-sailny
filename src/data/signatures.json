@@ -1,6 +1,42 @@
 {
-  "count": 1848,
+  "count": 1857,
   "signers": [
+    {
+      "name": "Julie J.",
+      "city": "Zlín"
+    },
+    {
+      "name": "ELENA F.",
+      "city": "Jakartovice"
+    },
+    {
+      "name": "Radka L.",
+      "city": "Děčín"
+    },
+    {
+      "name": "Any H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michal B.",
+      "city": "Přelouč"
+    },
+    {
+      "name": "Šárka Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jan Sebastian R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Šimon S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jana R.",
+      "city": "Brno"
+    },
     {
       "name": "Petra N.",
       "city": "Brno"
@@ -64,42 +100,6 @@
     {
       "name": "Agnieszka B.",
       "city": "Brno"
-    },
-    {
-      "name": "Zuzana M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Eliška K.",
-      "city": "Břeclav"
-    },
-    {
-      "name": "Marty V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ada R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ondřej K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Karolína K.",
-      "city": "Brno-židenice"
-    },
-    {
-      "name": "Marie H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vladimír P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Dominik J.",
-      "city": "Velke Mezirici"
     }
   ]
 }
