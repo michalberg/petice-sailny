@@ -1,6 +1,30 @@
 {
-  "count": 1873,
+  "count": 1879,
   "signers": [
+    {
+      "name": "Milan R.",
+      "city": "Brno 15"
+    },
+    {
+      "name": "Zdeněk R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ondra K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Johana K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Karel S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Matěj K.",
+      "city": "Kuřim"
+    },
     {
       "name": "Barbora M.",
       "city": "Brno"
@@ -76,30 +100,6 @@
     {
       "name": "Radka L.",
       "city": "Děčín"
-    },
-    {
-      "name": "Any H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Michal B.",
-      "city": "Přelouč"
-    },
-    {
-      "name": "Šárka Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jan Sebastian R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Šimon S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jana R.",
-      "city": "Brno"
     }
   ]
 }
