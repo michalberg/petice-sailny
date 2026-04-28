@@ -1,6 +1,26 @@
 {
-  "count": 1861,
+  "count": 1866,
   "signers": [
+    {
+      "name": "Iva K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Petra P.",
+      "city": "Sokolnice"
+    },
+    {
+      "name": "Nela C.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tomáš K.",
+      "city": "Třebíč"
+    },
+    {
+      "name": "Viktorie V.",
+      "city": "Brno"
+    },
     {
       "name": "Agáta H.",
       "city": "Brno"
@@ -80,26 +100,6 @@
     {
       "name": "Radek Z.",
       "city": "Brno - Nový Lískovec"
-    },
-    {
-      "name": "Josef M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jan M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vít S.",
-      "city": "Němčice"
-    },
-    {
-      "name": "Lucie O.",
-      "city": "Brno"
-    },
-    {
-      "name": "Adéla D.",
-      "city": "Brno-střed"
     }
   ]
 }
