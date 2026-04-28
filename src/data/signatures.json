@@ -1,6 +1,22 @@
 {
-  "count": 1866,
+  "count": 1870,
   "signers": [
+    {
+      "name": "Barbora S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jan P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tomáš D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Saša D.",
+      "city": "Želetice"
+    },
     {
       "name": "Iva K.",
       "city": "Brno"
@@ -84,22 +100,6 @@
     {
       "name": "Kateřina N.",
       "city": "Brno"
-    },
-    {
-      "name": "David K.",
-      "city": "Praha"
-    },
-    {
-      "name": "Marie B.",
-      "city": "Praha"
-    },
-    {
-      "name": "Vojtěch K.",
-      "city": "Brno-Ořešín"
-    },
-    {
-      "name": "Radek Z.",
-      "city": "Brno - Nový Lískovec"
     }
   ]
 }
