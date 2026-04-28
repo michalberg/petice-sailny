@@ -1,6 +1,18 @@
 {
-  "count": 1870,
+  "count": 1873,
   "signers": [
+    {
+      "name": "Barbora M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Soňa N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jaroslava B.",
+      "city": "Brno"
+    },
     {
       "name": "Barbora S.",
       "city": "Brno"
@@ -87,18 +99,6 @@
     },
     {
       "name": "Jana R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petra N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Zuzana K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Kateřina N.",
       "city": "Brno"
     }
   ]
