@@ -1,6 +1,34 @@
 {
-  "count": 1888,
+  "count": 1894,
   "signers": [
+    {
+      "name": "Ivona B.",
+      "city": "Brno"
+    },
+    {
+      "name": "Alois V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Patricie H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Robin O.",
+      "city": "Brno"
+    },
+    {
+      "name": "Pavlína Š.",
+      "city": "Ořechov"
+    },
+    {
+      "name": "jan s.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ondřej S.",
+      "city": "Brno"
+    },
     {
       "name": "Ingrid S.",
       "city": "Hořice"
@@ -71,34 +99,6 @@
     },
     {
       "name": "Jaroslava B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Barbora S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jan P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tomáš D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Saša D.",
-      "city": "Želetice"
-    },
-    {
-      "name": "Iva K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petra P.",
-      "city": "Sokolnice"
-    },
-    {
-      "name": "Nela C.",
       "city": "Brno"
     }
   ]
