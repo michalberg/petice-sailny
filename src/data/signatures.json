@@ -1,6 +1,18 @@
 {
-  "count": 1881,
+  "count": 1884,
   "signers": [
+    {
+      "name": "Světlana Š.",
+      "city": "Buchlovice"
+    },
+    {
+      "name": "Martin O.",
+      "city": "Brno"
+    },
+    {
+      "name": "Milena Š.",
+      "city": "Brno"
+    },
     {
       "name": "Jakub S.",
       "city": "Brno"
@@ -88,18 +100,6 @@
     {
       "name": "Alena T.",
       "city": "Brno"
-    },
-    {
-      "name": "David H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Matyáš H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Julie J.",
-      "city": "Zlín"
     }
   ]
 }
