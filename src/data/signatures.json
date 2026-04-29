@@ -1,6 +1,10 @@
 {
-  "count": 1880,
+  "count": 1881,
   "signers": [
+    {
+      "name": "Jakub S.",
+      "city": "Brno"
+    },
     {
       "name": "Nela L.",
       "city": "Brno"
@@ -96,10 +100,6 @@
     {
       "name": "Julie J.",
       "city": "Zlín"
-    },
-    {
-      "name": "ELENA F.",
-      "city": "Jakartovice"
     }
   ]
 }
