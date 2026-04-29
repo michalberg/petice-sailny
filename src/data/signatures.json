@@ -1,6 +1,22 @@
 {
-  "count": 1884,
+  "count": 1888,
   "signers": [
+    {
+      "name": "Ingrid S.",
+      "city": "Hořice"
+    },
+    {
+      "name": "Ema E.",
+      "city": "Vracov"
+    },
+    {
+      "name": "Ivana H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Amálie Sofie Z.",
+      "city": "Brno"
+    },
     {
       "name": "Světlana Š.",
       "city": "Buchlovice"
@@ -83,22 +99,6 @@
     },
     {
       "name": "Nela C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tomáš K.",
-      "city": "Třebíč"
-    },
-    {
-      "name": "Viktorie V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Agáta H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Alena T.",
       "city": "Brno"
     }
   ]
