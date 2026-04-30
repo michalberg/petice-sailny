@@ -1,6 +1,18 @@
 {
-  "count": 1910,
+  "count": 1913,
   "signers": [
+    {
+      "name": "Ondřej R.",
+      "city": "Prostějov"
+    },
+    {
+      "name": "Radek Z.",
+      "city": "Hradec Králové"
+    },
+    {
+      "name": "Lukáš D.",
+      "city": "Brno - jih"
+    },
     {
       "name": "Lukáš B.",
       "city": "Újezd u Brna"
@@ -88,18 +100,6 @@
     {
       "name": "Pavlína Š.",
       "city": "Ořechov"
-    },
-    {
-      "name": "jan s.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ondřej S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ingrid S.",
-      "city": "Hořice"
     }
   ]
 }
