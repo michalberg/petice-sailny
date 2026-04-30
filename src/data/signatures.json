@@ -1,6 +1,14 @@
 {
-  "count": 1896,
+  "count": 1898,
   "signers": [
+    {
+      "name": "Jan C.",
+      "city": "Brno"
+    },
+    {
+      "name": "Adam V.",
+      "city": "Brno"
+    },
     {
       "name": "Jana H.",
       "city": "Kanice"
@@ -91,14 +99,6 @@
     },
     {
       "name": "Karel S.",
-      "city": "Brno"
-    },
-    {
-      "name": "Matěj K.",
-      "city": "Kuřim"
-    },
-    {
-      "name": "Barbora M.",
       "city": "Brno"
     }
   ]
