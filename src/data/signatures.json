@@ -1,6 +1,18 @@
 {
-  "count": 1907,
+  "count": 1910,
   "signers": [
+    {
+      "name": "Lukáš B.",
+      "city": "Újezd u Brna"
+    },
+    {
+      "name": "Marie K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Zdeněk N.",
+      "city": "Brno"
+    },
     {
       "name": "Ferdinand V.",
       "city": "Nosislav"
@@ -88,18 +100,6 @@
     {
       "name": "Ingrid S.",
       "city": "Hořice"
-    },
-    {
-      "name": "Ema E.",
-      "city": "Vracov"
-    },
-    {
-      "name": "Ivana H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Amálie Sofie Z.",
-      "city": "Brno"
     }
   ]
 }
