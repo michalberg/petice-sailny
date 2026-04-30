@@ -1,6 +1,22 @@
 {
-  "count": 1899,
+  "count": 1902,
   "signers": [
+    {
+      "name": "Tamara S.",
+      "city": "Břeclav"
+    },
+    {
+      "name": "Veronika D.",
+      "city": "Proseč"
+    },
+    {
+      "name": "Lubomír Ř.",
+      "city": "Brno"
+    },
+    {
+      "name": "Kamila C.",
+      "city": "Ostopovice"
+    },
     {
       "name": "Vojtěch P.",
       "city": "Brno"
@@ -83,22 +99,6 @@
     },
     {
       "name": "Nela L.",
-      "city": "Brno"
-    },
-    {
-      "name": "Milan R.",
-      "city": "Brno 15"
-    },
-    {
-      "name": "Zdeněk R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ondra K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Johana K.",
       "city": "Brno"
     }
   ]
