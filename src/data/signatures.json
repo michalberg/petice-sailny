@@ -1,6 +1,10 @@
 {
-  "count": 1898,
+  "count": 1899,
   "signers": [
+    {
+      "name": "Vojtěch P.",
+      "city": "Brno"
+    },
     {
       "name": "Jan C.",
       "city": "Brno"
@@ -95,10 +99,6 @@
     },
     {
       "name": "Johana K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Karel S.",
       "city": "Brno"
     }
   ]
