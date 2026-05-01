@@ -1,6 +1,14 @@
 {
-  "count": 1923,
+  "count": 1925,
   "signers": [
+    {
+      "name": "Zora P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tereza H.",
+      "city": "Brno"
+    },
     {
       "name": "Kristýna P.",
       "city": "Pozořice"
@@ -92,14 +100,6 @@
     {
       "name": "Veronika D.",
       "city": "Proseč"
-    },
-    {
-      "name": "Lubomír Ř.",
-      "city": "Brno"
-    },
-    {
-      "name": "Kamila C.",
-      "city": "Ostopovice"
     }
   ]
 }
