@@ -1,6 +1,14 @@
 {
-  "count": 1925,
+  "count": 1927,
   "signers": [
+    {
+      "name": "Tomáš V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michal Ř.",
+      "city": "Brno"
+    },
     {
       "name": "Zora P.",
       "city": "Brno"
@@ -92,14 +100,6 @@
     {
       "name": "Ivana M.",
       "city": "Brno"
-    },
-    {
-      "name": "Tamara S.",
-      "city": "Břeclav"
-    },
-    {
-      "name": "Veronika D.",
-      "city": "Proseč"
     }
   ]
 }
