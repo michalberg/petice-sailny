@@ -1,6 +1,34 @@
 {
-  "count": 1916,
+  "count": 1923,
   "signers": [
+    {
+      "name": "Kristýna P.",
+      "city": "Pozořice"
+    },
+    {
+      "name": "Olesja N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tereza J.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ela E.",
+      "city": "Bratislava"
+    },
+    {
+      "name": "Tobias H.",
+      "city": "Brno-střed"
+    },
+    {
+      "name": "Nicolas N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Klára S.",
+      "city": "Brno"
+    },
     {
       "name": "Filip E.",
       "city": "Brno"
@@ -72,34 +100,6 @@
     {
       "name": "Kamila C.",
       "city": "Ostopovice"
-    },
-    {
-      "name": "Vojtěch P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jan C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Adam V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jana H.",
-      "city": "Kanice"
-    },
-    {
-      "name": "Kateřina K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ivona B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Alois V.",
-      "city": "Brno"
     }
   ]
 }
