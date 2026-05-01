@@ -1,6 +1,10 @@
 {
-  "count": 1915,
+  "count": 1916,
   "signers": [
+    {
+      "name": "Filip E.",
+      "city": "Brno"
+    },
     {
       "name": "Jacek M.",
       "city": "Stonava"
@@ -95,10 +99,6 @@
     },
     {
       "name": "Alois V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Patricie H.",
       "city": "Brno"
     }
   ]
