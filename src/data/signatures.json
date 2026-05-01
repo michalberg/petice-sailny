@@ -1,6 +1,14 @@
 {
-  "count": 1913,
+  "count": 1915,
   "signers": [
+    {
+      "name": "Jacek M.",
+      "city": "Stonava"
+    },
+    {
+      "name": "Matvej N.",
+      "city": "Brno"
+    },
     {
       "name": "Ondřej R.",
       "city": "Prostějov"
@@ -92,14 +100,6 @@
     {
       "name": "Patricie H.",
       "city": "Brno"
-    },
-    {
-      "name": "Robin O.",
-      "city": "Brno"
-    },
-    {
-      "name": "Pavlína Š.",
-      "city": "Ořechov"
     }
   ]
 }
