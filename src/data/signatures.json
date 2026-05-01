@@ -1,6 +1,14 @@
 {
-  "count": 1927,
+  "count": 1929,
   "signers": [
+    {
+      "name": "Markéta F.",
+      "city": "Třebíč"
+    },
+    {
+      "name": "Kristýna F.",
+      "city": "Brno"
+    },
     {
       "name": "Tomáš V.",
       "city": "Brno"
@@ -91,14 +99,6 @@
     },
     {
       "name": "Jiří Č.",
-      "city": "Brno"
-    },
-    {
-      "name": "Radek V.",
-      "city": "Holešov"
-    },
-    {
-      "name": "Ivana M.",
       "city": "Brno"
     }
   ]
