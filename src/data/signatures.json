@@ -1,6 +1,18 @@
 {
-  "count": 1932,
+  "count": 1935,
   "signers": [
+    {
+      "name": "Vlasta V.",
+      "city": "Klobouky u Brna"
+    },
+    {
+      "name": "Ondřej P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Frantisek S.",
+      "city": "Praha"
+    },
     {
       "name": "Iveta C.",
       "city": "Brno"
@@ -88,18 +100,6 @@
     {
       "name": "Lukáš D.",
       "city": "Brno - jih"
-    },
-    {
-      "name": "Lukáš B.",
-      "city": "Újezd u Brna"
-    },
-    {
-      "name": "Marie K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Zdeněk N.",
-      "city": "Brno"
     }
   ]
 }
