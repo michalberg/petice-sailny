@@ -1,6 +1,18 @@
 {
-  "count": 1929,
+  "count": 1932,
   "signers": [
+    {
+      "name": "Iveta C.",
+      "city": "Brno"
+    },
+    {
+      "name": "Karolína R.",
+      "city": "Praha"
+    },
+    {
+      "name": "Zuzana M.",
+      "city": "69604"
+    },
     {
       "name": "Markéta F.",
       "city": "Třebíč"
@@ -87,18 +99,6 @@
     },
     {
       "name": "Zdeněk N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ferdinand V.",
-      "city": "Nosislav"
-    },
-    {
-      "name": "Jan C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jiří Č.",
       "city": "Brno"
     }
   ]
