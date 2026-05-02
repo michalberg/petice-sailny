@@ -1,6 +1,10 @@
 {
-  "count": 1935,
+  "count": 1936,
   "signers": [
+    {
+      "name": "Helena K.",
+      "city": "Brno"
+    },
     {
       "name": "Vlasta V.",
       "city": "Klobouky u Brna"
@@ -96,10 +100,6 @@
     {
       "name": "Radek Z.",
       "city": "Hradec Králové"
-    },
-    {
-      "name": "Lukáš D.",
-      "city": "Brno - jih"
     }
   ]
 }
