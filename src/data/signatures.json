@@ -1,6 +1,14 @@
 {
-  "count": 1936,
+  "count": 1938,
   "signers": [
+    {
+      "name": "Lucia K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jaroslav K.",
+      "city": "Brno"
+    },
     {
       "name": "Helena K.",
       "city": "Brno"
@@ -92,14 +100,6 @@
     {
       "name": "Matvej N.",
       "city": "Brno"
-    },
-    {
-      "name": "Ondřej R.",
-      "city": "Prostějov"
-    },
-    {
-      "name": "Radek Z.",
-      "city": "Hradec Králové"
     }
   ]
 }
