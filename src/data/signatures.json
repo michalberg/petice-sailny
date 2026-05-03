@@ -1,6 +1,14 @@
 {
-  "count": 1938,
+  "count": 1940,
   "signers": [
+    {
+      "name": "Olga N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Lenka L.",
+      "city": ""
+    },
     {
       "name": "Lucia K.",
       "city": "Brno"
@@ -91,14 +99,6 @@
     },
     {
       "name": "Filip E.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jacek M.",
-      "city": "Stonava"
-    },
-    {
-      "name": "Matvej N.",
       "city": "Brno"
     }
   ]
