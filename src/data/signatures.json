@@ -1,6 +1,10 @@
 {
-  "count": 1941,
+  "count": 1942,
   "signers": [
+    {
+      "name": "hynek h.",
+      "city": "brno"
+    },
     {
       "name": "Michal R.",
       "city": "Brno"
@@ -95,10 +99,6 @@
     },
     {
       "name": "Nicolas N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Klára S.",
       "city": "Brno"
     }
   ]
