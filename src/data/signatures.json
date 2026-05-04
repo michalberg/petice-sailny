@@ -1,6 +1,10 @@
 {
-  "count": 1942,
+  "count": 1943,
   "signers": [
+    {
+      "name": "Josefína H.",
+      "city": "Brno Obřany"
+    },
     {
       "name": "hynek h.",
       "city": "brno"
@@ -96,10 +100,6 @@
     {
       "name": "Tobias H.",
       "city": "Brno-střed"
-    },
-    {
-      "name": "Nicolas N.",
-      "city": "Brno"
     }
   ]
 }
