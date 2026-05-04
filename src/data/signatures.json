@@ -1,6 +1,14 @@
 {
-  "count": 1943,
+  "count": 1945,
   "signers": [
+    {
+      "name": "Antonín R.",
+      "city": "Plzeň"
+    },
+    {
+      "name": "David H.",
+      "city": "Tišnov"
+    },
     {
       "name": "Josefína H.",
       "city": "Brno Obřany"
@@ -92,14 +100,6 @@
     {
       "name": "Tereza J.",
       "city": "Brno"
-    },
-    {
-      "name": "Ela E.",
-      "city": "Bratislava"
-    },
-    {
-      "name": "Tobias H.",
-      "city": "Brno-střed"
     }
   ]
 }
