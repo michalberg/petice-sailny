@@ -1,6 +1,10 @@
 {
-  "count": 1945,
+  "count": 1946,
   "signers": [
+    {
+      "name": "Tea M.",
+      "city": "Brno"
+    },
     {
       "name": "Antonín R.",
       "city": "Plzeň"
@@ -95,10 +99,6 @@
     },
     {
       "name": "Olesja N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tereza J.",
       "city": "Brno"
     }
   ]
