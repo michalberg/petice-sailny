@@ -1,6 +1,10 @@
 {
-  "count": 1946,
+  "count": 1947,
   "signers": [
+    {
+      "name": "David B.",
+      "city": "Brno"
+    },
     {
       "name": "Tea M.",
       "city": "Brno"
@@ -96,10 +100,6 @@
     {
       "name": "Kristýna P.",
       "city": "Pozořice"
-    },
-    {
-      "name": "Olesja N.",
-      "city": "Brno"
     }
   ]
 }
