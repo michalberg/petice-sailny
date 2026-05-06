@@ -1,6 +1,14 @@
 {
-  "count": 1956,
+  "count": 1958,
   "signers": [
+    {
+      "name": "Filip K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Josefa H.",
+      "city": "Brno"
+    },
     {
       "name": "Martin G.",
       "city": "Brno"
@@ -91,14 +99,6 @@
     },
     {
       "name": "Ondřej P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Frantisek S.",
-      "city": "Praha"
-    },
-    {
-      "name": "Iveta C.",
       "city": "Brno"
     }
   ]
