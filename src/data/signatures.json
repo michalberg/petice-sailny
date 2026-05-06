@@ -1,6 +1,10 @@
 {
-  "count": 1958,
+  "count": 1959,
   "signers": [
+    {
+      "name": "Barbora I.",
+      "city": "Břeclav"
+    },
     {
       "name": "Filip K.",
       "city": "Brno"
@@ -96,10 +100,6 @@
     {
       "name": "Vlasta V.",
       "city": "Klobouky u Brna"
-    },
-    {
-      "name": "Ondřej P.",
-      "city": "Brno"
     }
   ]
 }
