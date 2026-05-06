@@ -1,6 +1,14 @@
 {
-  "count": 1954,
+  "count": 1956,
   "signers": [
+    {
+      "name": "Martin G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Markéta P.",
+      "city": "Veveří"
+    },
     {
       "name": "Kristýna B.",
       "city": "Brno"
@@ -92,14 +100,6 @@
     {
       "name": "Iveta C.",
       "city": "Brno"
-    },
-    {
-      "name": "Karolína R.",
-      "city": "Praha"
-    },
-    {
-      "name": "Zuzana M.",
-      "city": "69604"
     }
   ]
 }
