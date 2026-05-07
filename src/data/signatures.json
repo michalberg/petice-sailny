@@ -1,6 +1,18 @@
 {
-  "count": 1960,
+  "count": 1963,
   "signers": [
+    {
+      "name": "Věra Č.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jarmila D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ondřej V.",
+      "city": ""
+    },
     {
       "name": "Pavel V.",
       "city": "Brno"
@@ -88,18 +100,6 @@
     {
       "name": "Lenka L.",
       "city": ""
-    },
-    {
-      "name": "Lucia K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jaroslav K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Helena K.",
-      "city": "Brno"
     }
   ]
 }
