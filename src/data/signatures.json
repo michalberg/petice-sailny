@@ -1,6 +1,14 @@
 {
-  "count": 1963,
+  "count": 1965,
   "signers": [
+    {
+      "name": "Hana L.",
+      "city": "Brno-sever"
+    },
+    {
+      "name": "Hana H.",
+      "city": "Brno"
+    },
     {
       "name": "Věra Č.",
       "city": "Brno"
@@ -92,14 +100,6 @@
     {
       "name": "Michal R.",
       "city": "Brno"
-    },
-    {
-      "name": "Olga N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lenka L.",
-      "city": ""
     }
   ]
 }
