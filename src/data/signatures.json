@@ -1,6 +1,34 @@
 {
-  "count": 1965,
+  "count": 1972,
   "signers": [
+    {
+      "name": "Michaela P.",
+      "city": "Střelice"
+    },
+    {
+      "name": "Libuše D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Říhová Ř.",
+      "city": "Brno"
+    },
+    {
+      "name": "Olga D.",
+      "city": "Brno"
+    },
+    {
+      "name": "Sára Č.",
+      "city": "Brno"
+    },
+    {
+      "name": "David Č.",
+      "city": "Brno"
+    },
+    {
+      "name": "Lenka Č.",
+      "city": "Brno"
+    },
     {
       "name": "Hana L.",
       "city": "Brno-sever"
@@ -72,34 +100,6 @@
     {
       "name": "Klára P.",
       "city": "Šaratice"
-    },
-    {
-      "name": "David B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tea M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Antonín R.",
-      "city": "Plzeň"
-    },
-    {
-      "name": "David H.",
-      "city": "Tišnov"
-    },
-    {
-      "name": "Josefína H.",
-      "city": "Brno Obřany"
-    },
-    {
-      "name": "hynek h.",
-      "city": "brno"
-    },
-    {
-      "name": "Michal R.",
-      "city": "Brno"
     }
   ]
 }
