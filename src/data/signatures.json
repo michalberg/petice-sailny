@@ -1,6 +1,10 @@
 {
-  "count": 1975,
+  "count": 1976,
   "signers": [
+    {
+      "name": "Petr Š.",
+      "city": "Veveří"
+    },
     {
       "name": "Ondřej R.",
       "city": "Brno"
@@ -95,10 +99,6 @@
     },
     {
       "name": "Vit D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Pavlína K.",
       "city": "Brno"
     }
   ]
