@@ -1,6 +1,18 @@
 {
-  "count": 1972,
+  "count": 1975,
   "signers": [
+    {
+      "name": "Ondřej R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Věra M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Irena J.",
+      "city": "Brno"
+    },
     {
       "name": "Michaela P.",
       "city": "Střelice"
@@ -88,18 +100,6 @@
     {
       "name": "Pavlína K.",
       "city": "Brno"
-    },
-    {
-      "name": "Jan B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jan N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Klára P.",
-      "city": "Šaratice"
     }
   ]
 }
