@@ -1,6 +1,10 @@
 {
-  "count": 1978,
+  "count": 1979,
   "signers": [
+    {
+      "name": "Radmila Z.",
+      "city": "Brno"
+    },
     {
       "name": "Jachym Š.",
       "city": "Hvozdec"
@@ -96,10 +100,6 @@
     {
       "name": "Markéta P.",
       "city": "Veveří"
-    },
-    {
-      "name": "Kristýna B.",
-      "city": "Brno"
     }
   ]
 }
