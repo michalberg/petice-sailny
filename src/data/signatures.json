@@ -1,6 +1,14 @@
 {
-  "count": 1976,
+  "count": 1978,
   "signers": [
+    {
+      "name": "Jachym Š.",
+      "city": "Hvozdec"
+    },
+    {
+      "name": "Matěj K.",
+      "city": "Písek"
+    },
     {
       "name": "Petr Š.",
       "city": "Veveří"
@@ -91,14 +99,6 @@
     },
     {
       "name": "Kristýna B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ivo K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vit D.",
       "city": "Brno"
     }
   ]
