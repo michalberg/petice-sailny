@@ -1,6 +1,10 @@
 {
-  "count": 1990,
+  "count": 1991,
   "signers": [
+    {
+      "name": "Ema K.",
+      "city": "Brno"
+    },
     {
       "name": "Alena K.",
       "city": "Brno"
@@ -95,10 +99,6 @@
     },
     {
       "name": "David Č.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lenka Č.",
       "city": "Brno"
     }
   ]
