@@ -1,6 +1,10 @@
 {
-  "count": 1979,
+  "count": 1980,
   "signers": [
+    {
+      "name": "Petr S.",
+      "city": "Brno"
+    },
     {
       "name": "Radmila Z.",
       "city": "Brno"
@@ -96,10 +100,6 @@
     {
       "name": "Martin G.",
       "city": "Brno"
-    },
-    {
-      "name": "Markéta P.",
-      "city": "Veveří"
     }
   ]
 }
