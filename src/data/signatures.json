@@ -1,6 +1,14 @@
 {
-  "count": 1988,
+  "count": 1990,
   "signers": [
+    {
+      "name": "Alena K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michael Filip S.",
+      "city": "Brno"
+    },
     {
       "name": "Šimon S.",
       "city": "Žatčany"
@@ -91,14 +99,6 @@
     },
     {
       "name": "Lenka Č.",
-      "city": "Brno"
-    },
-    {
-      "name": "Hana L.",
-      "city": "Brno-sever"
-    },
-    {
-      "name": "Hana H.",
       "city": "Brno"
     }
   ]
