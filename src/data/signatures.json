@@ -1,6 +1,10 @@
 {
-  "count": 1983,
+  "count": 1984,
   "signers": [
+    {
+      "name": "René H.",
+      "city": "Brno"
+    },
     {
       "name": "Pavlína P.",
       "city": "Brno"
@@ -96,10 +100,6 @@
     {
       "name": "Pavel V.",
       "city": "Brno"
-    },
-    {
-      "name": "Barbora I.",
-      "city": "Břeclav"
     }
   ]
 }
