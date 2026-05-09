@@ -1,6 +1,18 @@
 {
-  "count": 1980,
+  "count": 1983,
   "signers": [
+    {
+      "name": "Pavlína P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ladislav P.",
+      "city": "Brno"
+    },
+    {
+      "name": "Šimon Z.",
+      "city": "Brno"
+    },
     {
       "name": "Petr S.",
       "city": "Brno"
@@ -88,18 +100,6 @@
     {
       "name": "Barbora I.",
       "city": "Břeclav"
-    },
-    {
-      "name": "Filip K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Josefa H.",
-      "city": "Brno"
-    },
-    {
-      "name": "Martin G.",
-      "city": "Brno"
     }
   ]
 }
