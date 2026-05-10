@@ -1,6 +1,18 @@
 {
-  "count": 1991,
+  "count": 1994,
   "signers": [
+    {
+      "name": "Jana H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Petra C.",
+      "city": "Brno"
+    },
+    {
+      "name": "Maximiliane H.",
+      "city": "Brno"
+    },
     {
       "name": "Ema K.",
       "city": "Brno"
@@ -87,18 +99,6 @@
     },
     {
       "name": "Říhová Ř.",
-      "city": "Brno"
-    },
-    {
-      "name": "Olga D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Sára Č.",
-      "city": "Brno"
-    },
-    {
-      "name": "David Č.",
       "city": "Brno"
     }
   ]
