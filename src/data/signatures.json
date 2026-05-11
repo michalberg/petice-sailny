@@ -1,6 +1,10 @@
 {
-  "count": 1998,
+  "count": 1999,
   "signers": [
+    {
+      "name": "Lenka K.",
+      "city": "Brno"
+    },
     {
       "name": "Jarmila K.",
       "city": "brno"
@@ -95,10 +99,6 @@
     },
     {
       "name": "Ondřej R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Věra M.",
       "city": "Brno"
     }
   ]
