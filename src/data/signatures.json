@@ -1,6 +1,10 @@
 {
-  "count": 2000,
+  "count": 2001,
   "signers": [
+    {
+      "name": "Alena P.",
+      "city": "Židlochovice"
+    },
     {
       "name": "Jan P.",
       "city": "Židlochovice"
@@ -96,10 +100,6 @@
     {
       "name": "Matěj K.",
       "city": "Písek"
-    },
-    {
-      "name": "Petr Š.",
-      "city": "Veveří"
     }
   ]
 }
