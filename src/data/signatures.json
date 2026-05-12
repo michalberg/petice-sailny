@@ -1,6 +1,10 @@
 {
-  "count": 1999,
+  "count": 2000,
   "signers": [
+    {
+      "name": "Jan P.",
+      "city": "Židlochovice"
+    },
     {
       "name": "Lenka K.",
       "city": "Brno"
@@ -96,10 +100,6 @@
     {
       "name": "Petr Š.",
       "city": "Veveří"
-    },
-    {
-      "name": "Ondřej R.",
-      "city": "Brno"
     }
   ]
 }
