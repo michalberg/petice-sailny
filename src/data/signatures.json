@@ -1,6 +1,10 @@
 {
-  "count": 2002,
+  "count": 2003,
   "signers": [
+    {
+      "name": "Lenka K.",
+      "city": "Brno"
+    },
     {
       "name": "Martin H.",
       "city": "Brno"
@@ -96,10 +100,6 @@
     {
       "name": "Radmila Z.",
       "city": "Brno"
-    },
-    {
-      "name": "Jachym Š.",
-      "city": "Hvozdec"
     }
   ]
 }
