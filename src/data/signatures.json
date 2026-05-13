@@ -1,6 +1,10 @@
 {
-  "count": 2001,
+  "count": 2002,
   "signers": [
+    {
+      "name": "Martin H.",
+      "city": "Brno"
+    },
     {
       "name": "Alena P.",
       "city": "Židlochovice"
@@ -96,10 +100,6 @@
     {
       "name": "Jachym Š.",
       "city": "Hvozdec"
-    },
-    {
-      "name": "Matěj K.",
-      "city": "Písek"
     }
   ]
 }
