@@ -1,6 +1,70 @@
 {
-  "count": 2026,
+  "count": 2037,
   "signers": [
+    {
+      "name": "Růžena K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jitka L.",
+      "city": "Brno"
+    },
+    {
+      "name": "Michal E.",
+      "city": "Brno"
+    },
+    {
+      "name": "Pavla T.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tereza M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tomáš Ž.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tereza K.",
+      "city": "Brno"
+    },
+    {
+      "name": "RADIM G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Tomáš R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ctirad M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ondřej M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Nikola F.",
+      "city": "Brno"
+    },
+    {
+      "name": "David J.",
+      "city": "Jihlava"
+    },
+    {
+      "name": "Vendula K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Dan Z.",
+      "city": "Brno"
+    },
+    {
+      "name": "Lenka T.",
+      "city": "Brno"
+    },
     {
       "name": "Sylvie K.",
       "city": "Židlochovice"
@@ -36,70 +100,6 @@
     {
       "name": "Barbora K.",
       "city": "Brno"
-    },
-    {
-      "name": "Marek S.",
-      "city": "Brno 3 Staré Brno"
-    },
-    {
-      "name": "Mgr. Z.",
-      "city": "Rosice u Brna"
-    },
-    {
-      "name": "Martina M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Kateřina B.",
-      "city": "Brno"
-    },
-    {
-      "name": "Dimo L.",
-      "city": "Praha"
-    },
-    {
-      "name": "Veronika T.",
-      "city": "Brno"
-    },
-    {
-      "name": "Bara J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Radek M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Michal N.",
-      "city": "Pustiměř"
-    },
-    {
-      "name": "Jana J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Anna R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Vendulka H.",
-      "city": "Brno 38"
-    },
-    {
-      "name": "Hana K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Zlata Č.",
-      "city": "Brno"
-    },
-    {
-      "name": "Galina S.",
-      "city": "Rozdrojovice"
-    },
-    {
-      "name": "Pavla N.",
-      "city": "Kostelec nad Černými lesy"
     }
   ]
 }
