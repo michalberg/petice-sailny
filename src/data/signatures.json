@@ -1,6 +1,14 @@
 {
-  "count": 2004,
+  "count": 2005,
   "signers": [
+    {
+      "name": "Galina S.",
+      "city": "Rozdrojovice"
+    },
+    {
+      "name": "Pavla N.",
+      "city": "Kostelec nad Černými lesy"
+    },
     {
       "name": "Tomáš G.",
       "city": "Brno"
@@ -91,14 +99,6 @@
     },
     {
       "name": "Ladislav P.",
-      "city": "Brno"
-    },
-    {
-      "name": "Šimon Z.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petr S.",
       "city": "Brno"
     }
   ]
