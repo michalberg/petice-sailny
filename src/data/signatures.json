@@ -1,6 +1,30 @@
 {
-  "count": 2045,
+  "count": 2049,
   "signers": [
+    {
+      "name": "Sára K.",
+      "city": "Bělá pod Bezdězem"
+    },
+    {
+      "name": "Kryštof M.",
+      "city": "Brno"
+    },
+    {
+      "name": "Radovan R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jakub V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Naděžda R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Kateřina V.",
+      "city": "Zlín"
+    },
     {
       "name": "Magdaléna T.",
       "city": "Brno"
@@ -76,30 +100,6 @@
     {
       "name": "Ondřej M.",
       "city": "Brno"
-    },
-    {
-      "name": "Nikola F.",
-      "city": "Brno"
-    },
-    {
-      "name": "David J.",
-      "city": "Jihlava"
-    },
-    {
-      "name": "Vendula K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Dan Z.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lenka T.",
-      "city": "Brno"
-    },
-    {
-      "name": "Sylvie K.",
-      "city": "Židlochovice"
     }
   ]
 }
