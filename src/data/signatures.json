@@ -1,6 +1,50 @@
 {
-  "count": 2049,
+  "count": 2059,
   "signers": [
+    {
+      "name": "Marek G.",
+      "city": "Brno"
+    },
+    {
+      "name": "Marie R.",
+      "city": "Brno"
+    },
+    {
+      "name": "Ivana I.",
+      "city": "Kolín"
+    },
+    {
+      "name": "Zuzana Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Lenka J.",
+      "city": "Velešovice"
+    },
+    {
+      "name": "Eva G.",
+      "city": "Řícmanice (okr. Brno-venkov)"
+    },
+    {
+      "name": "Julie Z.",
+      "city": "Praha"
+    },
+    {
+      "name": "Marie Z.",
+      "city": "Brno"
+    },
+    {
+      "name": "Růžena T.",
+      "city": "Slavkov u Brna"
+    },
+    {
+      "name": "Věra K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Hana B.",
+      "city": "Rousinov"
+    },
     {
       "name": "Sára K.",
       "city": "Bělá pod Bezdězem"
@@ -56,50 +100,6 @@
     {
       "name": "Ivana S.",
       "city": "Brno 18"
-    },
-    {
-      "name": "Růžena K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jitka L.",
-      "city": "Brno"
-    },
-    {
-      "name": "Michal E.",
-      "city": "Brno"
-    },
-    {
-      "name": "Pavla T.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tereza M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tomáš Ž.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tereza K.",
-      "city": "Brno"
-    },
-    {
-      "name": "RADIM G.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tomáš R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ctirad M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Ondřej M.",
-      "city": "Brno"
     }
   ]
 }
