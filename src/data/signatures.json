@@ -1,6 +1,26 @@
 {
-  "count": 2061,
+  "count": 2066,
   "signers": [
+    {
+      "name": "Jana K.",
+      "city": "Brno - Komín"
+    },
+    {
+      "name": "Eva Pavla N.",
+      "city": "Brno"
+    },
+    {
+      "name": "Simona Š.",
+      "city": "Brno"
+    },
+    {
+      "name": "Alexandra K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Lucie J.",
+      "city": "Brno"
+    },
     {
       "name": "Lenka K.",
       "city": "Brno"
@@ -79,26 +99,6 @@
     },
     {
       "name": "Magdaléna T.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tomáš N.",
-      "city": "Starý Lískovec"
-    },
-    {
-      "name": "Lucie Z.",
-      "city": "Brno"
-    },
-    {
-      "name": "František S.",
-      "city": "Brno 19"
-    },
-    {
-      "name": "Kako K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Patrik Š.",
       "city": "Brno"
     }
   ]
