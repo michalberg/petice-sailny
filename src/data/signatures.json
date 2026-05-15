@@ -1,6 +1,14 @@
 {
-  "count": 2067,
+  "count": 2069,
   "signers": [
+    {
+      "name": "Mária S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Safieh Ghassan N.",
+      "city": "Brni"
+    },
     {
       "name": "Hanna P.",
       "city": "Brno"
@@ -92,14 +100,6 @@
     {
       "name": "Jakub V.",
       "city": "Brno"
-    },
-    {
-      "name": "Naděžda R.",
-      "city": "Brno"
-    },
-    {
-      "name": "Kateřina V.",
-      "city": "Zlín"
     }
   ]
 }
