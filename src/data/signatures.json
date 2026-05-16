@@ -1,6 +1,22 @@
 {
-  "count": 2074,
+  "count": 2078,
   "signers": [
+    {
+      "name": "Karolína J.",
+      "city": "Brno"
+    },
+    {
+      "name": "Natali M.",
+      "city": "Černá hora"
+    },
+    {
+      "name": "Tereza K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Luci K.",
+      "city": "Brno"
+    },
     {
       "name": "Jaromír S.",
       "city": "Brno"
@@ -84,22 +100,6 @@
     {
       "name": "Ivana I.",
       "city": "Kolín"
-    },
-    {
-      "name": "Zuzana Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lenka J.",
-      "city": "Velešovice"
-    },
-    {
-      "name": "Eva G.",
-      "city": "Řícmanice (okr. Brno-venkov)"
-    },
-    {
-      "name": "Julie Z.",
-      "city": "Praha"
     }
   ]
 }
