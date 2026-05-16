@@ -2,6 +2,10 @@
   "count": 2072,
   "signers": [
     {
+      "name": "Anna V.",
+      "city": "Brno"
+    },
+    {
       "name": "René R.",
       "city": "Brno průjezd"
     },
@@ -96,10 +100,6 @@
     {
       "name": "Věra K.",
       "city": "Brno"
-    },
-    {
-      "name": "Hana B.",
-      "city": "Rousinov"
     }
   ]
 }
