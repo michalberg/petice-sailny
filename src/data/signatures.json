@@ -1,6 +1,18 @@
 {
-  "count": 2083,
+  "count": 2086,
   "signers": [
+    {
+      "name": "Petra M.",
+      "city": "Havířov"
+    },
+    {
+      "name": "Kateřina U.",
+      "city": "Brno"
+    },
+    {
+      "name": "David K.",
+      "city": "Karviná"
+    },
     {
       "name": "Teteza S.",
       "city": "Brno"
@@ -87,18 +99,6 @@
     },
     {
       "name": "Eva Pavla N.",
-      "city": "Brno"
-    },
-    {
-      "name": "Simona Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Alexandra K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lucie J.",
       "city": "Brno"
     }
   ]
