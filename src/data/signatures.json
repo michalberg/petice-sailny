@@ -1,6 +1,26 @@
 {
-  "count": 2090,
+  "count": 2093,
   "signers": [
+    {
+      "name": "Luboš A.",
+      "city": "BRNO-ŽABOVŘESKY"
+    },
+    {
+      "name": "Ondřej K.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jan V.",
+      "city": "Modřice"
+    },
+    {
+      "name": "Michaela T.",
+      "city": "Chrlice"
+    },
+    {
+      "name": "Jaromír R.",
+      "city": "Blansko"
+    },
     {
       "name": "Vitezslav K.",
       "city": "Brno"
@@ -79,26 +99,6 @@
     },
     {
       "name": "Anna V.",
-      "city": "Brno"
-    },
-    {
-      "name": "René R.",
-      "city": "Brno průjezd"
-    },
-    {
-      "name": "Jaroslav C.",
-      "city": "Brno"
-    },
-    {
-      "name": "Iveta M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jitka D.",
-      "city": "Brno"
-    },
-    {
-      "name": "Mária S.",
       "city": "Brno"
     }
   ]
