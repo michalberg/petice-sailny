@@ -1,6 +1,14 @@
 {
-  "count": 2093,
+  "count": 2095,
   "signers": [
+    {
+      "name": "Marie V.",
+      "city": "Brno"
+    },
+    {
+      "name": "Marie B.",
+      "city": "Brno"
+    },
     {
       "name": "Luboš A.",
       "city": "BRNO-ŽABOVŘESKY"
@@ -91,14 +99,6 @@
     },
     {
       "name": "Aneta V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Elena L.",
-      "city": "Brno"
-    },
-    {
-      "name": "Anna V.",
       "city": "Brno"
     }
   ]
