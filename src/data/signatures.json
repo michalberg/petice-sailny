@@ -1,6 +1,14 @@
 {
-  "count": 2096,
+  "count": 2098,
   "signers": [
+    {
+      "name": "Petra M.",
+      "city": "Brno-střed"
+    },
+    {
+      "name": "Artúr G.",
+      "city": "Brno"
+    },
     {
       "name": "Pavel U.",
       "city": "Havířov"
@@ -91,14 +99,6 @@
     },
     {
       "name": "Tereza K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Luci K.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jaromír S.",
       "city": "Brno"
     }
   ]
