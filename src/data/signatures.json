@@ -1,6 +1,10 @@
 {
-  "count": 2102,
+  "count": 2103,
   "signers": [
+    {
+      "name": "Terezie  K.",
+      "city": "Nové Sady"
+    },
     {
       "name": "Nela L.",
       "city": "Nové Sady"
@@ -95,10 +99,6 @@
     },
     {
       "name": "Jan V.",
-      "city": "Brno"
-    },
-    {
-      "name": "Tamara V.",
       "city": "Brno"
     }
   ]
