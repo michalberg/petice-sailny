@@ -1,6 +1,10 @@
 {
-  "count": 2106,
+  "count": 2107,
   "signers": [
+    {
+      "name": "Lucie  K.",
+      "city": "Petráveč"
+    },
     {
       "name": "Katarína H.",
       "city": "Brno"
@@ -96,10 +100,6 @@
     {
       "name": "Petra M.",
       "city": "Havířov"
-    },
-    {
-      "name": "Kateřina U.",
-      "city": "Brno"
     }
   ]
 }
