@@ -1,6 +1,30 @@
 {
-  "count": 2121,
+  "count": 2127,
   "signers": [
+    {
+      "name": "Hedvika S.",
+      "city": "Brno"
+    },
+    {
+      "name": "Magdalena H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Jindra T.",
+      "city": "Brno"
+    },
+    {
+      "name": "Vlastislav H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Sabina H.",
+      "city": "Brno"
+    },
+    {
+      "name": "Judita J.",
+      "city": "Brno"
+    },
     {
       "name": "Iva J.",
       "city": "Brnotramca"
@@ -76,30 +100,6 @@
     {
       "name": "Terezie  K.",
       "city": "Nové Sady"
-    },
-    {
-      "name": "Nela L.",
-      "city": "Nové Sady"
-    },
-    {
-      "name": "Hana F.",
-      "city": "Brno"
-    },
-    {
-      "name": "Jiří J.",
-      "city": "Brno"
-    },
-    {
-      "name": "Lea M.",
-      "city": "Brno"
-    },
-    {
-      "name": "Adam Š.",
-      "city": "Brno"
-    },
-    {
-      "name": "Petra M.",
-      "city": "Brno-střed"
     }
   ]
 }
