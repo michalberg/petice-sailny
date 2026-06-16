@@ -1,6 +1,14 @@
 {
-  "count": 2119,
+  "count": 2121,
   "signers": [
+    {
+      "name": "Iva J.",
+      "city": "Brnotramca"
+    },
+    {
+      "name": "Zuzana V.",
+      "city": "Brno"
+    },
     {
       "name": "Nela K.",
       "city": "Veselí nad Moravou"
@@ -92,14 +100,6 @@
     {
       "name": "Petra M.",
       "city": "Brno-střed"
-    },
-    {
-      "name": "Artúr G.",
-      "city": "Brno"
-    },
-    {
-      "name": "Pavel U.",
-      "city": "Havířov"
     }
   ]
 }
