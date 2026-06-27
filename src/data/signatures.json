@@ -1,6 +1,10 @@
 {
-  "count": 2132,
+  "count": 2133,
   "signers": [
+    {
+      "name": "Pavel P.",
+      "city": "Brno"
+    },
     {
       "name": "Ondrej K.",
       "city": "Brno-Husovice"
@@ -96,10 +100,6 @@
     {
       "name": "Petr K.",
       "city": "Veveří (Brno-střed)"
-    },
-    {
-      "name": "Kristina A.",
-      "city": "Brno"
     }
   ]
 }
